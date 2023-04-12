@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-99.9.9">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Sailing the macro workshop - Sailing the Macro 2021</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./swmlogo.png" alt="SWM" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">Call for Papers</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./program.qmd" rel="" target="">
+ <span class="menu-text">Conference Program</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./information.qmd" rel="" target="">
+ <span class="menu-text">Information</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-past-edition" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Past edition</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-past-edition">    
+        <li>
+    <a class="dropdown-item" href="https://sites.google.com/uniroma1.it/smw/programme/2022" rel="" target="">
+ <span class="dropdown-text">Ventotene 2022</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://sites.google.com/uniroma1.it/smw/programme/2021" rel="" target="">
+ <span class="dropdown-text">Ventotene 2021</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <div class="quarto-navbar-tools ms-auto">
+    <a href="https://twitter.com/sailingthemacro" title="Twitter" class="quarto-navigation-tool px-1" aria-label="Twitter"><i class="bi bi-twitter"></i></a>
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#day-0---september-15" id="toc-day-0---september-15" class="nav-link active" data-scroll-target="#day-0---september-15">Day 0 - September 15</a></li>
+  <li><a href="#day-1---september-16" id="toc-day-1---september-16" class="nav-link" data-scroll-target="#day-1---september-16">Day 1 - September 16</a></li>
+  <li><a href="#day-2---september-17" id="toc-day-2---september-17" class="nav-link" data-scroll-target="#day-2---september-17">Day 2 - September 17</a></li>
+  <li><a href="#day-3---september-18" id="toc-day-3---september-18" class="nav-link" data-scroll-target="#day-3---september-18">Day 3 - September 18</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Sailing the Macro 2021</h1>
+<p class="subtitle lead">Full Program</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="day-0---september-15" class="level2">
+<h2 class="anchored" data-anchor-id="day-0---september-15">Day 0 - September 15</h2>
+<ul>
+<li>18:00-20:00 Welcome Aperitif (at Un Mare di Sapori, Ventotene )</li>
+</ul>
+</section>
+<section id="day-1---september-16" class="level2">
+<h2 class="anchored" data-anchor-id="day-1---september-16">Day 1 - September 16</h2>
+<p>08:30-09:00 Registration &amp; Welcome Coffee</p>
+<div class="keynote">
+<p>09:00-09:40 <strong>Keynote Session 1: Giorgio Primiceri - Northwestern University</strong></p>
+</div>
+<section id="parallel-session-1a-chair-giorgio-primiceri" class="level4">
+<h4 class="anchored" data-anchor-id="parallel-session-1a-chair-giorgio-primiceri">Parallel Session 1A (Chair: Giorgio Primiceri)</h4>
+<ul>
+<li><p>09:50-10:25 Estimating Hysteresis Effects. Francesco Furlanetto, Antoine Lepetit, Ørjan Robstad, Juan Rubio-Ramirez, Pal Ulvedal</p></li>
+<li><p>10:25-11:00 Bad News, Good News: Coverage and Response Asymmetries. Luca Gambetti, Nicolo’ Maffei Faccioli, Sarah Zoi</p></li>
+<li><p>11:00-11:35 Business Cycle Fluctuations: Financial Shocks versus Uncertainty Shocks. Wouter Van der Veken, Roberto A. De Santis</p></li>
+</ul>
+</section>
+<section id="parallel-session-1b-chair-luca-zamparelli" class="level4">
+<h4 class="anchored" data-anchor-id="parallel-session-1b-chair-luca-zamparelli">Parallel Session 1B (Chair: Luca Zamparelli)</h4>
+<ul>
+<li><p>09:50-10:25 The Long-Run Phillips Curve is…a curve. Guido Ascari, Paolo Bonomolo, Qazi Haque</p></li>
+<li><p>10:25-11:00 Supply Shocks in a Heterogeneous Agent Economy: Evidence and Theory. Francesco Saverio Gaudio, Ivan Petrella, Emiliano Santoro</p></li>
+<li><p>11:00-11:35 Firms’ ex-ante Heterogeneity, Entry and the Labour Share. Jakob Grazzini, Lorenza Rossi</p></li>
+<li><p>11:35-12:15 Coffee Break</p></li>
+</ul>
+</section>
+<section id="poster-session-1" class="level4 poster-session">
+<h4 class="anchored" data-anchor-id="poster-session-1">Poster Session 1</h4>
+<ul>
+<li><p>Inflation persistence. Emanuele Franceschi</p></li>
+<li><p>Optimal monetary policy and intrinsic inflation persistence. Carolina Serpieri, Giovanni Di Bartolomeo</p></li>
+<li><p>Heterogeneous Decline in Sectoral Business Dynamism. Riccardo Silvestrini</p></li>
+<li><p>Secured and unsecured credit cycles. Costanza Giannantoni, Valeria Patella, Massimiliano Tancioni</p></li>
+<li><p>Firm Dynamics with Coworker Learning. Gabriele Macci</p></li>
+<li><p>Nowcasting – developing the sources and methods to improve high-frequency labour market forecasting. Tesi Aliaj, Milos Ciganovic, Massimiliano Tancioni</p></li>
+</ul>
+</section>
+<section id="parallel-session-1a-chair-giorgio-primiceri-1" class="level4">
+<h4 class="anchored" data-anchor-id="parallel-session-1a-chair-giorgio-primiceri-1">Parallel Session 1A (Chair: Giorgio Primiceri)</h4>
+<p>12:15-12:50 Global value chains and the dynamics of UK inflation. Aydan Dogan, Tommaso Aquilante, Melih Firat</p>
+<ul>
+<li>12:50-13:25 Global Spillovers of the Fed Information Effect. Marco Pinchetti, Andrzej Szczepaniak</li>
+</ul>
+</section>
+<section id="parallel-session-1b-chair-luca-zamparelli-1" class="level4">
+<h4 class="anchored" data-anchor-id="parallel-session-1b-chair-luca-zamparelli-1">Parallel Session 1B (Chair: Luca Zamparelli)</h4>
+<ul>
+<li><p>12:15-12:50 Credit Markets, Relationship Lending, and the Dynamics of firm entry. Qingqing Cao, Paolo Giordani, Raoul Minetti, Pierluigi Murro</p></li>
+<li><p>12:50-13:25 Unemployment, Firm Dynamics, and the Business Cycle. Andrea Colciago, Stefano Fasani, Lorenza Rossi</p></li>
+</ul>
+</section>
+</section>
+<section id="day-2---september-17" class="level2">
+<h2 class="anchored" data-anchor-id="day-2---september-17">Day 2 - September 17</h2>
+<div class="keynote">
+<p>09:00-09:40 <strong>Keynote Session 2: Salvatore Nistico’</strong> - <em>ECB and Sapienza University of Rome</em></p>
+</div>
+<section id="parallel-session-2a-chair-elton-beqiraj" class="level4">
+<h4 class="anchored" data-anchor-id="parallel-session-2a-chair-elton-beqiraj">Parallel Session 2A (Chair: Elton Beqiraj)</h4>
+<ul>
+<li><p>09:50-10:25 What are the Sources of Boom-Bust Cycles?. Marco Brianti, Vito Cormun</p></li>
+<li><p>10:25-11:00 A Structural Investigation of Quantitative Easing. Gregor Boehl, Gavin Goy, Felix Strobelc</p></li>
+<li><p>11:00-11:35 Monetary policy shocks over the business cycle: Extending the SmoothTransition framework. Michele Piffer, Martin Bruns</p></li>
+</ul>
+</section>
+<section id="parallel-session-2b-chair-salvatore-nistico" class="level4">
+<h4 class="anchored" data-anchor-id="parallel-session-2b-chair-salvatore-nistico">Parallel Session 2B (Chair: Salvatore Nistico’)</h4>
+<ul>
+<li><p>09:50-10:25 The unbearable lightness of equilibria in a low interest rate environment. Guido Ascari, Sophocles Mavroeidis</p></li>
+<li><p>10:25-11:00 The Effectiveness of a Negative Interest Rate Policy. Marco Onofri, Gert Peersman, Frank Smets</p></li>
+<li><p>11:00-11:35 The (Ir)Relevance of Rule-of-Thumb Consumers for U.S. Business Cycle Fluctuations. Alice Albonico, Guido Ascari, Qazi Haque</p></li>
+</ul>
+<p>11:35-12:15 Coffee Break</p>
+<div class="poster-session">
+<p>Poster Session 2</p>
+<ul>
+<li><p>Bank Heterogeneity and Mortgage Supply under Negative Policy Rates. Luisa Lambertini, Yu Wu</p></li>
+<li><p>Forbearance vs foreclosure in a general equilibrium model. Bianca Barbaro, Patrizio Tirelli</p></li>
+<li><p>Preventive monetary and macroprudential policy response to anticipated shocks to financial stability. Konstantin Styrin, Alexander Tishin</p></li>
+<li><p>Asset Price Bubbles with Low Interest Rates: Not All Bubbles are Likely to Emerge. Jacopo Bonchi, Francesco Simone Lucidi</p></li>
+<li><p>Has the Fed ever responded to stock market bubbles? Evidence from non linear VARs. Federica Vassalli, Massimiliano Tancioni</p></li>
+<li><p>Undesired effects of monetary policy in a bubbly economy: some empirical findings and a theoretical explanation. Giuseppe Ciccarone, Francesco Giuli, Enrico Marchetti, Valeria Patella, Massimiliano Tancioni</p></li>
+</ul>
+</div>
+</section>
+<section id="parallel-session-2a-chair-elton-beqiraj-1" class="level4">
+<h4 class="anchored" data-anchor-id="parallel-session-2a-chair-elton-beqiraj-1">Parallel Session 2A (Chair: Elton Beqiraj)</h4>
+<ul>
+<li>12:50-13:25 A tail of labor supply and a tale of monetary policy. Cristiano Cantore, Filippo Ferroni, Haroon Mumtaz, Angeliki Theophilopoulou</li>
+</ul>
+</section>
+<section id="parallel-session-2b-chair-salvatore-nistico-1" class="level4">
+<h4 class="anchored" data-anchor-id="parallel-session-2b-chair-salvatore-nistico-1">Parallel Session 2B (Chair: Salvatore Nistico’)</h4>
+<ul>
+<li><p>12:15-12:50 Monetary Policy and Payment-to-Income Limits in Liquidity Traps. Alessandro Lin</p></li>
+<li><p>12:50-13:25 Whither Liquidity Shocks?. Giorgio Massari, Patrizio Tirelli</p></li>
+<li><p>21:00 Social Dinner (La Terrazza sul Mare, Ventotene)</p></li>
+</ul>
+</section>
+</section>
+<section id="day-3---september-18" class="level2">
+<h2 class="anchored" data-anchor-id="day-3---september-18">Day 3 - September 18</h2>
+<div class="keynote">
+<p>09:00-09:40 <strong>Keynote Session 3: Giuseppe Ragusa</strong> - <em>University of Pisa</em></p>
+</div>
+<section id="parallel-session-3a-chair-giuseppe-ragusa" class="level4">
+<h4 class="anchored" data-anchor-id="parallel-session-3a-chair-giuseppe-ragusa">Parallel Session 3A (Chair: Giuseppe Ragusa)</h4>
+<ul>
+<li><p>09:50-10:25 A new macro-financial condition index for the euro area. Claudio Morana</p></li>
+<li><p>10:25-11:00 Bargaining power and the Phillips curve: a micro-macro analysis. Marco Lombardi, Marianna Riggi, Eliana Viviano</p></li>
+<li><p>11:00-11:35 Inflation expectations and the ECB’s perceived inflation objective: novel evidence from firm-level data. Alex Tagliabracci, Marco Bottone, Giordano Zevi</p></li>
+</ul>
+</section>
+<section id="parallel-session-3b-chair-paolo-giordani" class="level4">
+<h4 class="anchored" data-anchor-id="parallel-session-3b-chair-paolo-giordani">Parallel Session 3B (Chair: Paolo Giordani)</h4>
+<ul>
+<li><p>09:50-10:25 Exchange Rate Disconnect Redux. Ryan Chahrour, Vito Cormun, Pierre De Leo, Pablo Guerron-Quintana, Rosen Valchev</p></li>
+<li><p>10:25-11:00 Fiscal Rules and Discretion with Risk of Default. Chiara Felli, Facundo Piguillem, Liyan Shi</p></li>
+<li><p>11:00-11:35 Sovereign default and imperfect tax enforcement. Francesco Pappada’, Yanos Zylberberg</p></li>
+<li><p>11:35-12:15 Coffee Break</p></li>
+</ul>
+<div class="poster-session">
+<p>Poster Session 3</p>
+<p>Production networks and fiscal multiplier. Alessandro De Sanctis</p>
+<p>The macroeconomic effects of climate shocks in Europe. Francesco Simone Lucidi, Marta Maria Pisa, Massimiliano Tancioni</p>
+<p>A News-based Policy Index for Italy: Expectations and Fiscal Policy. Daniela Fantozzi, Alessio Muscarnera</p>
+<p>Lovebirds: Story of two inseparable orthogonal shocks. Lorenzo Marchetti, Massimiliano Tancioni</p>
+<p>Sources of output variability and risk-sharing channels in the US and the euro area. Paolo D’Imperio, Massimiliano Tancioni</p>
+</div>
+</section>
+<section id="parallel-session-3a-chair-giuseppe-ragusa-1" class="level4">
+<h4 class="anchored" data-anchor-id="parallel-session-3a-chair-giuseppe-ragusa-1">Parallel Session 3A (Chair: Giuseppe Ragusa)</h4>
+<ul>
+<li><p>12:15-12:50 The Macroeconomic Effects of the Gender Revolution. Drago Bergholt, Luca Fosso, Francesco Furlanetto</p></li>
+<li><p>12:50-13:25 The transmission of oil price shocks through the US banking sector. Paolo Gelain, Marco Lorusso</p></li>
+</ul>
+</section>
+<section id="parallel-session-3b-chair-paolo-giordani-1" class="level4">
+<h4 class="anchored" data-anchor-id="parallel-session-3b-chair-paolo-giordani-1">Parallel Session 3B (Chair: Paolo Giordani)</h4>
+<ul>
+<li><p>12:15-12:50 Corporate Taxation and Carbon Emissions. Luigi Iovino, Thorsten Martin, Julien Sauvagnat</p></li>
+<li><p>12:50-13:25 Fiscal Stimulus of Last Resort. Alessandro Piergallini</p></li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script type="text/javascript">
+
+// replace cmd keyboard shortcut w/ control on non-Mac platforms
+const kPlatformMac = typeof navigator !== 'undefined' ? /Mac/.test(navigator.platform) : false;
+if (!kPlatformMac) {
+   var kbds = document.querySelectorAll("kbd")
+   kbds.forEach(function(kbd) {
+      kbd.innerHTML = kbd.innerHTML.replace(/⌘/g, '⌃');
+   });
+}
+
+</script>
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">Sapienza University’s Ph.D.&nbsp;in Economics</div>
+    <div class="nav-footer-right">Department of Economics and Law</div>
+  </div>
+</footer>
+
+
+
+</body></html>
