@@ -1,0 +1,47 @@
+project:
+  type: website
+website:
+  title: "Sailing the macro workshop"
+  site-url: https://sailingthemacro.com
+  repo-url: https://github.com/sailingthemacro
+  page-footer:
+    center: |
+      Sapienza University’s Ph.D. in Economics
+    right: |
+      Department of Economics and Law
+  navbar:
+    background: light
+    logo: swmlogo.png
+    logo-alt: "SWM"
+    title: false
+    collapse-below: lg
+    left:
+      - text: "Call for Papers"
+        href: index.qmd
+      - text: "Conference Program"
+        href: program.qmd
+      - text: "Information"
+        href: information.qmd
+      - text: "Past edition"
+        menu:
+          - text: "Ventotene 2022"
+            href: https://sites.google.com/uniroma1.it/smw/programme/2022
+          - text: "Ventotene 2021"
+            href: https://sites.google.com/uniroma1.it/smw/programme/2021
+    tools:
+        - icon: twitter
+          href: https://twitter.com/sailingthemacro
+          text: Twitter
+format:
+  html:
+    toc: true
+    theme:
+      light: [cosmo, theme.scss]
+    code-copy: true
+    code-overflow: wrap
+    css: styles.css
+    include-after-body: js.html
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 300px

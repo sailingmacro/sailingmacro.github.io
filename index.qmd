@@ -1,0 +1,137 @@
+---
+pagetitle: "Sailing the Macro Workshop 2023"
+page-layout: custom
+section-divs: false
+toc: false
+css: index.css
+description: |
+  3rd Sailing the Macro Workshop - Ortygia, Siracuse, Italy
+resources:
+  - sailingthemacrocall.pdf
+---
+
+::: {.hero-banner}
+
+
+::: {.content-block}
+
+::: {.hero-text}
+# 3rd Sailing the Macro Workshop
+
+### September 8-10, Ortygia, Siracusa, Italy
+
+We are pleased to announce that the third edition of the Sailing the Macro Workshop will be held at the [Ortygia Foundation](https://www.ortygiabs.org/en) in Ortygia, Siracusa, Italy.
+
+We invite submissions from researchers, academics, and practitioners for original research papers that cover a wide range of topics in macroeconomics. The workshop aims to facilitate discussions of ongoing research on policy-relevant questions and provide a platform for exchanging ideas and findings among experts in the field of macroeconomics.
+
+[Call for paper](sailingthemacrocall.pdf)
+
+#### Submission Guidelines
+
+We invite authors to submit their original, unpublished research papers or extended abstracts to be considered for presentation at the conference.
+
+Please submit your paper via email as a PDF file to the address [smw-dipecodir@uniroma1.it](mailto:smw-dipecodir@uniroma1.it) with the subject line **"Sailing the Macro Submission"**
+
+
+
+:::
+
+::: {.hero-animation}
+
+### Keynote Speakers
+
+#### Barbara Rossi
+##### Pompeu Fabra
+
+#### Caterina Mendicino
+##### European Central bank
+
+#### Florin Bilbiie
+##### University of Cambridge
+
+:::
+
+:::
+
+
+:::
+
+
+
+
+::: {.content-block}
+::: {.features}
+
+::: {.feature}
+### Conference Topics
+
+Reflecting the breadth of modern macroeconomics, the scope of relevant topics is broad, ranging from theoretical work to empirical applications. Topics of interest include, but are not limited to:
+
+  1. Economic growth and development
+  2. Monetary and fiscal policy
+  3. Inflation and unemployment
+  4. International trade and finance
+  5. Business cycles and economic forecasting
+  6. Income distribution and inequality
+  7. Financial markets and institutions
+  8. Macroeconomic modeling and policy simulation
+  9. Structural change and economic transformation
+
+::: {.learn-more}
+[Learn more »](docs/computations/python.qmd)
+:::
+:::
+
+::: {.feature}
+### PhD Students
+The conference organizing committee is committed to supporting and nurturing the next generation of macroeconomic researchers. As such, we highly encourage Ph.D. students to submit their research papers for presentation at the conference.
+
+Ph.D. students will have the opportunity to present their work to a distinguished audience of experts in the field, receive valuable feedback on their research, and establish connections with leading academics and practitioners.
+
+<!-- ::: {.learn-more}
+[Learn more »](docs/output-formats/all-formats.qmd)
+::: -->
+:::
+
+::: {.feature}
+### Conference Venue
+The conference will be held at the [Ortygia Foundation]("https://www.ortygiabs.org/en"), located in the heart of Ortygia, Siracusa, Italy.
+
+The Foundation offers an inspiring and unique setting for intellectual exchange and debate, fostering collaboration and networking among participants.
+
+<!-- ::: {.learn-more}
+[Learn more »](information.qmd)
+::: -->
+:::
+
+::: {.feature}
+### Sailing the Macro
+As it is now tradition with the Sailing the Macro workshop, the afternoons will be dedicated to sailing. Conference participants can join sailing courses organized by [Magister Marine](https://www.facebook.com/MagisterMarine/).
+
+<!-- ::: {.learn-more}
+[Learn more »](docs/tools/jupyter-lab.qmd)
+::: -->
+:::
+
+::: {.feature}
+### Conference Fees
+To partially cover conference costs, a registration fee of 200 Euros is applicable for all participants, with a discounted fee of 100 Euros for Ph.D. students.
+
+The conference fee includes access to all conference sessions, conference materials, coffee breaks, lunches, and a conference dinner. Please note that accommodation and travel expenses are not included in the conference fee and must be arranged by the participants.
+
+
+<!-- ::: {.learn-more}
+[Learn more »](docs/interactive/)
+::: -->
+:::
+
+::: {.feature}
+
+
+
+:::
+
+:::
+:::
+
+
