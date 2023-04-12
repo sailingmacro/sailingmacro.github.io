@@ -294,3 +294,17 @@ nav.page-navigation {
   color: #fff;
   background-color: #ff7518;
 }
+
+
+.committee-banner {
+  border: none;
+  color: #39729E;
+  padding: 20pt;
+}
+
+.committee-block {
+  max-width: 60%;
+  vertical-align: middle;
+  color: #39729E;
+}
+
