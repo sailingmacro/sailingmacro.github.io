@@ -1,0 +1,27 @@
+---
+pagetitle: "Sailing the Macro Workshop 2024 - Program"
+page-layout: article
+section-divs: false
+toc: false
+css: index.css
+description: |
+  4th Sailing the Macro Workshop - Ortygia, Siracuse, Italy
+resources:
+  - sailingthemacrocall.pdf
+---
+
+
+# The Sailing the Macro 2024 Conference will take place at:
+
+::: {.large}
+Fondazione Ortygia
+
+Via Roma 124, 96100 Siracusa
+
+Tel: +39 0931 69510
+
+info@ortygiabs.org
+:::
+
+
+## Please check the [Welcome Guide](welcomeguide.pdf) for travel and accommodation information.

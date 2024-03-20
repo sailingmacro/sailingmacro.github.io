@@ -1,11 +1,11 @@
 ---
-pagetitle: "Sailing the Macro Workshop 2023"
+pagetitle: "Sailing the Macro Workshop 2024"
 page-layout: custom
 section-divs: false
 toc: false
 css: index.css
 description: |
-  3rd Sailing the Macro Workshop - Ortygia, Siracuse, Italy
+  4th Sailing the Macro Workshop - Ortigia, Siracusa, Italy
 resources:
   - sailingthemacrocall.pdf
 ---
@@ -16,11 +16,11 @@ resources:
 ::: {.content-block}
 
 ::: {.hero-text}
-# 3rd Sailing the Macro Workshop
+# 4th Sailing the Macro Workshop
 
-### September 8-10, Ortygia, Siracusa, Italy
+### September 6-8, Ortygia, Siracusa, Italy
 
-We are pleased to announce that the third edition of the Sailing the Macro Workshop will be held at the [Ortygia Foundation](https://www.ortygiabs.org/en) in Ortygia, Siracusa, Italy.
+We are pleased to announce that the fourth edition of the Sailing the Macro Workshop will be held at the [Ortygia Foundation](https://www.ortygiabs.org/en) in Ortygia, Siracusa, Italy.
 
 We invite submissions from researchers, academics, and practitioners for original research papers that cover a wide range of topics in macroeconomics. The workshop aims to facilitate discussions of ongoing research on policy-relevant questions and provide a platform for exchanging ideas and findings among experts in the field of macroeconomics.
 
@@ -40,14 +40,14 @@ Please submit your paper via email as a PDF file to the address [smw-dipecodir@u
 
 ### Keynote Speakers
 
-#### Barbara Rossi
-##### Pompeu Fabra
+#### Raffaella Giacomini
+##### UCL
 
-#### Caterina Mendicino
-##### European Central bank
+#### Evi Pappa
+##### Universidad Carlos III de Madrid
 
-#### Florin Bilbiie
-##### University of Cambridge
+#### Federica Romei
+##### University of Oxford
 
 :::
 
@@ -77,9 +77,7 @@ Reflecting the breadth of modern macroeconomics, the scope of relevant topics is
   8. Macroeconomic modeling and policy simulation
   9. Structural change and economic transformation
 
-::: {.learn-more}
-[Learn more »](docs/computations/python.qmd)
-:::
+
 :::
 
 ::: {.feature}
@@ -106,7 +104,9 @@ The Foundation offers an inspiring and unique setting for intellectual exchange 
 
 ::: {.feature}
 ### Sailing the Macro
-As it is now tradition with the Sailing the Macro workshop, the afternoons will be dedicated to sailing. Conference participants can join sailing courses organized by [Magister Marine](https://www.facebook.com/MagisterMarine/).
+As it is now tradition with the Sailing the Macro workshop, the afternoons will be dedicated to sailing. 
+
+<!-- Conference participants can join sailing courses organized by [Magister Marine](https://www.facebook.com/MagisterMarine/). -->
 
 <!-- ::: {.learn-more}
 [Learn more »](docs/tools/jupyter-lab.qmd)
@@ -126,6 +126,17 @@ The conference fee includes access to all conference sessions, conference materi
 :::
 
 ::: {.feature}
+### Scientific & Organizing Committee
+
+- Elton Beqiraj (Sapienza University)
+- Cristiano Cantore (Sapienza University)
+- Marco Di Pietro (Sapienza University)
+- Francesco Lucidi (Sapienza University)
+- Salvatore Nisticò (Sapienza University)
+- Valeria Patella (Sapienza University)
+- Marta Maria Pisa (Sapienza University)
+- Giuseppe Ragusa (Sapienza University)
+- Massimiliano Tancioni (Sapienza University)
 
 
 

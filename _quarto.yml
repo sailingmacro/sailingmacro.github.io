@@ -4,6 +4,7 @@ website:
   title: "Sailing the macro workshop"
   site-url: https://sailingthemacro.com
   repo-url: https://github.com/sailingthemacro
+  favicon: swmlogo.png
   page-footer:
     center: |
       Sapienza University’s Ph.D. in Economics
@@ -24,6 +25,8 @@ website:
         href: information.qmd
       - text: "Past edition"
         menu:
+          - text: "Ortygia 2023"
+            href: https://sites.google.com/uniroma1.it/smw/programme/2023
           - text: "Ventotene 2022"
             href: https://sites.google.com/uniroma1.it/smw/programme/2022
           - text: "Ventotene 2021"
