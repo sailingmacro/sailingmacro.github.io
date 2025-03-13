@@ -5,56 +5,91 @@ section-divs: false
 toc: false
 css: index.css
 description: |
-  4th Sailing the Macro Workshop - Ortigia, Siracusa, Italy
+  5th Sailing the Macro Workshop - Ortigia, Siracusa, Italy
 resources:
   - sailingthemacrocall.pdf
+editor: 
+    render-on-save: true
 ---
 
-::: {.hero-banner}
+
 
 
 ::: {.content-block}
 
 ::: {.hero-text}
-# 4th Sailing the Macro Workshop
+# 5th Sailing the Macro Workshop
 
-### September 6-8, Ortygia, Siracusa, Italy
+### September 5-7, Ortigia, Siracusa, Italy
 
-We are pleased to announce that the fourth edition of the Sailing the Macro Workshop will be held at the [Ortygia Foundation](https://www.ortygiabs.org/en) in Ortygia, Siracusa, Italy.
+We are pleased to announce that the fifth edition of the Sailing the Macro Workshop will be held at the Ortygia Foundation in Ortygia, Siracusa, Italy. 
 
-We invite submissions from researchers, academics, and practitioners for original research papers that cover a wide range of topics in macroeconomics. The workshop aims to facilitate discussions of ongoing research on policy-relevant questions and provide a platform for exchanging ideas and findings among experts in the field of macroeconomics.
+We invite submissions from researchers, academics, and practitioners for original research papers covering various macroeconomics topics. The workshop aims to facilitate discussions of ongoing research on policy-relevant questions and provide a platform for exchanging ideas and findings among experts in the field.
 
-[Call for paper](sailingthemacrocall.pdf)
+The [Econometrics Journal]{style="font-color: #822433"} will feature a special issue on "Macroeconometric Policy Analysis." Conference participants whose papers align with this theme will have the opportunity to submit their work for consideration in this special issue (see below for submission guidelines).
 
-#### Submission Guidelines
+::: {.keynote}
+### [Keynote speakers]{.redsap}
 
-We invite authors to submit their original, unpublished research papers or extended abstracts to be considered for presentation at the conference.
+  - Refet Gürkaynak (_Bilkent University_)
+  - Sophocles Mavroeidis (_University of Oxford_)
+  - Geert Mesters (_Universitat Pompeu Fabra_)
+:::
 
-Please submit your paper via email as a PDF file to the address [smw-dipecodir@uniroma1.it](mailto:smw-dipecodir@uniroma1.it) with the subject line **"Sailing the Macro Submission"**
+## Conference Topics
+
+The workshop welcomes submissions across the full spectrum of macroeconomics research. Topics include, but are not limited to:
+
+- Macroeconomic theory and modeling
+- Monetary and fiscal policy analysis
+- International macroeconomics and open economy models
+- Labor markets and unemployment dynamics
+- Growth theory and economic development
+- Financial market interactions with the real economy
+- Climate change and macroeconomic implications
+- Distributional aspects of macroeconomic policies
+- Macroeconometric tools and methods relevant for policy analysis
+
+Given the upcoming #text(fill: redsap)[Econometrics Journal] special issue, we particularly encourage submissions focusing on innovative macroeconometric methods, empirical policy evaluation techniques, and quantitative frameworks for analyzing macroeconomic policies.
+
+
+## Conference Submission Guidelines
+
+We invite authors to submit their original, unpublished research papers to be considered for presentation at the conference.
+
+Please submit your paper using the submission [form](https://). 
+
+::: {.callout-important}
+**Deadline:** [by 12 CET on 05 May 2024]{.redsap}
+
+**Acceptance notification:** Authors will be notified of the acceptance by the end of May 2025.
+
+:::
+
+## Econometrics Journal Special Issue
+
+The [Econometrics Journal]{.redsap} will publish a Special Issue on the topic [_Macroeconometric Policy Analysis_]{.redsap}, edited by [Raffaella Giacomini](https://raffaellagiacomini.wixsite.com/research) (UCL) in collaboration with [Daniel Lewis](https://sites.google.com/view/danjlewis/home) (UCL). We are encouraging submissions on this topic to [both]{.red} the conference and the journal special issue.
+
+Submissions to the special issue should follow the journal guidelines at 
+
+<https://res.org.uk/submissions>
+
+Authors should select "Special Issue Article: MACROPOLICY" as the "category of submission" in Step 2 of the submission procedure. 
+
+
+::: {.callout-important}
+Authors who intend to submit their papers for the special issue should mark the approapriate field in the conference submission form. 
+:::
 
 
 
 :::
 
-::: {.hero-animation}
-
-### Keynote Speakers
-
-#### Raffaella Giacomini
-##### UCL
-
-#### Evi Pappa
-##### Universidad Carlos III de Madrid
-
-#### Federica Romei
-##### University of Oxford
-
-:::
 
 :::
 
 
-:::
+
 
 
 
@@ -62,23 +97,6 @@ Please submit your paper via email as a PDF file to the address [smw-dipecodir@u
 ::: {.content-block}
 ::: {.features}
 
-::: {.feature}
-### Conference Topics
-
-Reflecting the breadth of modern macroeconomics, the scope of relevant topics is broad, ranging from theoretical work to empirical applications. Topics of interest include, but are not limited to:
-
-  1. Economic growth and development
-  2. Monetary and fiscal policy
-  3. Inflation and unemployment
-  4. International trade and finance
-  5. Business cycles and economic forecasting
-  6. Income distribution and inequality
-  7. Financial markets and institutions
-  8. Macroeconomic modeling and policy simulation
-  9. Structural change and economic transformation
-
-
-:::
 
 ::: {.feature}
 ### PhD Students
