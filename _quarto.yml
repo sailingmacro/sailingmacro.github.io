@@ -2,8 +2,8 @@ project:
   type: website
 website:
   title: "Sailing the macro workshop"
-  site-url: https://sailingthemacro.com
-  repo-url: https://github.com/sailingthemacro
+  site-url: https://sailingthemacro.org
+  repo-url: https://github.com/sailingmacro/
   favicon: swmlogo.png
   page-footer:
     center: |
@@ -25,16 +25,19 @@ website:
         href: information.qmd
       - text: "Past edition"
         menu:
+          - text: "Ortygia 2024"
+            href: program_2024.qmd
           - text: "Ortygia 2023"
-            href: https://sites.google.com/uniroma1.it/smw/programme/2023
+            href: program_2023.qmd
           - text: "Ventotene 2022"
-            href: https://sites.google.com/uniroma1.it/smw/programme/2022
+            href: program_2022.qmd
           - text: "Ventotene 2021"
-            href: https://sites.google.com/uniroma1.it/smw/programme/2021
+            href: program_2021.qmd
     tools:
         - icon: twitter
-          href: https://twitter.com/sailingthemacro
-          text: Twitter
+          href: https://bsky.app/profile/sailingthemacro.bsky.social
+          text: BlueSky
+          
 format:
   html:
     toc: true

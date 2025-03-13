@@ -68,6 +68,7 @@ Please submit your paper using the submission [form](https://).
 
 ## Econometrics Journal Special Issue
 
+
 The [Econometrics Journal]{.redsap} will publish a Special Issue on the topic [_Macroeconometric Policy Analysis_]{.redsap}, edited by [Raffaella Giacomini](https://raffaellagiacomini.wixsite.com/research) (UCL) in collaboration with [Daniel Lewis](https://sites.google.com/view/danjlewis/home) (UCL). We are encouraging submissions on this topic to [both]{.red} the conference and the journal special issue.
 
 Submissions to the special issue should follow the journal guidelines at 

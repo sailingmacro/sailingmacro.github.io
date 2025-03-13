@@ -1,170 +1,190 @@
 ---
-title: Sailing the Macro 2021
-subtitle: Full Program
+title: "Sailing the Macro Workshop"
+subtitle: "1st Edition - 2021"
+format:
+  html:
+    css: styles.css
+    toc: true
+    toc-title: "Program Navigation"
+    toc-location: left
+    toc-depth: 3
 ---
 
-## Day 0 - September 15
+# 2021 Edition
 
+Sapienza University's 1st Sailing the Macro Workshop will take place on the Island of Ventotene on September 16-18, 2021. The aim of this three-day workshop is to bring together researchers in the field of theoretical and applied macroeconomics to promote and discuss their current works and ideas.
 
-- 18:00-20:00  Welcome Aperitif (at Un Mare di Sapori, Ventotene )
-
-
+::: {.keynote}
+## Invited Speakers {.unlisted}
+- **Salvatore Nisticò** (ECB and Sapienza University)
+- **Giorgio Primiceri** (Northwestern University)
+- **Giuseppe Ragusa** (University of Pisa)
+:::
 
 ## Day 1 - September 16
 
-
-08:30-09:00      Registration & Welcome Coffee
-
-::: {.keynote}
-09:00-09:40 **Keynote Session 1: Giorgio Primiceri - Northwestern University**
+::: {.keynotep}
+### Keynote Session 1
+[09:00-09:40]{.time} [Keynote Presentation]{.title} [Giorgio Primiceri - Northwestern University]{.authors}
 :::
 
-#### Parallel Session 1A (Chair: Giorgio Primiceri)
+### Parallel Session 1A
+[Chair: Giorgio Primiceri]{.chair}
 
-- 09:50-10:25      Estimating Hysteresis Effects. Francesco Furlanetto, Antoine Lepetit, Ørjan Robstad, Juan Rubio-Ramirez, Pal Ulvedal
+[09:50-10:25]{.time} [Estimating Hysteresis Effects]{.title} [Francesco Furlanetto, Antoine Lepetit, Ørjan Robstad, Juan Rubio-Ramirez, Pal Ulvedal]{.authors}
 
-- 10:25-11:00     Bad News, Good News: Coverage and Response Asymmetries. Luca Gambetti, Nicolo' Maffei Faccioli, Sarah Zoi
+[10:25-11:00]{.time} [Bad News, Good News: Coverage and Response Asymmetries]{.title} [Luca Gambetti, Nicolo' Maffei Faccioli, Sarah Zoi]{.authors}
 
-- 11:00-11:35   Business Cycle Fluctuations: Financial Shocks versus Uncertainty Shocks. Wouter Van der Veken, Roberto A. De Santis
+[11:00-11:35]{.time} [Business Cycle Fluctuations: Financial Shocks versus Uncertainty Shocks]{.title} [Wouter Van der Veken, Roberto A. De Santis]{.authors}
 
-#### Parallel Session 1B (Chair: Luca Zamparelli)
+### Parallel Session 1B
+[Chair: Luca Zamparelli]{.chair}
 
-- 09:50-10:25  The Long-Run Phillips Curve is...a curve. Guido Ascari, Paolo Bonomolo, Qazi Haque
+[09:50-10:25]{.time} [The Long-Run Phillips Curve is...a curve]{.title} [Guido Ascari, Paolo Bonomolo, Qazi Haque]{.authors}
 
-- 10:25-11:00  Supply Shocks in a Heterogeneous Agent Economy: Evidence and Theory. Francesco Saverio Gaudio, Ivan Petrella, Emiliano Santoro
+[10:25-11:00]{.time} [Supply Shocks in a Heterogeneous Agent Economy: Evidence and Theory]{.title} [Francesco Saverio Gaudio, Ivan Petrella, Emiliano Santoro]{.authors}
 
-- 11:00-11:35  Firms' ex-ante Heterogeneity, Entry and the Labour Share. Jakob Grazzini, Lorenza Rossi
+[11:00-11:35]{.time} [Firms' ex-ante Heterogeneity, Entry and the Labour Share]{.title} [Jakob Grazzini, Lorenza Rossi]{.authors}
 
-- 11:35-12:15  Coffee Break
+::: {#light}
+### Poster Session 1
+[11:35-12:15]{.time}
 
-::: {.poster-session}
-#### Poster Session 1
+[Inflation persistence]{.title} [Emanuele Franceschi]{.authors}
 
-- Inflation persistence. Emanuele Franceschi
+[Optimal monetary policy and intrinsic inflation persistence]{.title} [Carolina Serpieri, Giovanni Di Bartolomeo]{.authors}
 
-- Optimal monetary policy and intrinsic inflation persistence. Carolina Serpieri, Giovanni Di Bartolomeo
+[Heterogeneous Decline in Sectoral Business Dynamism]{.title} [Riccardo Silvestrini]{.authors}
 
-- Heterogeneous Decline in Sectoral Business Dynamism. Riccardo Silvestrini
+[Secured and unsecured credit cycles]{.title} [Costanza Giannantoni, Valeria Patella, Massimiliano Tancioni]{.authors}
 
-- Secured and unsecured credit cycles. Costanza Giannantoni, Valeria Patella, Massimiliano Tancioni
+[Firm Dynamics with Coworker Learning]{.title} [Gabriele Macci]{.authors}
 
-- Firm Dynamics with Coworker Learning. Gabriele Macci
-
-- Nowcasting – developing the sources and methods to improve high-frequency labour market forecasting. Tesi Aliaj, Milos Ciganovic, Massimiliano Tancioni
+[Nowcasting – developing the sources and methods to improve high-frequency labour market forecasting]{.title} [Tesi Aliaj, Milos Ciganovic, Massimiliano Tancioni]{.authors}
 :::
 
-#### Parallel Session 1A (Chair: Giorgio Primiceri)
-12:15-12:50     Global value chains and the dynamics of UK inflation. Aydan Dogan, Tommaso Aquilante, Melih Firat
+### Parallel Session 1A
+[Chair: Giorgio Primiceri]{.chair}
 
-- 12:50-13:25    Global Spillovers of the Fed Information Effect. Marco Pinchetti, Andrzej Szczepaniak
+[12:15-12:50]{.time} [Global value chains and the dynamics of UK inflation]{.title} [Aydan Dogan, Tommaso Aquilante, Melih Firat]{.authors}
 
-#### Parallel Session 1B (Chair: Luca Zamparelli)
+[12:50-13:25]{.time} [Global Spillovers of the Fed Information Effect]{.title} [Marco Pinchetti, Andrzej Szczepaniak]{.authors}
 
-- 12:15-12:50    Credit Markets, Relationship Lending, and the Dynamics of firm entry. Qingqing Cao, Paolo Giordani, Raoul Minetti, Pierluigi Murro
+### Parallel Session 1B
+[Chair: Luca Zamparelli]{.chair}
 
-- 12:50-13:25   Unemployment, Firm Dynamics, and the Business Cycle. Andrea Colciago, Stefano Fasani, Lorenza Rossi
+[12:15-12:50]{.time} [Credit Markets, Relationship Lending, and the Dynamics of firm entry]{.title} [Qingqing Cao, Paolo Giordani, Raoul Minetti, Pierluigi Murro]{.authors}
 
-
+[12:50-13:25]{.time} [Unemployment, Firm Dynamics, and the Business Cycle]{.title} [Andrea Colciago, Stefano Fasani, Lorenza Rossi]{.authors}
 
 ## Day 2 - September 17
 
-::: {.keynote}
-09:00-09:40 **Keynote Session 2: Salvatore Nistico'** - _ECB and Sapienza University of Rome_
+::: {.keynotep}
+### Keynote Session 2
+[09:00-09:40]{.time} [Keynote Presentation]{.title} [Salvatore Nistico' - ECB and Sapienza University of Rome]{.authors}
 :::
 
+### Parallel Session 2A
+[Chair: Elton Beqiraj]{.chair}
 
-#### Parallel Session 2A (Chair: Elton Beqiraj)
+[09:50-10:25]{.time} [What are the Sources of Boom-Bust Cycles?]{.title} [Marco Brianti, Vito Cormun]{.authors}
 
-- 09:50-10:25 What are the Sources of Boom-Bust Cycles?. Marco Brianti, Vito Cormun
+[10:25-11:00]{.time} [A Structural Investigation of Quantitative Easing]{.title} [Gregor Boehl, Gavin Goy, Felix Strobelc]{.authors}
 
-- 10:25-11:00 A Structural Investigation of Quantitative Easing. Gregor Boehl, Gavin Goy, Felix Strobelc
+[11:00-11:35]{.time} [Monetary policy shocks over the business cycle: Extending the Smooth Transition framework]{.title} [Michele Piffer, Martin Bruns]{.authors}
 
-- 11:00-11:35 Monetary policy shocks over the business cycle: Extending the SmoothTransition framework. Michele Piffer, Martin Bruns
+### Parallel Session 2B
+[Chair: Salvatore Nistico']{.chair}
 
-#### Parallel Session 2B (Chair: Salvatore Nistico')
+[09:50-10:25]{.time} [The unbearable lightness of equilibria in a low interest rate environment]{.title} [Guido Ascari, Sophocles Mavroeidis]{.authors}
 
-- 09:50-10:25  The unbearable lightness of equilibria in a low interest rate environment. Guido Ascari, Sophocles Mavroeidis
+[10:25-11:00]{.time} [The Effectiveness of a Negative Interest Rate Policy]{.title} [Marco Onofri, Gert Peersman, Frank Smets]{.authors}
 
-- 10:25-11:00  The Effectiveness of a Negative Interest Rate Policy. Marco Onofri, Gert Peersman, Frank Smets
+[11:00-11:35]{.time} [The (Ir)Relevance of Rule-of-Thumb Consumers for U.S. Business Cycle Fluctuations]{.title} [Alice Albonico, Guido Ascari, Qazi Haque]{.authors}
 
-- 11:00-11:35  The (Ir)Relevance of Rule-of-Thumb Consumers for U.S. Business Cycle Fluctuations. Alice Albonico, Guido Ascari, Qazi Haque
+::: {#light}
+### Poster Session 2
+[11:35-12:15]{.time}
 
-11:35-12:15  Coffee Break
+[Bank Heterogeneity and Mortgage Supply under Negative Policy Rates]{.title} [Luisa Lambertini, Yu Wu]{.authors}
 
-::: {.poster-session}
-Poster Session 2
+[Forbearance vs foreclosure in a general equilibrium model]{.title} [Bianca Barbaro, Patrizio Tirelli]{.authors}
 
-- Bank Heterogeneity and Mortgage Supply under Negative Policy Rates. Luisa Lambertini, Yu Wu
+[Preventive monetary and macroprudential policy response to anticipated shocks to financial stability]{.title} [Konstantin Styrin, Alexander Tishin]{.authors}
 
-- Forbearance vs foreclosure in a general equilibrium model. Bianca Barbaro, Patrizio Tirelli
+[Asset Price Bubbles with Low Interest Rates: Not All Bubbles are Likely to Emerge]{.title} [Jacopo Bonchi, Francesco Simone Lucidi]{.authors}
 
-- Preventive monetary and macroprudential policy response to anticipated shocks to financial stability. Konstantin Styrin, Alexander Tishin
+[Has the Fed ever responded to stock market bubbles? Evidence from non linear VARs]{.title} [Federica Vassalli, Massimiliano Tancioni]{.authors}
 
-- Asset Price Bubbles with Low Interest Rates: Not All Bubbles are Likely to Emerge. Jacopo Bonchi, Francesco Simone Lucidi
-
-- Has the Fed ever responded to stock market bubbles? Evidence from non linear VARs. Federica Vassalli, Massimiliano Tancioni
-
-- Undesired effects of monetary policy in a bubbly economy: some empirical findings and a theoretical explanation. Giuseppe Ciccarone, Francesco Giuli, Enrico Marchetti, Valeria Patella, Massimiliano Tancioni
+[Undesired effects of monetary policy in a bubbly economy: some empirical findings and a theoretical explanation]{.title} [Giuseppe Ciccarone, Francesco Giuli, Enrico Marchetti, Valeria Patella, Massimiliano Tancioni]{.authors}
 :::
 
-#### Parallel Session 2A (Chair: Elton Beqiraj)
+### Parallel Session 2A
+[Chair: Elton Beqiraj]{.chair}
 
-- 12:50-13:25    A tail of labor supply and a tale of monetary policy. Cristiano Cantore, Filippo Ferroni, Haroon Mumtaz, Angeliki Theophilopoulou
+[12:50-13:25]{.time} [A tail of labor supply and a tale of monetary policy]{.title} [Cristiano Cantore, Filippo Ferroni, Haroon Mumtaz, Angeliki Theophilopoulou]{.authors}
 
-#### Parallel Session 2B  (Chair: Salvatore Nistico')
+### Parallel Session 2B
+[Chair: Salvatore Nistico']{.chair}
 
-- 12:15-12:50    Monetary Policy and Payment-to-Income Limits in Liquidity Traps. Alessandro Lin
+[12:15-12:50]{.time} [Monetary Policy and Payment-to-Income Limits in Liquidity Traps]{.title} [Alessandro Lin]{.authors}
 
-- 12:50-13:25  Whither Liquidity Shocks?. Giorgio Massari, Patrizio Tirelli
+[12:50-13:25]{.time} [Whither Liquidity Shocks?]{.title} [Giorgio Massari, Patrizio Tirelli]{.authors}
 
-- 21:00  Social Dinner (La Terrazza sul Mare, Ventotene)
+::: {.social-event}
+[21:00]{.time} [Social Dinner at La Terrazza sul Mare, Ventotene]{.event}
+:::
 
 ## Day 3 - September 18
 
-::: {.keynote}
- 09:00-09:40	 **Keynote Session 3: Giuseppe Ragusa** - _University of Pisa_
+::: {.keynotep}
+### Keynote Session 3
+[09:00-09:40]{.time} [Keynote Presentation]{.title} [Giuseppe Ragusa - University of Pisa]{.authors}
 :::
 
-#### Parallel Session 3A (Chair: Giuseppe Ragusa)
+### Parallel Session 3A
+[Chair: Giuseppe Ragusa]{.chair}
 
-- 09:50-10:25      A new macro-financial condition index for the euro area. Claudio Morana
+[09:50-10:25]{.time} [A new macro-financial condition index for the euro area]{.title} [Claudio Morana]{.authors}
 
-- 10:25-11:00     Bargaining power and the Phillips curve: a micro-macro analysis. Marco Lombardi, Marianna Riggi, Eliana Viviano
+[10:25-11:00]{.time} [Bargaining power and the Phillips curve: a micro-macro analysis]{.title} [Marco Lombardi, Marianna Riggi, Eliana Viviano]{.authors}
 
-- 11:00-11:35 Inflation expectations and the ECB’s perceived inflation objective: novel evidence from firm-level data. Alex Tagliabracci, Marco Bottone, Giordano Zevi
+[11:00-11:35]{.time} [Inflation expectations and the ECB's perceived inflation objective: novel evidence from firm-level data]{.title} [Alex Tagliabracci, Marco Bottone, Giordano Zevi]{.authors}
 
-#### Parallel Session 3B (Chair: Paolo Giordani)
+### Parallel Session 3B
+[Chair: Paolo Giordani]{.chair}
 
-- 09:50-10:25 Exchange Rate Disconnect Redux. Ryan Chahrour, Vito Cormun, Pierre De Leo, Pablo Guerron-Quintana, Rosen Valchev
+[09:50-10:25]{.time} [Exchange Rate Disconnect Redux]{.title} [Ryan Chahrour, Vito Cormun, Pierre De Leo, Pablo Guerron-Quintana, Rosen Valchev]{.authors}
 
-- 10:25-11:00   Fiscal Rules and Discretion with Risk of Default. Chiara Felli, Facundo Piguillem, Liyan Shi
+[10:25-11:00]{.time} [Fiscal Rules and Discretion with Risk of Default]{.title} [Chiara Felli, Facundo Piguillem, Liyan Shi]{.authors}
 
-- 11:00-11:35  Sovereign default and imperfect tax enforcement. Francesco Pappada', Yanos Zylberberg
+[11:00-11:35]{.time} [Sovereign default and imperfect tax enforcement]{.title} [Francesco Pappada', Yanos Zylberberg]{.authors}
 
-- 11:35-12:15  Coffee Break
+::: {#light}
+### Poster Session 3
+[11:35-12:15]{.time}
 
-::: {.poster-session}
-Poster Session 3
+[Production networks and fiscal multiplier]{.title} [Alessandro De Sanctis]{.authors}
 
-Production networks and fiscal multiplier. Alessandro De Sanctis
+[The macroeconomic effects of climate shocks in Europe]{.title} [Francesco Simone Lucidi, Marta Maria Pisa, Massimiliano Tancioni]{.authors}
 
-The macroeconomic effects of climate shocks in Europe. Francesco Simone Lucidi, Marta Maria Pisa, Massimiliano Tancioni
+[A News-based Policy Index for Italy: Expectations and Fiscal Policy]{.title} [Daniela Fantozzi, Alessio Muscarnera]{.authors}
 
-A News-based Policy Index for Italy: Expectations and Fiscal Policy. Daniela Fantozzi, Alessio Muscarnera
+[Lovebirds: Story of two inseparable orthogonal shocks]{.title} [Lorenzo Marchetti, Massimiliano Tancioni]{.authors}
 
-Lovebirds: Story of two inseparable orthogonal shocks. Lorenzo Marchetti, Massimiliano Tancioni
-
-Sources of output variability and risk-sharing channels in the US and the euro area. Paolo D'Imperio, Massimiliano Tancioni
+[Sources of output variability and risk-sharing channels in the US and the euro area]{.title} [Paolo D'Imperio, Massimiliano Tancioni]{.authors}
 :::
 
-#### Parallel Session 3A  (Chair: Giuseppe Ragusa)
+### Parallel Session 3A
+[Chair: Giuseppe Ragusa]{.chair}
 
-- 12:15-12:50     The Macroeconomic Effects of the Gender Revolution. Drago Bergholt, Luca Fosso, Francesco Furlanetto
+[12:15-12:50]{.time} [The Macroeconomic Effects of the Gender Revolution]{.title} [Drago Bergholt, Luca Fosso, Francesco Furlanetto]{.authors}
 
-- 12:50-13:25   The transmission of oil price shocks through the US banking sector. Paolo Gelain, Marco Lorusso
+[12:50-13:25]{.time} [The transmission of oil price shocks through the US banking sector]{.title} [Paolo Gelain, Marco Lorusso]{.authors}
 
-#### Parallel Session 3B  (Chair: Paolo Giordani)
+### Parallel Session 3B
+[Chair: Paolo Giordani]{.chair}
 
-- 12:15-12:50    Corporate Taxation and Carbon Emissions. Luigi Iovino, Thorsten Martin, Julien Sauvagnat
+[12:15-12:50]{.time} [Corporate Taxation and Carbon Emissions]{.title} [Luigi Iovino, Thorsten Martin, Julien Sauvagnat]{.authors}
 
-- 12:50-13:25  Fiscal Stimulus of Last Resort. Alessandro Piergallini
+[12:50-13:25]{.time} [Fiscal Stimulus of Last Resort]{.title} [Alessandro Piergallini]{.authors}

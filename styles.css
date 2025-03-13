@@ -350,3 +350,131 @@ iframe.reveal-demo {
   padding-top: 15pt;
   padding-bottom: 10pt;
 }
+
+.keynotep {
+    background-color: #F1F0E8;
+    margin-top: 15pt;
+    padding-left: 10pt;
+    padding-top: 15pt;
+    padding-bottom: 10pt;
+  }
+  
+
+
+  
+  
+
+
+  .messagecontainer {
+    display: table;
+    table-layout:fixed;
+}
+.time {
+    display:table-cell;
+    width:70px;
+    vertical-align:top;
+}
+
+.time {
+    font-size: 0.9em;
+    font-weight: 400 ;
+    color: #1d61a5;
+    padding: 3px 8px;
+    border-radius: 3px;
+    margin-right: 10px;
+    display: table-cell;
+    width: 90px;
+    margin-top: 10px;
+  }
+
+#light .time {
+    font-size: 0.9em;
+    font-weight: 400 ;
+    color: #1d61a5;
+    padding: 0px;
+    border-radius: 0px;
+    margin-right: 10px;
+    display: table-cell;
+    width: 90px;
+    margin-top: 0px;
+  }
+
+
+.authors {
+    display:inline-block;
+    vertical-align:top;
+    margin-left: 100px;
+    font-style: italic;
+}
+
+#light .authors {
+    display:inline-block;
+    vertical-align:top;
+    font-style: italic;
+    padding-left: 7pt;
+    margin-left: 0pt;
+}
+
+#light .title {
+    display:table-cell;
+    text-indent: 0px;
+    margin-left:-70px;
+    padding-left: 10px;
+    font-weight: 400;
+}
+
+
+.title {
+    display:table-cell;
+    text-indent: 0px;
+    margin-left:-70px;
+    padding-left: 10px;
+    font-weight: 400;
+}
+
+
+.chair{
+    display: block;
+    font-style: italic;
+}
+
+.parallel {
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+.lightning {
+    font-size: 1.25em;
+    font-weight: 400;
+}
+
+.coming-soon {
+    background-color: #f8fbff;
+    border-radius: 8px;
+    padding: 30px;
+    margin: 40px auto;
+    max-width: 800px;
+    border-left: 5px solid #4a6fa5;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .coming-soon h2 {
+    background: none;
+    color: #002b5c;
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 15px;
+    margin-top: 0;
+    box-shadow: none;
+    font-size: 1.8em;
+  }
+  
+  .coming-soon h3 {
+    color: #4a6fa5;
+    margin-top: 25px;
+    font-size: 1.3em;
+  }
+  
+  .coming-soon p {
+    line-height: 1.7;
+    margin-bottom: 20px;
+  }

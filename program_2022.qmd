@@ -1,0 +1,186 @@
+---
+title: "Sailing the Macro Workshop"
+subtitle: "2nd Edition - 2022"
+format:
+  html:
+    css: styles.css
+    toc: true
+    toc-title: "Program Navigation"
+    toc-location: left
+    toc-depth: 3
+---
+
+# 2022 Edition
+
+The Ph.D. in Economics of Sapienza University organizes the **2nd** **Sailing the Macro Workshop** that will take place on the Island of Ventotene on **September 18-20, 2022**, at Centro Polivalente "Umberto Elia Terracini". The workshop aims to bring together researchers in theoretical and applied macroeconomics to promote and discuss their current works and ideas.
+
+::: {.keynote}
+## Invited Speakers {.unnumbered .unlisted}
+- **Luigi Iovino** (Bocconi University)
+- **Gert Peersman** (Gent University)
+- **Anna Rogantini Picco** (Sveriges Riksbank)
+:::
+
+## Day 1 - September 18
+
+[14:00-14:30]{.time} [Opening Speech: Shifting and Asymmetric Central Bank Preferences]{.title} [Alex Cukierman - Tel-Aviv University]{.authors}
+
+::: {.keynotep}
+### Keynote Session 1
+[14:35-15:15]{.time} [Who is Afraid of Eurobonds?]{.title} [Anna Rogantini Picco - Sveriges Riksbank]{.authors}
+:::
+
+### Parallel Session 1A
+[Chair: Anna Rogantini Picco]{.chair}
+
+[15:20-15:50]{.time} [Unconditional monetary policy and inequality]{.title} [Salvatore Nisticò, Marialaura Seccareccia]{.authors}
+
+[15:50-16:20]{.time} [Collateral-Constrained Agents and Macroeconomic Fluctuations]{.title} [Aicha Kharazi, Francesco Ravazzolo]{.authors}
+
+### Parallel Session 1B
+[Chair: Elton Beqiraj]{.chair}
+
+[15:20-15:50]{.time} [Monetary Policy, Asset Prices, and the Distribution of Wealth in the US]{.title} [Alessandro Franconi, Giacomo Rella]{.authors}
+
+[15:50-16:20]{.time} [Systematic Monetary Policy and the Effects of Government Spending]{.title} [Lukas Hack, Klodiana Istrefi, Matthias Meier]{.authors}
+
+::: {.poster}
+### Coffee Break & Poster Session 1
+[16:20-17:05]{.time}
+
+[Consumer Bankruptcy: the Role of Financial Frictions]{.poster-title} [Tsung-Hsien Li]{.poster-authors}
+
+[Firm heterogeneity, financial frictions and ambiguity]{.poster-title} [Lorenzo Carbonari, Filippo Maurici]{.poster-authors}
+
+[Average Inflation Targeting through the lens of a Behavioral Heterogeneous Agent New Keynesian Model]{.poster-title} [Frantisek Masek]{.poster-authors}
+
+[Financial Frictions, R&D & Monetary Policy]{.poster-title} [Elton Beqiraj, Giulio Tarquini]{.poster-authors}
+:::
+
+### Parallel Session 1A
+[Chair: Anna Rogantini Picco]{.chair}
+
+[17:10-17:40]{.time} [The Network Gravity of Global Banking]{.title} [Raoul Minetti, Giacomo Romanini, Oren Ziv]{.authors}
+
+[17:40-18:10]{.time} [No country for young managers: Firm control rights and misallocation in general equilibrium]{.title} [Stefano Pietrosanti]{.authors}
+
+[18:10-18:40]{.time} [Climate Linkers: Rationale and Pricing]{.title} [Pauline Chikhani, Jean-Paul Renne]{.authors}
+
+### Parallel Session 1B
+[Chair: Elton Beqiraj]{.chair}
+
+[17:10-17:40]{.time} [Unemployment Insurance, Precautionary Savings, and Fiscal Multipliers]{.title} [Rubén Domínguez Díaz, Donghai Zhang]{.authors}
+
+[17:40-18:10]{.time} [The Euro Area Government Spending Multiplier in Demand- and Supply-Driven Recessions]{.title} [Mario Di Serio, Matteo Fragetta, Emanuel Gasteiger, Giovanni Melina]{.authors}
+
+[18:10-18:40]{.time} [Star struck, Monetary Policy and the Neutral Real Rate]{.title} [Garo Garabedian]{.authors}
+
+::: {.social-event}
+[19:00-21:00]{.time} [Welcome Aperitif at Un Mare di Sapori, Ventotene]{.event}
+:::
+
+## Day 2 - September 19
+
+::: {.keynotep}
+### Keynote Session 2
+[09:00-09:40]{.time} [Estimation of the impact of disruptions in global food commodity markets on economic activity and inflation]{.title} [Gert Peersman - Gent University]{.authors}
+:::
+
+### Parallel Session 2A
+[Chair: Gert Peersman]{.chair}
+
+[09:45-10:15]{.time} [Endogenous Uncertainty as Transmission Channel of Shocks to Inflation Expectations]{.title} [Guido Ascari, Stefano Fasani, Jakob Grazzini, Lorenza Rossi]{.authors}
+
+[10:15-10:45]{.time} [Price rigidities, input costs, and inflation expectations: understanding firms pricing decisions from micro data]{.title} [Marianna Riggi, Alex Tagliabracci]{.authors}
+
+[10:45-11:15]{.time} [Demographic Trends and the Transmission of Monetary Policy]{.title} [Giacomo Mangiante]{.authors}
+
+### Parallel Session 2B
+[Chair: Marco Di Pietro]{.chair}
+
+[09:45-10:15]{.time} [The Dollar and Global Financial Collapse]{.title} [Diego Bohorquez]{.authors}
+
+[10:15-10:45]{.time} [Population Aging, Relative Prices and Capital Flows Across the Globe]{.title} [Andrea Papetti]{.authors}
+
+[10:45-11:15]{.time} [A simple model with liquidity]{.title} [Emanuele Franceschi]{.authors}
+
+::: {.poster}
+### Coffee Break & Poster Session 2
+[11:15-12:00]{.time}
+
+[Climate change and default probability: empirical evidence from Euro area]{.poster-title} [Gianmarco De Santis]{.poster-authors}
+
+[Non-bank financial intermediation: changes in the traditional transmission mechanism of monetary policy]{.poster-title} [Federica Vassalli]{.poster-authors}
+
+[Forecasting Cryptocurrencies Log-Returns: a LASSO-VAR and Sentiment Approach]{.poster-title} [Milos Ciganovic, Federico D'Amario]{.poster-authors}
+
+[Business cycle and factor income shares: a VAR sign restriction approach]{.poster-title} [Lorenzo Tonni]{.poster-authors}
+:::
+
+### Parallel Session 2A
+[Chair: Gert Peersman]{.chair}
+
+[12:05-12:35]{.time} [Flexible prior beliefs on IRF in Bayesian VAR models]{.title} [Michele Piffer, Andrej Kociecki]{.authors}
+
+[12:35-13:05]{.time} [Can we estimate macroforecasters' mis-behavior?]{.title} [Emilio Zanetti Chini]{.authors}
+
+### Parallel Session 2B
+[Chair: Marco Di Pietro]{.chair}
+
+[12:05-12:35]{.time} [Labor Share Decline and Productivity Slowdown: A Micro-Macro Analysis]{.title} [Francesca Crucitti, Lorenza Rossi]{.authors}
+
+[12:35-13:05]{.time} [~~Revisiting Labour Market Policy in Recessions~~]{.cancelled} [~~Matthew McKernan~~]{.cancelled-authors}
+
+::: {.social-event}
+[21:00]{.time} [Social Dinner at La Terrazza sul Mare, Ventotene]{.event}
+:::
+
+## Day 3 - September 20
+
+::: {.keynotep}
+### Keynote Session 3
+[09:00-09:40]{.time} [The (Mis)Perceived Slope of the Phillips Curve: Monetary Policy with Limited Aware Agents (with D. Debortoli, N. Pavoni, D. Zhang)]{.title} [Luigi Iovino - Bocconi University]{.authors}
+:::
+
+### Parallel Session 3A
+[Chair: Luigi Iovino]{.chair}
+
+[09:45-10:15]{.time} [Risky Business Cycles]{.title} [Giacomo Candian, Susanto Basu, Ryan Chahrour, Rosen Valchev]{.authors}
+
+[10:15-10:45]{.time} [Monetary Policy and Sentiment-Driven Fluctuations]{.title} [Jenny Chan]{.authors}
+
+[10:45-11:15]{.time} [The Labor Market Power Channel of Monetary Policy]{.title} [Anastasia Burya, Rui C. Mano, Anke Weber, Yannick Timmer]{.authors}
+
+### Parallel Session 3B
+[Chair: Massimiliano Tancioni]{.chair}
+
+[09:45-10:15]{.time} [The Global Transmission of U.S. Monetary Policy]{.title} [Giovanni Ricco, Riccardo Degasperi, Seokki Simon Hong]{.authors}
+
+[10:15-10:45]{.time} [The voices of monetary policy communications]{.title} [Giuseppe Ragusa]{.authors}
+
+[10:45-11:15]{.time} [The Price of War: Economic Effects of Financial Sanctions on the Russian Economy]{.title} [Mikhail Mamonov, Anna Pestova]{.authors}
+
+::: {.poster}
+### Coffee Break & Poster Session 3
+[11:15-12:00]{.time}
+
+[A Meta-Analysis on the Debt-Growth Relationship]{.poster-title} [Sara D'Andrea]{.poster-authors}
+
+[Evidence on the Confounding Nature of the Main Business Cycle]{.poster-title} [Davide Brignone, Marco Mazzali]{.poster-authors}
+
+[CDS Dynamics: Tale of two inseparable shocks]{.poster-title} [Lorenzo Marchetti, Massimiliano Tancioni]{.poster-authors}
+:::
+
+### Parallel Session 3A
+[Chair: Luigi Iovino]{.chair}
+
+[12:05-12:35]{.time} [A general theory of tax-smoothing]{.title} [Anastasios G. Karantounias]{.authors}
+
+[12:35-13:05]{.time} [Unemployment Risk, Liquidity Traps, and Monetary Policy]{.title} [Dario Bonciani, Joonseok Oh]{.authors}
+
+### Parallel Session 3B
+[Chair: Massimiliano Tancioni]{.chair}
+
+[12:05-12:35]{.time} [Rational Overoptimism and Moral Hazard in Credit Booms]{.title} [Luca Gemmi]{.authors}
+
+[12:35-13:05]{.time} [Bank Credit and the Risk of Recession: the Role of Business Cycle Shocks]{.title} [Anna Pestova, Mikhail Mamonovy]{.authors}

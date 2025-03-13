@@ -1,0 +1,185 @@
+---
+title: "Sailing the Macro Workshop"
+subtitle: "3rd Edition - 2023"
+format:
+  html:
+    css: styles.css
+    toc: true
+    toc-title: "Program Navigation"
+    toc-location: left
+    toc-depth: 3
+
+---
+
+# 2023 Edition
+
+The Ph.D. in Economics of Sapienza University organizes the 3rd Sailing the Macro Workshop that will be held at the Ortygia Foundation in Ortygia, Siracusa, Italy, on 8-10 September 2023. Reflecting the breadth of modern macroeconomics, the scope of relevant topics is broad, ranging from theoretical work to empirical applications.
+
+::: {.keynote}
+## Invited Speakers {.unnumbered .unlisted}
+- **Florin Bilbiie** (Cambridge University)
+- **Caterina Mendicino** (European Central Bank)
+- **Barbara Rossi** (Universitat Pompeu Fabra)
+:::
+
+## Day 1 - September 8
+
+::: {.keynotep}
+### Keynote Session 1
+[09:00-09:40]{.time} [Euro Area Monetary Policy Effects: Does the shape of the yield curve matter?]{.title} [Barbara Rossi]{.authors}
+:::
+
+### Parallel Session 1A
+[Chair: Barbara Rossi]{.chair}
+
+[10:10-10:35]{.time} [Asymmetric Transmission of Oil Supply News]{.title} [M. Forni, A. Franconi, L. Gambetti, L. Sala]{.authors}
+
+[10:35-11:00]{.time} [The transmission of monetary policy when agents fear inflation or deflation]{.title} [A. Allayioti, F. Monti, M. Piffer]{.authors}
+
+### Parallel Session 1B
+[Chair: Salvatore Nisticò]{.chair}
+
+[10:10-10:35]{.time} [Spending Allocation under Nominal Uncertainty: a Model of Effective Price Rigidity]{.title} [L. Paciello, G. Gaballo]{.authors}
+
+[10:35-11:00]{.time} [The Hitchhiker's Guide to Markup Estimation]{.title} [M. De Ridder, G. Morzenti, B. Grassi]{.authors}
+
+::: {#light}
+### Lightning Session
+[Chair: Marta Maria Pisa]{.chair} [11:30-12:10]{.time}
+
+[The Uncertainty of Fairness: A Game Theory Analysis for a Debt Mutualization Scheme in the Euro Area]{.title} [S. D'Andrea, F. Vassalli]{.authors}
+
+[Disentangling the effects of uncertainty and disagreement: A proposal using transaction-level data]{.title} [J.-G. Magrè, M. McMahon]{.authors}
+
+[Mixing it up: A new approach to inflation at risk]{.title} [M. Schroder]{.authors}
+
+[The Determinants of the Inflation Surge in Europe]{.title} [D. Colombo, F. Toni]{.authors}
+:::
+
+### Parallel Session 2A
+[Chair: Massimiliano Tancioni]{.chair}
+
+[12:10-12:35]{.time} [The Market for Inflation Risk]{.title} [S. Bahaj, R. Czech, S. Ding, R. Reis]{.authors}
+
+[12:35-13:00]{.time} [Inflation: persistence and central bank independence]{.title} [A. Athanasopoulos, D. Masciandaro, D. Romelli]{.authors}
+
+[13:00-13:25]{.time} [Do firm expectations respond to monetary policy announcements?]{.title} [F. Di Pace, G. Mangiante, R. Masolo]{.authors}
+
+### Parallel Session 2B
+[Chair: Valeria Patella]{.chair}
+
+[12:10-12:35]{.time} [Limiting mortgage debt: Aggregate demand externalities and housing market distortions]{.title} [A. Gimber, D. Miles, M. Fazio]{.authors}
+
+[12:35-13:00]{.time} [Non-Exponential Growth Theory]{.title} [R. Horii]{.authors}
+
+[13:00-13:25]{.time} [Who killed business dynamism in the U.S.?]{.title} [B. Barbaro, G. Massari, P. Tirelli]{.authors}
+
+[13:30]{.time} [Lunch]{.break}
+
+## Day 2 - September 9
+
+::: {.keynotep}
+### Keynote Session 2
+[09:00-09:40]{.time} [Greed? Profits, Inflation, and Aggregate Demand -- and Entry/Exit]{.title} [Florin Bilbiie]{.authors}
+:::
+
+### Parallel Session 3A
+[Chair: Florin Bilbiie]{.chair}
+
+[10:10-10:35]{.time} [HANK Beyond FIRE: Amplification, Forward Guidance and Belief Shocks]{.title} [J.-E. Gallegos]{.authors}
+
+[10:35-11:00]{.time} [Monetary Policy in a Bounded Rational Heterogeneous-Agent New Keynesian Framework]{.title} [M. Bondesan]{.authors}
+
+### Parallel Session 3B
+[Chair: Massimiliano Tancioni]{.chair}
+
+[10:10-10:35]{.time} [Price Discrimination and Mortgage Choice]{.title} [J. Coeny, A. Kashyap, M. Rostom]{.authors}
+
+[10:35-11:00]{.time} [Classification of monetary and fiscal dominance regimes using machine learning techniques: The euro area case]{.title} [J. Hollmayr, N. Hinterlang]{.authors}
+
+::: {#light}
+### Lightning Session
+[Chair: Marta Maria Pisa]{.chair} [11:30-12:10]{.time}
+
+[Macro-Financial Trends in a Model with Concentrated Ownership of Capital]{.title} [F. Gaudio]{.authors}
+
+[Fear of Secular Stagnation and the Natural Interest Rate]{.title} [P. Bonomolo, V. Gavazza]{.authors}
+
+[Energy Price Shocks, Unemployment, and Monetary Policy]{.title} [N. Gnocato]{.authors}
+
+[Monopsonistic Competition, Income Redistribution, and the Effects of Fiscal Policy]{.title} [B. Jansen, C. Bredemeier, R. Winkler]{.authors}
+:::
+
+### Parallel Session 4A
+[Chair: Carolina Serpieri]{.chair}
+
+[12:10-12:35]{.time} [Greed versus Fear: Optimal Time-Consistent Taxation with Default]{.title} [A. Karantounias]{.authors}
+
+[12:35-13:00]{.time} [Optimal Monetary Policy, Tariff Shocks and Exporter Dynamics]{.title} [M. Hamano, F. Pappadà, M. T. Punzi]{.authors}
+
+[13:00-13:25]{.time} [CBDC Policies in Open Economies]{.title} [M. Kumhof, P. Rungcharoenkitkul, A. Sokol, M. Pinchetti]{.authors}
+
+### Parallel Session 4B
+[Chair: Giuseppe Ragusa]{.chair}
+
+[12:10-12:35]{.time} [How do Entrants Build Market Share? The Role of Demand Frictions]{.title} [D. Argente, D. Fitzgerald, S. Moreira, A. Priolo]{.authors}
+
+[12:35-13:00]{.time} [Structural Change, Land Use and Urban Expansion]{.title} [N. Coeurdacier, M. Teignier, F. Oswald]{.authors}
+
+[13:00-13:25]{.time} [Liquidity Shocks and the Real Economy]{.title} [V. Bodart, F. Courtoy, G. Garabedian]{.authors}
+
+[14:00]{.time} [Lunch]{.break}
+
+[21:00]{.time} [Social Dinner at La Cambusa (Passeggio Aretusa, 9, Siracusa SR)]{.social}
+
+## Day 3 - September 10
+
+::: {.keynotep}
+### Keynote Session 3
+[09:00-09:40]{.time} [Bank Foreign Liabilities and Capital Requirements]{.title} [Caterina Mendicino]{.authors}
+:::
+
+### Parallel Session 5A
+[Chair: Caterina Mendicino]{.chair}
+
+[10:10-10:35]{.time} [State-Dependent Pass-Through from Monetary Policy to Lending Rates]{.title} [F. Puglisi]{.authors}
+
+[10:35-11:00]{.time} [Did Monetary Policy Kill The Phillips Curve? Some Simple Arithmetics]{.title} [D. Bergholt, F. Furlanetto, E.Vaccaro-Grange]{.authors}
+
+### Parallel Session 5B
+[Chair: Salvatore Nisticò]{.chair}
+
+[10:10-10:35]{.time} [Robots and Technological Unemployment]{.title} [F. Cossu, A. Moro, M. Rendall]{.authors}
+
+[10:35-11:00]{.time} [Robot Adoption and Inflation Dynamics]{.title} [H. S. Basso, O. Rachedi]{.authors}
+
+::: {#light}
+### Lightning Session
+[Chair: Carolina Serpieri]{.chair} [11:30-12:10]{.time}
+
+[Micro Level Data for Macro Models: The Distributional Effects of Monetary Policy]{.title} [D. Fantozzi, L. Corrado]{.authors}
+
+[Money Demand and Income Inequality: International Evidence using a Century of Data]{.title} [G. Gallacher]{.authors}
+
+[Reverse Cross-Fitting and Macroeconomic impact of Basel Capital Requirements]{.title} [M. Ciganovic, F. D'amario, M. Tancioni]{.authors}
+
+[Financial and house price shocks and their medium-run effects on the business cycle]{.title} [M. Andreani, F. Giri, R. Lucchetti]{.authors}
+:::
+
+### Parallel Session 6A
+[Chair: Giuseppe Ragusa]{.chair}
+
+[12:10-12:35]{.time} [The Labor Demand And Labor Supply Channels Of Monetary Policy]{.title} [S. Graves, E. T. Swanson, C. Huckfeldt]{.authors}
+
+[12:35-13:00]{.time} [The Natural Rate Chimera and Bond Pricing Reality]{.title} [C. Brand, W. Lemke, G. Goy]{.authors}
+
+[13:00-13:25]{.time} [US monetary policy spillovers to developing countries: the financial-commodity channel]{.title} [V. Bodart, F. Courtoy, E. Perego]{.authors}
+
+### Parallel Session 6B
+[Chair: Valeria Patella]{.chair}
+
+[12:10-12:35]{.time} [The Environmental Impact of Interest-rate Expectations and Monetary Policy]{.title} [T. Martin, J. Sauvagnat, L. Iovino]{.authors}
+
+[12:35-13:00]{.time} [Corporate taxes, productivity and business dynamism Productivity]{.title} [A. Colciago, V. Lewis, B. Matyska]{.authors}
+
+[13:00-13:25]{.time} [Climate Change Mitigation: How Effective is Green Quantitative Easing?]{.title} [R. Abiry, M. Ferdinandusse, A. Ludwig, C. Nerlich]{.authors}

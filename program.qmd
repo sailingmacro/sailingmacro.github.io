@@ -1,0 +1,24 @@
+---
+title: "Sailing the Macro Workshop"
+subtitle: "5th Edition - 2025"
+format:
+  html:
+    css: styles.css
+    toc: false
+---
+
+::: {.coming-soon}
+## 2025 Edition
+
+The Ph.D. in Economics of Sapienza University is pleased to announce the **5th Sailing the Macro Workshop** that will be held in September 2025.
+
+The complete program will be made available after the paper acceptance process has been completed. 
+
+### Important Dates
+
+- **Paper Submission Deadline**: May 5, 2025
+- **Notification of Acceptance**: May 30, 2025
+- **Program Publication**: June 15, 2025
+- **Workshop Dates**: September 5-7, 2025
+
+:::

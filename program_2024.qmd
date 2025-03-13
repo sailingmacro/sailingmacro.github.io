@@ -1,0 +1,186 @@
+---
+title: "Sailing the Macro Workshop"
+subtitle: "4th Edition - 2024"
+format:
+  html:
+    css: styles.css
+    toc: true
+    toc-title: "Program Navigation"
+    toc-location: left
+    toc-depth: 3
+---
+
+# 2024 Edition 
+
+The Ph.D. in Economics of Sapienza University organizes the 4th Sailing the Macro Workshop that will be held at the Ortygia Foundation in Ortygia, Siracusa, Italy, on 6-8 September 2024. Reflecting the breadth of modern macroeconomics, the scope of relevant topics is broad, ranging from theoretical work to empirical applications.
+
+::: {.keynote}
+## Invited Speakers {.unnumbered .unlisted}
+- **Raffaella Giacomini** (University College London)
+- **Evi Pappa** (Universidad Carlos III de Madrid)
+- **Federica Romei** (University of Oxford)
+:::
+
+## Day 1 - September 6
+
+::: {.keynotep}
+### Keynote Session 1
+
+[09:00-09:40]{.time} [Common Trends in European Labor Share Dynamics and US comparisons]{.title} [Evi Pappa]{.authors}
+:::
+
+### Parallel Session 1A
+[Chair: Francesco Simone Lucidi]{.chair}
+
+[10:00-10:25]{.time} [Central banking in times of high geopolitical risk]{.title} [A. Franconi]{.authors}
+
+[10:25-10:50]{.time} [The Dynamic Nature of Macroeconomic Risks]{.title} [S. Mouabbi, J. Renne, A. Tschopp]{.authors}
+
+[10:50-11:15]{.time} [Euro area monetary policy and financial markets: heterogeneity across policy instruments, assets and sectors]{.title} [M. Onofri, K. Theodoridis]{.authors}
+
+### Parallel Session 1B 
+[Chair: Salvatore Nisticò]{.chair}
+
+[10:00-10:25]{.time} [How Oil Shocks Propagate: Evidence on the Monetary Policy Channel]{.title} [W. Miyamoto, T. Lan Nguyen, D. Sergeyev]{.authors}
+
+[10:25-10:50]{.time} [Financial Imbalances and Macroeconomic Tail Risks: A Structural Regime-Switching Investigation]{.title} [Y. Mimir, L. Ricci]{.authors}
+
+[10:50-11:15]{.time} [The Macroeconomics of Liquidity in Financial Intermediation]{.title} [D. Porcellacchia, K. D. Sheedy]{.authors}
+
+::: {#light}
+### Lightning Session
+[Chair: Marta Maria Pisa]{.chair} [11:40-12:10]{.time}
+
+[Climate Growth-at-Risk]{.title} [D. Di Francesco, C. Brownlees, G. Fagiolo, F. Lamperti]{.authors}
+
+[The Enduring Effects of Unconventional Monetary Policy]{.title} [G. Tarquini]{.authors}
+
+[A General Theory of Holdouts]{.title} [X. Yu]{.authors}
+:::
+
+### Parallel Session 2A
+[Chair: Evi Pappa]{.chair}
+
+[12:15-12:40]{.time} [Bad luck or bad decisions? Macroeconomic implications of persistent heterogeneity in optimism]{.title} [O. Pfäuti, F. Seyrich, J. Zinman]{.authors}
+
+[12:40-13:05]{.time} [Taylor Rules with Endogenous Regimes]{.title} [K. A. Aastveit, J. Cross, F. Furlanetto, H. K. Van Dijk]{.authors}
+
+[13:05-13:30]{.time} [The Systematic Origins of Monetary Policy Shocks]{.title} [L. Hack, K. Istrefi, M. Meier]{.authors}
+
+### Parallel Session 2B 
+[Chair: Salvatore Nisticò]{.chair}
+
+[12:15-12:40]{.time} [The Foreign Liability Channel of Bank Capital Requirements]{.title} [L. Falasconi, P. Herrero, C. Mendicino, D. Supera]{.authors}
+
+[12:40-13:05]{.time} [Managing the transition to central bank digital currency]{.title} [K. Assenmacher, M. Ferrari Minesso, A. Mehl, M. S. Pagliari]{.authors}
+
+[13:05-13:30]{.time} [CBDC and Banks: Threat of Opportunity]{.title} [M. Fraschini, L. Somoza, T. Terracciano]{.authors}
+
+## Day 2 - September 7
+
+::: {.keynotep}
+### Keynote Session 2 
+[09:00-09:40]{.time}  [Inequality, expenditure composition and the transmission of the monetary policy shock]{.title} [Federica Romei]{.authors}
+:::
+
+### Parallel Session 3A 
+[Chair: Federica Romei]{.chair}
+
+[10:00-10:25]{.time} [Housing Tenure, Consumption and Household Debt: Life-Cycle Dynamics During a Housing Bust in Spain]{.title} [C. Ferreira, J. Galvez, M. Pidkuyko]{.authors}
+
+[10:25-10:50]{.time} [Household Belief Formation in Uncertain Times]{.title} [L. Gemmi, R. Mihet]{.authors}
+
+[10:50-11:15]{.time} [Heterogeneity in Household Spending and Well-being on Retirement]{.title} [P. Moran, M.O'Connell, C. O'Dea, F. Parodi]{.authors}
+
+### Parallel Session 3B 
+[Chair: Massimiliano Tancioni]{.chair}
+
+[10:00-10:25]{.time} [The Macroeconomic Implications of the Gender Revolution]{.title} [D. Bergholt, L. Fosso, F. Furlanetto]{.authors}
+
+[10:25-10:50]{.time} [Regressive Trend Inflation Shocks]{.title} [E. Pappa, S. Rast, A. Vicondoa]{.authors}
+
+[10:50-11:15]{.time} [Market Perceptions, Monetary Policy, and Credibility]{.title} [V. Cuciniello]{.authors}
+
+::: {#light}
+### Lightning Session 
+[Chair: Marta Maria Pisa]{.chair} [11:40-12:10]{.time}
+
+[The Effect of Inflation Expectations on Consumption in the New Keynesian Framework: Reconciling Theory with Empirical Ambiguity]{.title} [F. Masek]{.authors}
+
+[A Misbelieved Uncertainty-driven Inflation]{.title} [M. Ciganovic, F. D'Amario, V. Patella]{.authors}
+
+[The Fed information effects – what have trade partners to say?]{.title} [L. Kuitunen]{.authors}
+:::
+
+### Parallel Session 4A 
+[Chair: Giuseppe Ragusa]{.chair}
+
+[12:15-12:40]{.time} [Invalid proxies and volatility changes]{.title} [G. Angelini, L. Fanelli, L. Neri]{.authors}
+
+[12:40-13:05]{.time} [Estimation and Inference of the Forecast Error Variance Decomposition for Set-Identified SVARs]{.title} [F. Fusari, J. Marlow, A. Volpicella]{.authors}
+
+### Parallel Session 4B 
+[Chair: Cristiano Cantore]{.chair}
+
+[12:15-12:40]{.time} [Labor Income Risk and Monetary Policy: The Within-Wealth MPC Channel]{.title} [E. Savoia]{.authors}
+
+[12:40-13:05]{.time} [Decomposing HANK]{.title} [Z. Gong]{.authors}
+
+## Day 3 - September 8
+
+::: {.keynotep}
+### Keynote Session 3
+[09:00-09:40]{.time} [Perceived shocks and impulse responses]{.title}
+[Raffaella Giacomini]{.authors} 
+:::
+
+### Parallel Session 5A 
+[Chair: Raffaella Giacomini]{.chair}
+
+[10:00-10:25]{.time} [The Macroeconomic Effects of Inflation Expectations: The Distribution Matters]{.title} [G. Ascari, P. Bonomolo, A. Celani]{.authors}
+
+[10:25-10:50]{.time} [Uncertainty and the Business Cycle When Inflation is High]{.title} [E. Castelnuovo, G. Pellegrino, L. L. Særkjær]{.authors}
+
+[10:50-11:15]{.time} [Expectations and Forecasts: The Role of Strategic Incentives]{.title} [F. Amodeo]{.authors}
+
+### Parallel Session 5B 
+[Chair: Cristiano Cantore]{.chair}
+
+[10:00-10:25]{.time} [Do Recessions Slow Technology Growth? Evidence from the Firm Level]{.title} [M. Elfsbacka-Schmoller, O. Goldfayn-Frank, T. Schmidt]{.authors}
+
+[10:25-10:50]{.time} [A Traffic Jam Theory of Growth]{.title} [D. Finocchiaro, P. Weil]{.authors}
+
+[10:50-11:15]{.time} [Human Capital Ladders, Cyclical Sorting, and Hysteresis]{.title} [E. M. Acabbi, A. Alati, L. Mazzone]{.authors}
+
+::: {#light}
+### Lightning Session
+Chair: Francesco Simone Lucidi]{.chair} 
+
+[11:40-12:20]{.time}
+
+[Taylor Projection under Tail Risk]{.title} [O. A. Juul, J. C. Parra-Alvarez]{.authors}
+
+[Monetary Tightening, Quantitative Easing, and Financial Stability]{.title} [I. Shchapov]{.authors}
+
+[The Micro Anatomy of International Remittance Flows]{.title} [M. L. Ambrosino, A. Soenarjo]{.authors}
+
+[Default, Inflation Expectations, and the Currency Denomination in Sovereign Bonds]{.title} [F.S. Maeng]{.authors}
+:::
+
+### Parallel Session 6A 
+[Chair: Massimiliano Tancioni]{.chair}
+
+[12:25-12:50]{.time} [Privilege Lost? The Rise and Fall of a Dominant Global Currency]{.title} [K. Arvai, N. Coimbra]{.authors}
+
+[12:50-13:15]{.time} [Left and Right: A Tale of Two Tails of the Wealth Distribution]{.title} [M. D'Amato, C. Di Pietro, M. M. Sorge]{.authors}
+
+[13:15-13:40]{.time} [Optimal Climate Policy in a Global Economy]{.title} [A. Karantounias]{.authors}
+
+### Parallel Session 6B 
+[Chair: Giuseppe Ragusa]{.chair}
+
+[12:25-12:50]{.time} [Opening the Black Box: Aggregate Implications of Public Investment Composition]{.title} [H. S. Basso, M. Pidkuyko, O. Rachedi]{.authors}
+
+[12:50-13:15]{.time} [Green and Brown Returns in a Production Economy]{.title} [I. Jaccard, T. Kockerols, Y. Schüler]{.authors}
+
+[13:15-13:40]{.time} [A toolkit for Computing Constrained Optimal Policy Projections (COPPs)]{.title} [O. de Groot, F. Mazelis, R. Motto, A. Ristiniemi]{.authors}
