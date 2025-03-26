@@ -1,0 +1,409 @@
+{
+  "eventDates": {
+    "startDate": "September 05",
+    "endDate": "September 07",
+    "year": "2025",
+    "location": "Ortigia, Siracusa, Italy"
+  },
+  "days": [
+    {
+      "id": "day1",
+      "label": "Day 1 - Sep 5",
+      "schedule": [
+        {
+          "type": "keynote",
+          "time": "09:00 - 09:40",
+          "title": "Keynote Session",
+          "speaker": "Geert Mesters, Universitat Pompeu Fabra",
+          "description": "Title to be announced"
+        },
+        {
+          "type": "session-group",
+          "title": "Parallel Sessions 1A & 1B"
+        },
+        {
+          "type": "parallel-session",
+          "time": "10:00 - 11:15",
+          "sessionTitle": "Parallel Session 1A",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "10:00-10:25",
+              "title": "Presentation 1",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "10:25-10:50",
+              "title": "Presentation 2",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "10:50-11:15",
+              "title": "Presentation 3",
+              "authors": "Authors to be announced"
+            }
+          ]
+        },
+        {
+          "type": "parallel-session",
+          "time": "10:00 - 11:15",
+          "sessionTitle": "Parallel Session 1B",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "10:00-10:25",
+              "title": "Presentation 1",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "10:25-10:50",
+              "title": "Presentation 2",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "10:50-11:15",
+              "title": "Presentation 3",
+              "authors": "Authors to be announced"
+            }
+          ]
+        },
+        {
+          "type": "social",
+          "time": "11:15 - 11:45",
+          "title": "Coffee Break",
+          "description": "Networking opportunity"
+        },
+        {
+          "type": "session-group",
+          "title": "Parallel Sessions 2A & 2B"
+        },
+        {
+          "type": "parallel-session",
+          "time": "11:45 - 13:00",
+          "sessionTitle": "Parallel Session 2A",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "11:45-12:10",
+              "title": "Presentation 1",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "12:10-12:35",
+              "title": "Presentation 2",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "12:35-13:00",
+              "title": "Presentation 3",
+              "authors": "Authors to be announced"
+            }
+          ]
+        },
+        {
+          "type": "parallel-session",
+          "time": "11:45 - 13:00",
+          "sessionTitle": "Parallel Session 2B",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "11:45-12:10",
+              "title": "Presentation 1",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "12:10-12:35",
+              "title": "Presentation 2",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "12:35-13:00",
+              "title": "Presentation 3",
+              "authors": "Authors to be announced"
+            }
+          ]
+        },
+        {
+            "type": "social",
+            "time": "13:00 - 14:30",
+            "title": "Lunch",
+            "description": "Mediterranean buffet at the venue"
+          },
+        {
+          "type": "social",
+          "time": "14:30 - 18:00",
+          "title": "Sailing Activities",
+          "description": "Afternoon sailing and networking"
+        }
+      ]
+    },
+    {
+      "id": "day2",
+      "label": "Day 2 - Sep 6",
+      "schedule": [
+        {
+          "type": "keynote",
+          "time": "09:00 - 09:40",
+          "title": "Keynote Session",
+          "speaker": "Sophocles Mavroeidis, University of Oxford",
+          "description": "Title to be announced"
+        },
+        {
+          "type": "session-group",
+          "title": "Parallel Sessions 3A & 3B"
+        },
+        {
+          "type": "parallel-session",
+          "time": "10:00 - 11:15",
+          "sessionTitle": "Parallel Session 3A",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "10:00-10:25",
+              "title": "Presentation 1",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "10:25-10:50",
+              "title": "Presentation 2",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "10:50-11:15",
+              "title": "Presentation 3",
+              "authors": "Authors to be announced"
+            }
+          ]
+        },
+        {
+          "type": "parallel-session",
+          "time": "10:00 - 11:15",
+          "sessionTitle": "Parallel Session 3B",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "10:00-10:25",
+              "title": "Presentation 1",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "10:25-10:50",
+              "title": "Presentation 2",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "10:50-11:15",
+              "title": "Presentation 3",
+              "authors": "Authors to be announced"
+            }
+          ]
+        },
+        {
+          "type": "social",
+          "time": "11:15 - 11:45",
+          "title": "Coffee Break",
+          "description": "Networking opportunity"
+        },
+        {
+          "type": "session-group",
+          "title": "Parallel Sessions 4A & 4B"
+        },
+        {
+          "type": "parallel-session",
+          "time": "11:45 - 13:00",
+          "sessionTitle": "Parallel Session 4A",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "11:45-12:10",
+              "title": "Presentation 1",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "12:10-12:35",
+              "title": "Presentation 2",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "12:35-13:00",
+              "title": "Presentation 3",
+              "authors": "Authors to be announced"
+            }
+          ]
+        },
+        {
+          "type": "parallel-session",
+          "time": "11:45 - 13:00",
+          "sessionTitle": "Parallel Session 4B",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "11:45-12:10",
+              "title": "Presentation 1",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "12:10-12:35",
+              "title": "Presentation 2",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "12:35-13:00",
+              "title": "Presentation 3",
+              "authors": "Authors to be announced"
+            }
+          ]
+        },
+        {
+          "type": "social",
+          "time": "13:00 - 14:30",
+          "title": "Lunch",
+          "description": "Mediterranean buffet at the venue"
+        },
+        {
+          "type": "social",
+          "time": "14:30 - 18:00",
+          "title": "Sailing Activities",
+          "description": "Afternoon sailing and networking"
+        },
+        {
+          "type": "social",
+          "time": "20:00",
+          "title": "Social Dinner",
+          "description": "Conference dinner at a local restaurant (to be announced)"
+        }
+      ]
+    },
+    {
+      "id": "day3",
+      "label": "Day 3 - Sep 7",
+      "schedule": [
+        {
+          "type": "keynote",
+          "time": "09:00 - 09:40",
+          "title": "Keynote Session",
+          "speaker": "Refet Gürkaynak, Bilkent University",
+          "description": "Title to be announced"
+        },
+        {
+          "type": "session-group",
+          "title": "Parallel Sessions 5A & 5B"
+        },
+        {
+          "type": "parallel-session",
+          "time": "10:00 - 11:15",
+          "sessionTitle": "Parallel Session 5A",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "10:00-10:25",
+              "title": "Presentation 1",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "10:25-10:50",
+              "title": "Presentation 2",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "10:50-11:15",
+              "title": "Presentation 3",
+              "authors": "Authors to be announced"
+            }
+          ]
+        },
+        {
+          "type": "parallel-session",
+          "time": "10:00 - 11:15",
+          "sessionTitle": "Parallel Session 5B",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "10:00-10:25",
+              "title": "Presentation 1",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "10:25-10:50",
+              "title": "Presentation 2",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "10:50-11:15",
+              "title": "Presentation 3",
+              "authors": "Authors to be announced"
+            }
+          ]
+        },
+        {
+          "type": "social",
+          "time": "11:15 - 11:45",
+          "title": "Coffee Break",
+          "description": "Networking opportunity"
+        },
+        {
+          "type": "session-group",
+          "title": "Parallel Sessions 6A & 6B"
+        },
+        {
+          "type": "parallel-session",
+          "time": "11:45 - 13:00",
+          "sessionTitle": "Parallel Session 6A",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "11:45-12:10",
+              "title": "Presentation 1",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "12:10-12:35",
+              "title": "Presentation 2",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "12:35-13:00",
+              "title": "Presentation 3",
+              "authors": "Authors to be announced"
+            }
+          ]
+        },
+        {
+          "type": "parallel-session",
+          "time": "11:45 - 13:00",
+          "sessionTitle": "Parallel Session 6B",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "11:45-12:10",
+              "title": "Presentation 1",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "12:10-12:35",
+              "title": "Presentation 2",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "12:35-13:00",
+              "title": "Presentation 3",
+              "authors": "Authors to be announced"
+            }
+          ]
+        },
+        {
+          "type": "social",
+          "time": "13:00 - 14:30",
+          "title": "Lunch",
+          "description": "Mediterranean buffet at the venue"
+        },
+        {
+          "type": "social",
+          "time": "14:30 - 19:00",
+          "title": "Sailing Activities",
+          "description": "Afternoon sailing and networking"
+        }
+      ]
+    }
+  ]
+}

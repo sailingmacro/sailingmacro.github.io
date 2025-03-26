@@ -1,714 +1,608 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.40">
-
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-
-<meta name="description" content="5th Sailing the Macro Workshop - Ortigia, Siracusa, Italy">
-
-<title>Sailing the Macro Workshop 2024 – Sailing the macro workshop</title>
-<style>
-code{white-space: pre-wrap;}
-span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
-div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-ul.task-list{list-style: none;}
-ul.task-list li input[type="checkbox"] {
-  width: 0.8em;
-  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
-  vertical-align: middle;
-}
-</style>
-
-
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./swmlogo.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-22351de6480ef44c9d5941bb17ae0af5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
-  "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
-  }
-}</script>
-
-
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="index.css">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sailing the Macro Workshop 2025</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/swmlogo.png" type="image/png">
+    <style>
+        /* Additional styling for collapsible sessions */
+        .collapsible-header {
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--spacing-sm) var(--spacing-md);
+            background-color: rgba(var(--primary-color-rgb), 0.1);
+            border-radius: var(--radius-md);
+            margin-bottom: var(--spacing-xs);
+            transition: all var(--transition-fast);
+        }
+        
+        .collapsible-header:hover {
+            background-color: rgba(var(--primary-color-rgb), 0.15);
+        }
+        
+        .collapsible-header h4 {
+            margin: 0;
+            display: flex;
+            align-items: center;
+        }
+        
+        .collapsible-toggle {
+            font-size: 1rem;
+            transition: transform 0.3s ease;
+        }
+        
+        .collapsible-content {
+            overflow: hidden;
+            max-height: 0;
+            transition: max-height 0.3s ease-out;
+        }
+        
+        .collapsible-header.active .collapsible-toggle {
+            transform: rotate(180deg);
+        }
+        
+        .collapsible-header.active + .collapsible-content {
+            max-height: 2000px; /* Large enough to accommodate content */
+            transition: max-height 0.5s ease-in;
+        }
+        
+        /* Session chair should be displayed in the header when collapsed */
+        .session-chair-preview {
+            margin-left: var(--spacing-md);
+            font-size: 0.85em;
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+    </style>
 </head>
+<body>
+    <!-- Header with sticky navigation -->
+    <header id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="#home"><img src="assets/images/swmlogo.png" alt="Sailing Logo" class="logo-img"><span class="logo-text">Sailing the Macro</span></a>
+                </div>
+                <nav class="main-nav">
+                    <div class="mobile-menu-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="#call-for-papers">Call for Papers</a></li>
+                        <li><a href="#program">Conference Program</a></li>
+                        <li><a href="#information">Information</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle">Past Events <i class="fas fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="past events/2024/">Ortigia 2024</a></li>
+                                <li><a href="past events/2023/">Ortigia 2023</a></li>
+                                <li><a href="past events/2022/">Ventotene 2022</a></li>
+                                <li><a href="past events/2021/">Ventotene 2021</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-buttons">
+                    <a href="https://forms.gle/G13o6GTPojDZZi6m9" target="_blank" class="btn btn-primary">Submit Paper</a>
+                    <a href="https://res.org.uk/submissions" target="_blank" class="btn btn-secondary journal-button">Submit for Special Issue</a>
+                </div>
+            </div>
+        </div>
+    </header>
 
-<body class="nav-fixed fullcontent">
+    <!-- Main content with sections -->
+    <main>
+        <!-- Home section -->
+        <section id="home" class="section active">
+            <div class="container">
+                <div class="hero">
+                    <h1>5th Sailing the Macro Workshop</h1>
+                    <h2>September 05-07, 2025</h2>
+                    <p class="lead">Ortigia, Siracusa, Italy</p>
+                    <div class="hero-buttons">
+                        <a href="https://forms.gle/G13o6GTPojDZZi6m9" target="_blank" class="btn btn-primary btn-lg">Submit Your Paper</a>
+                        <a href="#program" class="btn btn-secondary btn-lg">View Program</a>
+                    </div>
+                    <div class="speakers-container">
+                        <h3>Keynote Speakers</h3>
+                        <div class="speakers-grid">
+                            <div class="speaker-card">
+                                <div class="speaker-image">
+                                    <img src="assets/keynotes/Geert Mesters.png" alt="Geert Mesters">
+                                </div>
+                                <h4>Geert Mesters</h4>
+                                <p class="speaker-title">Universitat Pompeu Fabra</p>
+                            </div>
+                            <div class="speaker-card">
+                                <div class="speaker-image">
+                                    <img src="assets/keynotes/Sophocles Mavroeidis.png" alt="Sophocles Mavroeidis">
+                                </div>
+                                <h4>Sophocles Mavroeidis</h4>
+                                <p class="speaker-title">University of Oxford</p>
+                            </div>
+                            <div class="speaker-card">
+                                <div class="speaker-image">
+                                    <img src="assets/keynotes/Refet Gürkaynak.png" alt="Refet Gürkaynak">
+                                </div>
+                                <h4>Refet Gürkaynak</h4>
+                                <p class="speaker-title">Bilkent University</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="countdown">
+                        <div class="countdown-item">
+                            <span class="count" id="days">00</span>
+                            <span class="label">Days</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="count" id="hours">00</span>
+                            <span class="label">Hours</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="count" id="minutes">00</span>
+                            <span class="label">Minutes</span>
+                        </div>
+                        <div class="countdown-item">
+                            <span class="count" id="seconds">00</span>
+                            <span class="label">Seconds</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#call-for-papers"><i class="fas fa-chevron-down"></i></a>
+            </div>
+        </section>
 
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./swmlogo.png" alt="SWM" class="navbar-logo">
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll me-auto">
-  <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
-<span class="menu-text">Call for Papers</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./program.html"> 
-<span class="menu-text">Conference Program</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./information.html"> 
-<span class="menu-text">Information</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-past-edition" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Past edition</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-past-edition">    
-        <li>
-    <a class="dropdown-item" href="./program_2024.html">
- <span class="dropdown-text">Ortygia 2024</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./program_2023.html">
- <span class="dropdown-text">Ortygia 2023</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./program_2022.html">
- <span class="dropdown-text">Ventotene 2022</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./program_2021.html">
- <span class="dropdown-text">Ventotene 2021</span></a>
-  </li>  
-    </ul>
-  </li>
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-    <a href="https://bsky.app/profile/sailingthemacro.bsky.social" title="BlueSky" class="quarto-navigation-tool px-1" aria-label="BlueSky"><i class="bi bi-twitter"></i></a>
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-layout-custom page-navbar">
-<!-- sidebar -->
-<!-- margin-sidebar -->
-<!-- main -->
+        <!-- Call for Papers section -->
+        <section id="call-for-papers" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Call for Papers</h2>
+                    <p>5th Sailing the Macro Workshop - September 5-7, 2025</p>
+                </div>
+                <div class="section-content">
+                    <p>We are pleased to announce that the fifth edition of the Sailing the Macro Workshop will be held at the Ortygia Foundation in Ortygia, Siracusa, Italy. We invite submissions from researchers, academics, and practitioners for original research papers covering various macroeconomics topics. The workshop aims to facilitate discussions of ongoing research on policy-relevant questions and provide a platform for exchanging ideas and findings among experts in the field.</p>
+                    
+                    <p>The <span class="econometrics-journal">The Econometrics Journal</span> will feature a special issue on "<span class="macro-policy">Macroeconometric Policy Analysis</span>." Conference participants whose papers align with this theme will have the opportunity to submit their work for consideration in this special issue.</p>
+                    
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-date">
+                                <span>May 11, 2025</span>
+                            </div>
+                            <div class="timeline-content">
+                                <h3>Submission Deadline</h3>
+                                <p>Final deadline for all research paper submissions, by 12 CET.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">
+                                <span>May 30, 2025</span>
+                            </div>
+                            <div class="timeline-content">
+                                <h3>Notification of Acceptance</h3>
+                                <p>Authors will be notified about the acceptance of their papers.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-date">
+                                <span>June 15, 2025</span>
+                            </div>
+                            <div class="timeline-content">
+                                <h3>Program Publication</h3>
+                                <p>The complete program will be published.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h3 class="topics-heading">Conference Topics</h3>
+                    <p>The workshop welcomes submissions across the full spectrum of macroeconomics research. Topics include, but are not limited to:</p>
+                    
+                    <div class="topics-container">
+                        <div class="topics-grid">
+                            <div class="topic-item topic-economic-policy">
+                                <h4 class="topic-title">Economic Policy</h4>
+                                <ul>
+                                    <li>Monetary policy design and implementation</li>
+                                    <li>Fiscal policy and government spending</li>
+                                    <li>Policy coordination and international spillovers</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="topic-item topic-macro-theory">
+                                <h4 class="topic-title">Macroeconomic Theory</h4>
+                                <ul>
+                                    <li>DSGE modeling and extensions</li>
+                                    <li>Business cycle analysis</li>
+                                    <li>Expectations and learning in macro models</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="topic-item topic-international">
+                                <h4 class="topic-title">International Economics</h4>
+                                <ul>
+                                    <li>Exchange rate dynamics</li>
+                                    <li>International capital flows</li>
+                                    <li>Trade and global value chains</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="topic-item topic-financial">
+                                <h4 class="topic-title">Financial Markets</h4>
+                                <ul>
+                                    <li>Financial stability and systemic risk</li>
+                                    <li>Asset pricing and macroeconomic factors</li>
+                                    <li>Banking sector and credit markets</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="topic-item topic-emerging">
+                                <h4 class="topic-title">Emerging Challenges</h4>
+                                <ul>
+                                    <li>Climate change economics</li>
+                                    <li>Inequality and distributional effects</li>
+                                    <li>Digitalization and technological change</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="topic-item topic-econometrics featured">
+                                <h4 class="topic-title">Econometric Methods</h4>
+                                <ul>
+                                    <li>Time series and panel data techniques</li>
+                                    <li>Structural estimation and identification</li>
+                                    <li>Big data and machine learning applications</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="call-for-papers-footer">
+                        <div class="unified-submission-card">
+                            <div class="special-focus-section">
+                                <p>Given the upcoming <span class="econometrics-journal">The Econometrics Journal</span> special issue, we particularly encourage submissions focusing on innovative macroeconometric methods, empirical policy evaluation techniques, and quantitative frameworks for analyzing macroeconomic policies.</p>
+                            </div>
+                            
+                            <div class="card-divider"></div>
+                            
+                            <div class="submission-info-section">
+                                <div class="submission-option">
+                                    <div class="submission-icon">
+                                        <i class="fas fa-file-upload"></i>
+                                    </div>
+                                    <div class="submission-text">
+                                        <h3>Paper Submission</h3>
+                                        <p>Complete papers are preferred. All submissions must be in PDF format.</p>
+                                        
+                                        <div class="submission-requirements">
+                                            <h4>Submission Requirements</h4>
+                                            <ul>
+                                                <li>Complete papers are preferred</li>
+                                                <li>All submissions must be in PDF format</li>
+                                            </ul>
+                                        </div>
+                                        
+                                        <div class="important-notice">
+                                            <h4>Important Notice</h4>
+                                            <p>Authors who intend to submit their papers for the special issue should mark the appropriate field in the conference submission form.</p>
+                                        </div>
+                                    </div>
+                                    <div class="submission-action">
+                                        <a href="https://forms.gle/G13o6GTPojDZZi6m9" target="_blank" class="btn btn-primary">Submit Paper</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="submission-option special-issue">
+                                    <div class="submission-icon">
+                                        <i class="fas fa-book"></i>
+                                    </div>
+                                    <div class="submission-text">
+                                        <h3>Special Issue Submission</h3>
+                                        <p><span class="econometrics-journal">The Econometrics Journal</span> will publish a Special Issue on the topic "<span class="macro-policy">Macroeconometric Policy Analysis</span>," edited by <a href="https://raffaellagiacomini.wixsite.com/research" target="_blank" class="editor-link">Raffaella Giacomini</a> (UCL) in collaboration with <a href="https://sites.google.com/view/danjlewis/home" target="_blank" class="editor-link">Daniel Lewis</a> (UCL). We are encouraging submissions on this topic to both the conference and the journal special issue.</p>
+                                        
+                                        <div class="special-issue-details">
+                                            <p>Authors should select "<strong>Special Issue Article: MACROPOLICY</strong>" as the "category of submission" in Step 2 of the submission procedure.</p>
+                                        </div>
+                                        
+                                        <div class="important-notice">
+                                            <h4>Important Notice</h4>
+                                            <p>Authors who intend to submit their papers for the special issue should mark the appropriate field in the conference submission form.</p>
+                                        </div>
+                                        
+                                        <p>Submissions to the special issue should follow the journal guidelines at:</p>
+                                    </div>
+                                    <div class="submission-action">
+                                        <a href="https://res.org.uk/submissions" target="_blank" class="btn btn-secondary journal-button">Submit for Special Issue</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#program"><i class="fas fa-chevron-down"></i></a>
+            </div>
+        </section>
 
+        <!-- Conference Program section -->
+        <section id="program" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Conference Program</h2>
+                    <p>September 5-7, 2025 | Ortigia, Siracusa, Italy</p>
+                </div>
+                <div class="section-content">
+                    <p>The Ph.D. in Economics of Sapienza University is pleased to announce the 5th Sailing the Macro Workshop that will be held in September 2025. The complete program will be made available after the paper acceptance process has been completed.</p>
+                    
+                    <div class="program-tabs">
+                        <!-- Content will be dynamically populated here -->
+                    </div>
+                </div>
+            </div>
+            <div class="section-down-arrow">
+                <a href="#information"><i class="fas fa-chevron-down"></i></a>
+            </div>
+        </section>
 
+        <!-- Information section -->
+        <section id="information" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Information</h2>
+                    <p>Everything you need to know about the conference</p>
+                </div>
+                <div class="section-content">
+                    <div class="info-cards-container">
+                        <div class="info-grid">
+                            <div class="info-card venue-card">
+                                <div class="card-spotlight"></div>
+                                <div class="info-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <h3>Venue</h3>
+                                <div class="venue-details">
+                                    <p><a href="https://www.ortygiabs.org/en" target="_blank" class="venue-link">Fondazione Ortygia</a><br>Via Roma 124<br>96100 Siracusa, Italy</p>
+                                    <div class="venue-actions">
+                                        <a href="/assets/pdfs/welcomeguide.pdf" download class="btn btn-primary venue-btn">
+                                            <i class="fas fa-file-pdf"></i> Venue Guide
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-card">
+                                <div class="card-spotlight"></div>
+                                <div class="info-icon">
+                                    <i class="fas fa-euro-sign"></i>
+                                </div>
+                                <h3>Conference Fees</h3>
+                                <p><strong>Standard:</strong> 250 Euros<br><strong>PhD Students:</strong> 150 Euros</p>
+                                <p class="small-text">Includes all sessions, materials, breaks, and conference dinner</p>
+                                <p class="small-text">Does not include accomodation costs and travel expenses</p>
+                            </div>
+                            <div class="info-card">
+                                <div class="card-spotlight"></div>
+                                <div class="info-icon">
+                                    <i class="fas fa-ship"></i>
+                                </div>
+                                <h3>Sailing Activities</h3>
+                                <p>Afternoons will be dedicated to sailing sessions</p>
+                            </div>
+                            <div class="info-card">
+                                <div class="card-spotlight"></div>
+                                <div class="info-icon">
+                                    <i class="fas fa-graduation-cap"></i>
+                                </div>
+                                <h3>PhD Opportunities</h3>
+                                <p>Special opportunities for PhD students to present research and network</p>
+                            </div>
+                        </div>
+                    </div>
+                    
 
+                    
+                    <div class="committee-section">
+                        <h3>Scientific & Organizing Committee</h3>
+                        <div class="organization-statement">
+                            <div class="organization-icon">
+                                <i class="fas fa-university"></i>
+                            </div>
+                            <div class="organization-text">
 
-<div class="content-block">
-<section id="th-sailing-the-macro-workshop" class="hero-text">
-<h1>5th Sailing the Macro Workshop</h1>
-<h3 id="september-5-7-ortigia-siracusa-italy">September 5-7, Ortigia, Siracusa, Italy</h3>
-<p>We are pleased to announce that the fifth edition of the Sailing the Macro Workshop will be held at the Ortygia Foundation in Ortygia, Siracusa, Italy.</p>
-<p>We invite submissions from researchers, academics, and practitioners for original research papers covering various macroeconomics topics. The workshop aims to facilitate discussions of ongoing research on policy-relevant questions and provide a platform for exchanging ideas and findings among experts in the field.</p>
-<p>The <span style="font-color: #822433">Econometrics Journal</span> will feature a special issue on “Macroeconometric Policy Analysis.” Conference participants whose papers align with this theme will have the opportunity to submit their work for consideration in this special issue (see below for submission guidelines).</p>
-<section id="keynote-speakers" class="keynote">
-<h3><span class="redsap">Keynote speakers</span></h3>
-<ul>
-<li>Refet Gürkaynak (<em>Bilkent University</em>)</li>
-<li>Sophocles Mavroeidis (<em>University of Oxford</em>)</li>
-<li>Geert Mesters (<em>Universitat Pompeu Fabra</em>)</li>
-</ul>
-</section>
-<h2 id="conference-topics">Conference Topics</h2>
-<p>The workshop welcomes submissions across the full spectrum of macroeconomics research. Topics include, but are not limited to:</p>
-<ul>
-<li>Macroeconomic theory and modeling</li>
-<li>Monetary and fiscal policy analysis</li>
-<li>International macroeconomics and open economy models</li>
-<li>Labor markets and unemployment dynamics</li>
-<li>Growth theory and economic development</li>
-<li>Financial market interactions with the real economy</li>
-<li>Climate change and macroeconomic implications</li>
-<li>Distributional aspects of macroeconomic policies</li>
-<li>Macroeconometric tools and methods relevant for policy analysis</li>
-</ul>
-<p>Given the upcoming #text(fill: redsap)[Econometrics Journal] special issue, we particularly encourage submissions focusing on innovative macroeconometric methods, empirical policy evaluation techniques, and quantitative frameworks for analyzing macroeconomic policies.</p>
-<h2 id="conference-submission-guidelines">Conference Submission Guidelines</h2>
-<p>We invite authors to submit their original, unpublished research papers to be considered for presentation at the conference.</p>
-<p>Please submit your paper using the submission <a href="https://">form</a>.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><strong>Deadline:</strong> <span class="redsap">by 12 CET on 05 May 2024</span></p>
-<p><strong>Acceptance notification:</strong> Authors will be notified of the acceptance by the end of May 2025.</p>
-</div>
-</div>
-<h2 id="econometrics-journal-special-issue">Econometrics Journal Special Issue</h2>
-<p>The <span class="redsap">Econometrics Journal</span> will publish a Special Issue on the topic <span class="redsap"><em>Macroeconometric Policy Analysis</em></span>, edited by <a href="https://raffaellagiacomini.wixsite.com/research">Raffaella Giacomini</a> (UCL) in collaboration with <a href="https://sites.google.com/view/danjlewis/home">Daniel Lewis</a> (UCL). We are encouraging submissions on this topic to <span class="red">both</span> the conference and the journal special issue.</p>
-<p>Submissions to the special issue should follow the journal guidelines at</p>
-<p><a href="https://res.org.uk/submissions" class="uri">https://res.org.uk/submissions</a></p>
-<p>Authors should select “Special Issue Article: MACROPOLICY” as the “category of submission” in Step 2 of the submission procedure.</p>
-<div class="callout callout-style-default callout-important callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Important
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Authors who intend to submit their papers for the special issue should mark the approapriate field in the conference submission form.</p>
-</div>
-</div>
-</section>
-</div>
-<div class="content-block">
-<div class="features">
-<section id="phd-students" class="feature">
-<h3>PhD Students</h3>
-<p>The conference organizing committee is committed to supporting and nurturing the next generation of macroeconomic researchers. As such, we highly encourage Ph.D.&nbsp;students to submit their research papers for presentation at the conference.</p>
-<p>Ph.D.&nbsp;students will have the opportunity to present their work to a distinguished audience of experts in the field, receive valuable feedback on their research, and establish connections with leading academics and practitioners.</p>
-<!-- ::: {.learn-more}
-[Learn more »](docs/output-formats/all-formats.qmd)
-::: -->
-</section>
-<section id="conference-venue" class="feature">
-<h3>Conference Venue</h3>
-<p>The conference will be held at the <a href="&quot;https://www.ortygiabs.org/en&quot;">Ortygia Foundation</a>, located in the heart of Ortygia, Siracusa, Italy.</p>
-<p>The Foundation offers an inspiring and unique setting for intellectual exchange and debate, fostering collaboration and networking among participants.</p>
-<!-- ::: {.learn-more}
-[Learn more »](information.qmd)
-::: -->
-</section>
-<section id="sailing-the-macro" class="feature">
-<h3>Sailing the Macro</h3>
-<p>As it is now tradition with the Sailing the Macro workshop, the afternoons will be dedicated to sailing.</p>
-<!-- Conference participants can join sailing courses organized by [Magister Marine](https://www.facebook.com/MagisterMarine/). -->
-<!-- ::: {.learn-more}
-[Learn more »](docs/tools/jupyter-lab.qmd)
-::: -->
-</section>
-<section id="conference-fees" class="feature">
-<h3>Conference Fees</h3>
-<p>To partially cover conference costs, a registration fee of 200 Euros is applicable for all participants, with a discounted fee of 100 Euros for Ph.D.&nbsp;students.</p>
-<p>The conference fee includes access to all conference sessions, conference materials, coffee breaks, lunches, and a conference dinner. Please note that accommodation and travel expenses are not included in the conference fee and must be arranged by the participants.</p>
-<!-- ::: {.learn-more}
-[Learn more »](docs/interactive/)
-::: -->
-</section>
-<section id="scientific-organizing-committee" class="feature">
-<h3>Scientific &amp; Organizing Committee</h3>
-<ul>
-<li>Elton Beqiraj (Sapienza University)</li>
-<li>Cristiano Cantore (Sapienza University)</li>
-<li>Raffaella Giacomini (UCL)</li>
-<li>Daniel Lewis (UCL)</li>
-<li>Francesco Lucidi (Sapienza University)</li>
-<li>Salvatore Nisticò (Sapienza University)</li>
-<li>Valeria Patella (Sapienza University)</li>
-<li>Marta Maria Pisa (Sapienza University &amp; Ghent University)</li>
-<li>Giuseppe Ragusa (Sapienza University)</li>
-<li>Massimiliano Tancioni (Sapienza University)</li>
-</ul>
-</section>
-</div>
-</div>
+                                <p>The workshop is organized by the Ph.D. in Economics at Sapienza University in the Department of Economics and Law, in collaboration with the Department of Social Sciences and Economics at Sapienza University and the Department of Economics and Statistics at the University of Naples Federico II.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="committee-grid">
+                            <div class="committee-member">
+                                <p><strong>Elton Beqiraj</strong><br><span>Sapienza University of Rome</span></p>
+                            </div>
+                            <div class="committee-member">
+                                <p><strong>Dario Bonciani</strong><br><span>Sapienza University of Rome</span></p>
+                            </div>
+                            <div class="committee-member">
+                                <p><strong>Cristiano Cantore</strong><br><span>Sapienza University of Rome</span></p>
+                            </div>
+                            <div class="committee-member">
+                                <p><strong>Fabio Di Dio</strong><br><span>Sapienza University of Rome</span></p>
+                            </div>
+                            <div class="committee-member">
+                                <p><strong>Raffaella Giacomini</strong><br><span>University College London</span></p>
+                            </div>
+                            <div class="committee-member">
+                                <p><strong>Daniel Lewis</strong><br><span>University College London</span></p>
+                            </div>
+                            <div class="committee-member">
+                                <p><strong>Francesco Simone Lucidi</strong><br><span>University of Naples Federico II</span></p>
+                            </div>
+                            <div class="committee-member">
+                                <p><strong>Salvatore Nisticò</strong><br><span>Sapienza University of Rome</span></p>
+                            </div>
+                            <div class="committee-member">
+                                <p><strong>Valeria Patella</strong><br><span>Sapienza University of Rome</span></p>
+                            </div>
+                            <div class="committee-member">
+                                <p><strong>Marta Maria Pisa</strong><br><span>Sapienza University & Ghent University</span></p>
+                            </div>
+                            <div class="committee-member">
+                                <p><strong>Giuseppe Ragusa</strong><br><span>Sapienza University of Rome</span></p>
+                            </div>
+                            <div class="committee-member">
+                                <p><strong>Carolina Serpieri</strong><br><span>Sapienza University of Rome</span></p>
+                            </div>
+                            <div class="committee-member">
+                                <p><strong>Saverio Simonelli</strong><br><span>University of Naples Federico II</span></p>
+                            </div>
+                            <div class="committee-member">
+                                <p><strong>Massimiliano Tancioni</strong><br><span>Sapienza University of Rome</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Sailing the Macro Workshop</h3>
+                    <p>5th Edition | September 5-7, 2025</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#call-for-papers">Call for Papers</a></li>
+                            <li><a href="#program">Program</a></li>
+                            <li><a href="#information">Information</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Past Events</h4>
+                        <ul>
+                            <li><a href="past events/2024/">Ortigia 2024</a></li>
+                            <li><a href="past events/2023/">Ortigia 2023</a></li>
+                            <li><a href="past events/2022/">Ventotene 2022</a></li>
+                            <li><a href="past events/2021/">Ventotene 2021</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <p>For inquiries about the workshop, please email:</p>
+                        <a href="mailto:smw.dipecodir@uniroma1.it" class="contact-email">smw.dipecodir@uniroma1.it</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="university-info">
+                    <h4>Sapienza University's Ph.D. in Economics</h4>
+                    <p>Department of Economics and Law</p>
+                </div>
+                <p class="copyright">&copy; 2025 Sailing the Macro Workshop. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="https://bsky.app/profile/sailingthemacro.bsky.social" class="bluesky-icon" target="_blank" rel="noopener noreferrer"><img src="assets/images/bsky.svg" alt="Bluesky" class="bluesky-svg"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-
-
-<script type="text/javascript">
-
-// replace cmd keyboard shortcut w/ control on non-Mac platforms
-const kPlatformMac = typeof navigator !== 'undefined' ? /Mac/.test(navigator.platform) : false;
-if (!kPlatformMac) {
-   var kbds = document.querySelectorAll("kbd")
-   kbds.forEach(function(kbd) {
-      kbd.innerHTML = kbd.innerHTML.replace(/⌘/g, '⌃');
-   });
-}
-
-</script>
-<script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
-      }
-    }
-    return false;
-  }
-  const onCopySuccess = function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
-      }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
-  });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
-    });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/sailingthemacro\.org");
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
-      }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-    const config = {
-      allowHTML: true,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start',
-    };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
-        }
-        return container.innerHTML
-      } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
-      }
-    }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
-          }
-        } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
-            if (note !== null) {
-              const html = processXRef(id, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/program-renderer.js"></script>
+    <script>
+        // Initialize the program renderer
+        document.addEventListener('DOMContentLoaded', () => {
+            const programRenderer = new ProgramRenderer('#program', 'program/program2025.json');
+            programRenderer.init().then(() => {
+                // Make parallel sessions collapsible AFTER the program is rendered
+                makeSessionsCollapsible();
+            });
         });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
+
+        // Make parallel sessions collapsible
+        document.addEventListener('DOMContentLoaded', () => {
+            // Add animation class to items after they load
+            const animatedElements = document.querySelectorAll('.session-item, .schedule-item, .speaker-card');
+            
+            animatedElements.forEach((element, index) => {
+                setTimeout(() => {
+                    element.classList.add('animated');
+                }, 100 * index);
+            });
         });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
+        
+        function makeSessionsCollapsible() {
+            // Target all session containers that have multiple session items
+            const sessionContainers = document.querySelectorAll('.schedule-item:not(.keynote):not(.break):not(.social)');
+            
+            sessionContainers.forEach(container => {
+                const detailsElement = container.querySelector('.schedule-details');
+                if (!detailsElement) return;
+                
+                const sessionTitle = detailsElement.querySelector('h4');
+                const sessionChair = detailsElement.querySelector('.session-chair');
+                
+                if (!sessionTitle) return;
+                
+                // Create collapsible header
+                const collapsibleHeader = document.createElement('div');
+                collapsibleHeader.className = 'collapsible-header';
+                
+                // Create header content with title and chair preview
+                const headerContent = document.createElement('h4');
+                headerContent.textContent = sessionTitle.textContent;
+                
+                if (sessionChair) {
+                    const chairPreview = document.createElement('span');
+                    chairPreview.className = 'session-chair-preview';
+                    chairPreview.textContent = sessionChair.textContent;
+                    headerContent.appendChild(chairPreview);
+                }
+                
+                // Add toggle icon
+                const toggleIcon = document.createElement('span');
+                toggleIcon.className = 'collapsible-toggle';
+                toggleIcon.innerHTML = '<i class="fas fa-chevron-down"></i>';
+                
+                collapsibleHeader.appendChild(headerContent);
+                collapsibleHeader.appendChild(toggleIcon);
+                
+                // Create collapsible content container
+                const collapsibleContent = document.createElement('div');
+                collapsibleContent.className = 'collapsible-content';
+                
+                // Move all session items into the collapsible content
+                const sessionItems = Array.from(detailsElement.children);
+                sessionItems.forEach(item => {
+                    if (item !== sessionTitle && !item.classList.contains('session-group-title')) {
+                        collapsibleContent.appendChild(item);
+                    }
+                });
+                
+                // Replace the original content with the collapsible structure
+                sessionTitle.remove();
+                detailsElement.prepend(collapsibleContent);
+                detailsElement.prepend(collapsibleHeader);
+                
+                // Add click event to toggle collapsible content
+                collapsibleHeader.addEventListener('click', () => {
+                    collapsibleHeader.classList.toggle('active');
+                });
+                
+            });
         }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
-      });
-    }
-  }
-});
-</script>
-</div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
-      &nbsp;
-    </div>   
-    <div class="nav-footer-center">
-<p>Sapienza University’s Ph.D.&nbsp;in Economics</p>
-</div>
-    <div class="nav-footer-right">
-<p>Department of Economics and Law</p>
-</div>
-  </div>
-</footer>
-
-
-
-
-</body></html>
+    </script>
+</body>
+</html>

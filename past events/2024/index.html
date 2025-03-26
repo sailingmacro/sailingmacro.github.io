@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ortigia 2024 - Sailing the Macro Workshop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <!-- Favicon -->
+    <link rel="icon" href="../../assets/images/swmlogo.png" type="image/png">
+    <style>
+        /* Additional styling specific to past events */
+        .past-event-hero {
+            padding-top: calc(var(--header-height) + var(--spacing-xl));
+        }
+        
+        .session-item {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: var(--spacing-md);
+            padding: var(--spacing-md);
+            background-color: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(5px);
+            -webkit-backdrop-filter: blur(5px);
+            border-radius: var(--radius-md);
+            transition: all var(--transition-fast);
+        }
+        
+        .session-item:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-md);
+        }
+        
+        .session-title {
+            font-weight: 600;
+            margin-bottom: var(--spacing-xs);
+        }
+        
+        .session-authors {
+            font-style: italic;
+            color: var(--text-secondary);
+            font-size: 0.9em;
+        }
+        
+        .session-time {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: var(--spacing-xs);
+        }
+        
+        .session-chair {
+            font-size: 0.9em;
+            color: var(--primary-dark);
+            margin-bottom: var(--spacing-sm);
+            font-style: italic;
+        }
+        
+        .back-to-home {
+            display: flex;
+            align-items: center;
+            margin-bottom: var(--spacing-xl);
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+        
+        .back-to-home i {
+            margin-right: var(--spacing-xs);
+        }
+
+        /* Additional styling for collapsible sessions */
+        .collapsible-header {
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: var(--spacing-sm) var(--spacing-md);
+            background-color: rgba(var(--primary-color-rgb), 0.1);
+            border-radius: var(--radius-md);
+            margin-bottom: var(--spacing-xs);
+            transition: all var(--transition-fast);
+        }
+        
+        .collapsible-header:hover {
+            background-color: rgba(var(--primary-color-rgb), 0.15);
+        }
+        
+        .collapsible-header h4 {
+            margin: 0;
+            display: flex;
+            align-items: center;
+        }
+        
+        .collapsible-toggle {
+            font-size: 1rem;
+            transition: transform 0.3s ease;
+        }
+        
+        .collapsible-content {
+            overflow: hidden;
+            max-height: 0;
+            transition: max-height 0.3s ease-out;
+        }
+        
+        .collapsible-header.active .collapsible-toggle {
+            transform: rotate(180deg);
+        }
+        
+        .collapsible-header.active + .collapsible-content {
+            max-height: 2000px; /* Large enough to accommodate content */
+            transition: max-height 0.5s ease-in;
+        }
+        
+        /* Session chair should be displayed in the header when collapsed */
+        .session-chair-preview {
+            margin-left: var(--spacing-md);
+            font-size: 0.85em;
+            font-style: italic;
+            color: var(--text-secondary);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header with sticky navigation -->
+    <header id="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="../../index.html#home"><img src="../../assets/images/swmlogo.png" alt="Sailing Logo" class="logo-img"><span class="logo-text">Sailing the Macro</span></a>
+                </div>
+                <nav class="main-nav">
+                    <div class="mobile-menu-icon">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="../../index.html#call-for-papers">Call for Papers</a></li>
+                        <li><a href="../../index.html#program">Conference Program</a></li>
+                        <li><a href="../../index.html#information">Information</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle">Past Events <i class="fas fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="../2024/" class="active">Ortigia 2024</a></li>
+                                <li><a href="../2023/">Ortigia 2023</a></li>
+                                <li><a href="../2022/">Ventotene 2022</a></li>
+                                <li><a href="../2021/">Ventotene 2021</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main content -->
+    <main>
+        <section class="section past-event-hero">
+            <div class="container">
+                <a href="../../index.html" class="back-to-home">
+                    <i class="fas fa-arrow-left"></i> Back to Main Page
+                </a>
+                
+                <div class="section-header">
+                    <h1>4th Sailing the Macro Workshop - Ortigia 2024</h1>
+                    <p>September 6-8, 2024 | Ortigia, Siracusa, Italy</p>
+                </div>
+                
+                <div class="section-content">
+                    <p>The Ph.D. in Economics of Sapienza University organized the 4th Sailing the Macro Workshop that was held at the Ortygia Foundation in Ortygia, Siracusa, Italy, on 6-8 September 2024. Reflecting the breadth of modern macroeconomics, the scope of relevant topics was broad, ranging from theoretical work to empirical applications.</p>
+                    
+                    <!-- Keynote Speakers -->
+                    <div class="speakers-container">
+                        <h3>Keynote Speakers</h3>
+                        <div class="speakers-grid">
+                            <div class="speaker-card">
+                                <div class="speaker-image">
+                                    <img src="../../assets/keynotes/Raffaella Giacomini.png" alt="Raffaella Giacomini">
+                                </div>
+                                <h4>Raffaella Giacomini</h4>
+                                <p class="speaker-title">University College London</p>
+                            </div>
+                            <div class="speaker-card">
+                                <div class="speaker-image">
+                                    <img src="../../assets/keynotes/Evi Pappa.png" alt="Evi Pappa">
+                                </div>
+                                <h4>Evi Pappa</h4>
+                                <p class="speaker-title">Universidad Carlos III de Madrid</p>
+                            </div>
+                            <div class="speaker-card">
+                                <div class="speaker-image">
+                                    <img src="../../assets/keynotes/Federica Romei.png" alt="Federica Romei">
+                                </div>
+                                <h4>Federica Romei</h4>
+                                <p class="speaker-title">University of Oxford</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Program Tabs -->
+                    <div class="program-tabs">
+                        <h3>Conference Program</h3>
+                        <div class="tab-buttons">
+                            <button class="tab-btn active" data-tab="day1">Day 1 - Sep 6</button>
+                            <button class="tab-btn" data-tab="day2">Day 2 - Sep 7</button>
+                            <button class="tab-btn" data-tab="day3">Day 3 - Sep 8</button>
+                        </div>
+                        
+                        <!-- Day 1 Content -->
+                        <div class="tab-content active" id="day1">
+                            <div class="schedule">
+                                <div class="schedule-item keynote">
+                                    <div class="schedule-time">09:00 - 09:40</div>
+                                    <div class="schedule-details">
+                                        <div class="badge">Keynote</div>
+                                        <h4>Common Trends in European Labor Share Dynamics and US comparisons</h4>
+                                        <p class="speaker">Evi Pappa, Universidad Carlos III de Madrid</p>
+                                    </div>
+                                </div>
+                                
+                                <h4 class="session-group-title">Parallel Sessions 1A & 1B</h4>
+                                
+                                <div class="schedule-item">
+                                    <div class="schedule-time">10:00 - 11:15</div>
+                                    <div class="schedule-details">
+                                        <h4>Parallel Session 1A</h4>
+                                        <p class="session-chair">Chair: Francesco Simone Lucidi</p>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">10:00-10:25</p>
+                                            <p class="session-title">Central banking in times of high geopolitical risk</p>
+                                            <p class="session-authors">A. Franconi</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">10:25-10:50</p>
+                                            <p class="session-title">The Dynamic Nature of Macroeconomic Risks</p>
+                                            <p class="session-authors">S. Mouabbi, J. Renne, A. Tschopp</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">10:50-11:15</p>
+                                            <p class="session-title">Euro area monetary policy and financial markets: heterogeneity across policy instruments, assets and sectors</p>
+                                            <p class="session-authors">M. Onofri, K. Theodoridis</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="schedule-item">
+                                    <div class="schedule-time">10:00 - 11:15</div>
+                                    <div class="schedule-details">
+                                        <h4>Parallel Session 1B</h4>
+                                        <p class="session-chair">Chair: Salvatore Nisticò</p>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">10:00-10:25</p>
+                                            <p class="session-title">How Oil Shocks Propagate: Evidence on the Monetary Policy Channel</p>
+                                            <p class="session-authors">W. Miyamoto, T. Lan Nguyen, D. Sergeyev</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">10:25-10:50</p>
+                                            <p class="session-title">Financial Imbalances and Macroeconomic Tail Risks: A Structural Regime-Switching Investigation</p>
+                                            <p class="session-authors">Y. Mimir, L. Ricci</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">10:50-11:15</p>
+                                            <p class="session-title">The Macroeconomics of Liquidity in Financial Intermediation</p>
+                                            <p class="session-authors">D. Porcellacchia, K. D. Sheedy</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="schedule-item break">
+                                    <div class="schedule-time">11:15 - 11:40</div>
+                                    <div class="schedule-details">
+                                        <h4>Coffee Break</h4>
+                                    </div>
+                                </div>
+                                
+                                <div class="schedule-item">
+                                    <div class="schedule-time">11:40 - 12:10</div>
+                                    <div class="schedule-details">
+                                        <h4>Lightning Session</h4>
+                                        <p class="session-chair">Chair: Marta Maria Pisa</p>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-title">Climate Growth-at-Risk</p>
+                                            <p class="session-authors">D. Di Francesco, C. Brownlees, G. Fagiolo, F. Lamperti</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-title">The Enduring Effects of Unconventional Monetary Policy</p>
+                                            <p class="session-authors">G. Tarquini</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-title">A General Theory of Holdouts</p>
+                                            <p class="session-authors">X. Yu</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <h4 class="session-group-title">Parallel Sessions 2A & 2B</h4>
+                                
+                                <div class="schedule-item">
+                                    <div class="schedule-time">12:15 - 13:30</div>
+                                    <div class="schedule-details">
+                                        <h4>Parallel Session 2A</h4>
+                                        <p class="session-chair">Chair: Evi Pappa</p>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">12:15-12:40</p>
+                                            <p class="session-title">Bad luck or bad decisions? Macroeconomic implications of persistent heterogeneity in optimism</p>
+                                            <p class="session-authors">O. Pfäuti, F. Seyrich, J. Zinman</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">12:40-13:05</p>
+                                            <p class="session-title">Taylor Rules with Endogenous Regimes</p>
+                                            <p class="session-authors">K. A. Aastveit, J. Cross, F. Furlanetto, H. K. Van Dijk</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">13:05-13:30</p>
+                                            <p class="session-title">The Systematic Origins of Monetary Policy Shocks</p>
+                                            <p class="session-authors">L. Hack, K. Istrefi, M. Meier</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="schedule-item">
+                                    <div class="schedule-time">12:15 - 13:30</div>
+                                    <div class="schedule-details">
+                                        <h4>Parallel Session 2B</h4>
+                                        <p class="session-chair">Chair: Salvatore Nisticò</p>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">12:15-12:40</p>
+                                            <p class="session-title">The Foreign Liability Channel of Bank Capital Requirements</p>
+                                            <p class="session-authors">L. Falasconi, P. Herrero, C. Mendicino, D. Supera</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">12:40-13:05</p>
+                                            <p class="session-title">Managing the transition to central bank digital currency</p>
+                                            <p class="session-authors">K. Assenmacher, M. Ferrari Minesso, A. Mehl, M. S. Pagliari</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">13:05-13:30</p>
+                                            <p class="session-title">CBDC and Banks: Threat of Opportunity</p>
+                                            <p class="session-authors">M. Fraschini, L. Somoza, T. Terracciano</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="schedule-item social">
+                                    <div class="schedule-time">14:30 - 18:00</div>
+                                    <div class="schedule-details">
+                                        <h4>Sailing Activities</h4>
+                                        <p>Afternoon sailing and networking</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Day 2 Content -->
+                        <div class="tab-content" id="day2">
+                            <div class="schedule">
+                                <div class="schedule-item keynote">
+                                    <div class="schedule-time">09:00 - 09:40</div>
+                                    <div class="schedule-details">
+                                        <div class="badge">Keynote</div>
+                                        <h4>Inequality, expenditure composition and the transmission of the monetary policy shock</h4>
+                                        <p class="speaker">Federica Romei, University of Oxford</p>
+                                    </div>
+                                </div>
+                                
+                                <h4 class="session-group-title">Parallel Sessions 3A & 3B</h4>
+                                
+                                <div class="schedule-item">
+                                    <div class="schedule-time">10:00 - 11:15</div>
+                                    <div class="schedule-details">
+                                        <h4>Parallel Session 3A</h4>
+                                        <p class="session-chair">Chair: Federica Romei</p>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">10:00-10:25</p>
+                                            <p class="session-title">Housing Tenure, Consumption and Household Debt: Life-Cycle Dynamics During a Housing Bust in Spain</p>
+                                            <p class="session-authors">C. Ferreira, J. Galvez, M. Pidkuyko</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">10:25-10:50</p>
+                                            <p class="session-title">Household Belief Formation in Uncertain Times</p>
+                                            <p class="session-authors">L. Gemmi, R. Mihet</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">10:50-11:15</p>
+                                            <p class="session-title">Heterogeneity in Household Spending and Well-being on Retirement</p>
+                                            <p class="session-authors">P. Moran, M. O'Connell, C. O'Dea, F. Parodi</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="schedule-item">
+                                    <div class="schedule-time">10:00 - 11:15</div>
+                                    <div class="schedule-details">
+                                        <h4>Parallel Session 3B</h4>
+                                        <p class="session-chair">Chair: Massimiliano Tancioni</p>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">10:00-10:25</p>
+                                            <p class="session-title">The Macroeconomic Implications of the Gender Revolution</p>
+                                            <p class="session-authors">D. Bergholt, L. Fosso, F. Furlanetto</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">10:25-10:50</p>
+                                            <p class="session-title">Regressive Trend Inflation Shocks</p>
+                                            <p class="session-authors">E. Pappa, S. Rast, A. Vicondoa</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">10:50-11:15</p>
+                                            <p class="session-title">Market Perceptions, Monetary Policy, and Credibility</p>
+                                            <p class="session-authors">V. Cuciniello</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="schedule-item break">
+                                    <div class="schedule-time">11:15 - 11:40</div>
+                                    <div class="schedule-details">
+                                        <h4>Coffee Break</h4>
+                                    </div>
+                                </div>
+                                
+                                <div class="schedule-item">
+                                    <div class="schedule-time">11:40 - 12:10</div>
+                                    <div class="schedule-details">
+                                        <h4>Lightning Session</h4>
+                                        <p class="session-chair">Chair: Marta Maria Pisa</p>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-title">The Effect of Inflation Expectations on Consumption in the New Keynesian Framework: Reconciling Theory with Empirical Ambiguity</p>
+                                            <p class="session-authors">F. Masek</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-title">A Misbelieved Uncertainty-driven Inflation</p>
+                                            <p class="session-authors">M. Ciganovic, F. D'Amario, V. Patella</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-title">The Fed information effects – what have trade partners to say?</p>
+                                            <p class="session-authors">L. Kuitunen</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <h4 class="session-group-title">Parallel Sessions 4A & 4B</h4>
+                                
+                                <div class="schedule-item">
+                                    <div class="schedule-time">12:15 - 13:05</div>
+                                    <div class="schedule-details">
+                                        <h4>Parallel Session 4A</h4>
+                                        <p class="session-chair">Chair: Giuseppe Ragusa</p>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">12:15-12:40</p>
+                                            <p class="session-title">Invalid proxies and volatility changes</p>
+                                            <p class="session-authors">G. Angelini, L. Fanelli, L. Neri</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">12:40-13:05</p>
+                                            <p class="session-title">Estimation and Inference of the Forecast Error Variance Decomposition for Set-Identified SVARs</p>
+                                            <p class="session-authors">F. Fusari, J. Marlow, A. Volpicella</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="schedule-item">
+                                    <div class="schedule-time">12:15 - 13:05</div>
+                                    <div class="schedule-details">
+                                        <h4>Parallel Session 4B</h4>
+                                        <p class="session-chair">Chair: Cristiano Cantore</p>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">12:15-12:40</p>
+                                            <p class="session-title">Labor Income Risk and Monetary Policy: The Within-Wealth MPC Channel</p>
+                                            <p class="session-authors">E. Savoia</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">12:40-13:05</p>
+                                            <p class="session-title">Decomposing HANK</p>
+                                            <p class="session-authors">Z. Gong</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="schedule-item social">
+                                    <div class="schedule-time">14:30 - 18:00</div>
+                                    <div class="schedule-details">
+                                        <h4>Sailing Activities</h4>
+                                        <p>Afternoon sailing and networking</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Day 3 Content -->
+                        <div class="tab-content" id="day3">
+                            <div class="schedule">
+                                <div class="schedule-item keynote">
+                                    <div class="schedule-time">09:00 - 09:40</div>
+                                    <div class="schedule-details">
+                                        <div class="badge">Keynote</div>
+                                        <h4>Perceived shocks and impulse responses</h4>
+                                        <p class="speaker">Raffaella Giacomini, University College London</p>
+                                    </div>
+                                </div>
+                                
+                                <h4 class="session-group-title">Parallel Sessions 5A & 5B</h4>
+                                
+                                <div class="schedule-item">
+                                    <div class="schedule-time">10:00 - 11:15</div>
+                                    <div class="schedule-details">
+                                        <h4>Parallel Session 5A</h4>
+                                        <p class="session-chair">Chair: Raffaella Giacomini</p>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">10:00-10:25</p>
+                                            <p class="session-title">The Macroeconomic Effects of Inflation Expectations: The Distribution Matters</p>
+                                            <p class="session-authors">G. Ascari, P. Bonomolo, A. Celani</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">10:25-10:50</p>
+                                            <p class="session-title">Uncertainty and the Business Cycle When Inflation is High</p>
+                                            <p class="session-authors">E. Castelnuovo, G. Pellegrino, L. L. Særkjær</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">10:50-11:15</p>
+                                            <p class="session-title">Expectations and Forecasts: The Role of Strategic Incentives</p>
+                                            <p class="session-authors">F. Amodeo</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="schedule-item">
+                                    <div class="schedule-time">10:00 - 11:15</div>
+                                    <div class="schedule-details">
+                                        <h4>Parallel Session 5B</h4>
+                                        <p class="session-chair">Chair: Cristiano Cantore</p>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">10:00-10:25</p>
+                                            <p class="session-title">Do Recessions Slow Technology Growth? Evidence from the Firm Level</p>
+                                            <p class="session-authors">M. Elfsbacka-Schmoller, O. Goldfayn-Frank, T. Schmidt</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">10:25-10:50</p>
+                                            <p class="session-title">A Traffic Jam Theory of Growth</p>
+                                            <p class="session-authors">D. Finocchiaro, P. Weil</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">10:50-11:15</p>
+                                            <p class="session-title">Human Capital Ladders, Cyclical Sorting, and Hysteresis</p>
+                                            <p class="session-authors">E. M. Acabbi, A. Alati, L. Mazzone</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="schedule-item break">
+                                    <div class="schedule-time">11:15 - 11:40</div>
+                                    <div class="schedule-details">
+                                        <h4>Coffee Break</h4>
+                                    </div>
+                                </div>
+                                
+                                <div class="schedule-item">
+                                    <div class="schedule-time">11:40 - 12:20</div>
+                                    <div class="schedule-details">
+                                        <h4>Lightning Session</h4>
+                                        <p class="session-chair">Chair: Francesco Simone Lucidi</p>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-title">Taylor Projection under Tail Risk</p>
+                                            <p class="session-authors">O. A. Juul, J. C. Parra-Alvarez</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-title">Monetary Tightening, Quantitative Easing, and Financial Stability</p>
+                                            <p class="session-authors">I. Shchapov</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-title">The Micro Anatomy of International Remittance Flows</p>
+                                            <p class="session-authors">M. L. Ambrosino, A. Soenarjo</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-title">Default, Inflation Expectations, and the Currency Denomination in Sovereign Bonds</p>
+                                            <p class="session-authors">F.S. Maeng</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <h4 class="session-group-title">Parallel Sessions 6A & 6B</h4>
+                                
+                                <div class="schedule-item">
+                                    <div class="schedule-time">12:25 - 13:40</div>
+                                    <div class="schedule-details">
+                                        <h4>Parallel Session 6A</h4>
+                                        <p class="session-chair">Chair: Massimiliano Tancioni</p>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">12:25-12:50</p>
+                                            <p class="session-title">Privilege Lost? The Rise and Fall of a Dominant Global Currency</p>
+                                            <p class="session-authors">K. Arvai, N. Coimbra</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">12:50-13:15</p>
+                                            <p class="session-title">Left and Right: A Tale of Two Tails of the Wealth Distribution</p>
+                                            <p class="session-authors">M. D'Amato, C. Di Pietro, M. M. Sorge</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">13:15-13:40</p>
+                                            <p class="session-title">Optimal Climate Policy in a Global Economy</p>
+                                            <p class="session-authors">A. Karantounias</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="schedule-item">
+                                    <div class="schedule-time">12:25 - 13:40</div>
+                                    <div class="schedule-details">
+                                        <h4>Parallel Session 6B</h4>
+                                        <p class="session-chair">Chair: Giuseppe Ragusa</p>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">12:25-12:50</p>
+                                            <p class="session-title">Opening the Black Box: Aggregate Implications of Public Investment Composition</p>
+                                            <p class="session-authors">H. S. Basso, M. Pidkuyko, O. Rachedi</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">12:50-13:15</p>
+                                            <p class="session-title">Green and Brown Returns in a Production Economy</p>
+                                            <p class="session-authors">I. Jaccard, T. Kockerols, Y. Schüler</p>
+                                        </div>
+                                        
+                                        <div class="session-item">
+                                            <p class="session-time">13:15-13:40</p>
+                                            <p class="session-title">A toolkit for Computing Constrained Optimal Policy Projections (COPPs)</p>
+                                            <p class="session-authors">O. de Groot, F. Mazelis, R. Motto, A. Ristiniemi</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="schedule-item social">
+                                    <div class="schedule-time">14:30 - 18:00</div>
+                                    <div class="schedule-details">
+                                        <h4>Sailing Activities</h4>
+                                        <p>Afternoon sailing and networking</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h3>Sailing the Macro Workshop</h3>
+                    <p>4th Edition | September 6-8, 2024</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="../../index.html#home">Home</a></li>
+                            <li><a href="../../index.html#call-for-papers">Call for Papers</a></li>
+                            <li><a href="../../index.html#program">Program</a></li>
+                            <li><a href="../../index.html#information">Information</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Past Events</h4>
+                        <ul>
+                            <li><a href="../2024/" class="active">Ortigia 2024</a></li>
+                            <li><a href="../2023/">Ortigia 2023</a></li>
+                            <li><a href="../2022/">Ventotene 2022</a></li>
+                            <li><a href="../2021/">Ventotene 2021</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Contact</h4>
+                        <p>For inquiries about the workshop, please email:</p>
+                        <a href="mailto:smw.dipecodir@uniroma1.it" class="contact-email">smw.dipecodir@uniroma1.it</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="university-info">
+                    <h4>Sapienza University's Ph.D. in Economics</h4>
+                    <p>Department of Economics and Law</p>
+                </div>
+                <p class="copyright">&copy; 2024 Sailing the Macro Workshop. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="https://bsky.app/profile/sailingthemacro.bsky.social" class="bluesky-icon" target="_blank" rel="noopener noreferrer"><img src="../../assets/images/bsky.svg" alt="Bluesky" class="bluesky-svg"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../js/script.js"></script>
+    <script>
+        // Initialize program tabs
+        document.addEventListener('DOMContentLoaded', () => {
+            const tabButtons = document.querySelectorAll('.tab-btn');
+            const tabContents = document.querySelectorAll('.tab-content');
+            
+            tabButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Remove active class from all buttons and contents
+                    tabButtons.forEach(btn => btn.classList.remove('active'));
+                    tabContents.forEach(content => content.classList.remove('active'));
+                    
+                    // Add active class to clicked button
+                    button.classList.add('active');
+                    
+                    // Show corresponding content
+                    const tabId = button.dataset.tab;
+                    document.getElementById(tabId).classList.add('active');
+                });
+            });
+            
+            // Add animation class to items after they load
+            const animatedElements = document.querySelectorAll('.session-item, .schedule-item, .speaker-card');
+            
+            animatedElements.forEach((element, index) => {
+                setTimeout(() => {
+                    element.classList.add('animated');
+                }, 100 * index);
+            });
+            
+            // Make parallel sessions collapsible
+            makeSessionsCollapsible();
+        });
+        
+        function makeSessionsCollapsible() {
+            // Target all session containers that have multiple session items
+            const sessionContainers = document.querySelectorAll('.schedule-item:not(.keynote):not(.break):not(.social)');
+            
+            sessionContainers.forEach(container => {
+                const detailsElement = container.querySelector('.schedule-details');
+                if (!detailsElement) return;
+                
+                const sessionTitle = detailsElement.querySelector('h4');
+                const sessionChair = detailsElement.querySelector('.session-chair');
+                
+                if (!sessionTitle) return;
+                
+                // Create collapsible header
+                const collapsibleHeader = document.createElement('div');
+                collapsibleHeader.className = 'collapsible-header';
+                
+                // Create header content with title and chair preview
+                const headerContent = document.createElement('h4');
+                headerContent.textContent = sessionTitle.textContent;
+                
+                if (sessionChair) {
+                    const chairPreview = document.createElement('span');
+                    chairPreview.className = 'session-chair-preview';
+                    chairPreview.textContent = sessionChair.textContent;
+                    headerContent.appendChild(chairPreview);
+                }
+                
+                // Add toggle icon
+                const toggleIcon = document.createElement('span');
+                toggleIcon.className = 'collapsible-toggle';
+                toggleIcon.innerHTML = '<i class="fas fa-chevron-down"></i>';
+                
+                collapsibleHeader.appendChild(headerContent);
+                collapsibleHeader.appendChild(toggleIcon);
+                
+                // Create collapsible content container
+                const collapsibleContent = document.createElement('div');
+                collapsibleContent.className = 'collapsible-content';
+                
+                // Move all session items into the collapsible content
+                const sessionItems = Array.from(detailsElement.children);
+                sessionItems.forEach(item => {
+                    if (item !== sessionTitle && !item.classList.contains('session-group-title')) {
+                        collapsibleContent.appendChild(item);
+                    }
+                });
+                
+                // Replace the original content with the collapsible structure
+                sessionTitle.remove();
+                detailsElement.prepend(collapsibleContent);
+                detailsElement.prepend(collapsibleHeader);
+                
+                // Add click event to toggle collapsible content
+                collapsibleHeader.addEventListener('click', () => {
+                    collapsibleHeader.classList.toggle('active');
+                });
+                
+                // Sessions will all start collapsed by default
+            });
+        }
+    </script>
+</body>
+</html>
