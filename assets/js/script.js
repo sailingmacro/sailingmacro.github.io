@@ -247,7 +247,7 @@ function scrollToSection(element) {
  */
 function initCountdown() {
     // Set the conference date (September 5, 2025)
-    const conferenceDate = new Date('2025-05-05T12:00:00').getTime();
+    const conferenceDate = new Date('2025-05-11T12:00:00').getTime();
     
     // Update the countdown every second
     const countdownInterval = setInterval(() => {
