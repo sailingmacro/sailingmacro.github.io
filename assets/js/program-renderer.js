@@ -104,6 +104,9 @@ class ProgramRenderer {
                     case 'parallel-session':
                         schedule.appendChild(this.createParallelSession(item));
                         break;
+                    case 'lightning-session':
+                        schedule.appendChild(this.createLightningSession(item));
+                        break;
                     case 'social':
                         schedule.appendChild(this.createSocialEvent(item));
                         break;
@@ -155,6 +158,32 @@ class ProgramRenderer {
             <div class="schedule-time">${item.time}</div>
             <div class="schedule-details">
                 <h4>${item.sessionTitle}</h4>
+                <p class="session-chair">Chair: ${item.chair}</p>
+                ${item.presentations.map(pres => `
+                    <div class="session-item">
+                        <p class="session-time">${pres.time}</p>
+                        <p class="session-title">${pres.title}</p>
+                        <p class="session-authors">${pres.authors}</p>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+        
+        session.innerHTML = sessionContent;
+        return session;
+    }
+
+    /**
+     * Create a lightning session element
+     */
+    createLightningSession(item) {
+        const session = document.createElement('div');
+        session.className = 'schedule-item lightning-session';
+        
+        const sessionContent = `
+            <div class="schedule-time">${item.time}</div>
+            <div class="schedule-details">
+                <h4>${item.title}</h4>
                 <p class="session-chair">Chair: ${item.chair}</p>
                 ${item.presentations.map(pres => `
                     <div class="session-item">

@@ -74,27 +74,50 @@
           "description": "Networking opportunity"
         },
         {
+          "type": "lightning-session",
+          "time": "11:45 - 12:15",
+          "title": "Lightning Session 1",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "11:45-11:55",
+              "title": "Lightning Talk 1",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "11:55-12:05",
+              "title": "Lightning Talk 2",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "12:05-12:15",
+              "title": "Lightning Talk 3",
+              "authors": "Authors to be announced"
+            }
+          ]
+        },
+        {
           "type": "session-group",
           "title": "Parallel Sessions 2A & 2B"
         },
         {
           "type": "parallel-session",
-          "time": "11:45 - 13:00",
+          "time": "12:15 - 13:00",
           "sessionTitle": "Parallel Session 2A",
           "chair": "To be announced",
           "presentations": [
             {
-              "time": "11:45-12:10",
+              "time": "12:15-12:30",
               "title": "Presentation 1",
               "authors": "Authors to be announced"
             },
             {
-              "time": "12:10-12:35",
+              "time": "12:30-12:45",
               "title": "Presentation 2",
               "authors": "Authors to be announced"
             },
             {
-              "time": "12:35-13:00",
+              "time": "12:45-13:00",
               "title": "Presentation 3",
               "authors": "Authors to be announced"
             }
@@ -102,22 +125,22 @@
         },
         {
           "type": "parallel-session",
-          "time": "11:45 - 13:00",
+          "time": "12:15 - 13:00",
           "sessionTitle": "Parallel Session 2B",
           "chair": "To be announced",
           "presentations": [
             {
-              "time": "11:45-12:10",
+              "time": "12:15-12:30",
               "title": "Presentation 1",
               "authors": "Authors to be announced"
             },
             {
-              "time": "12:10-12:35",
+              "time": "12:30-12:45",
               "title": "Presentation 2",
               "authors": "Authors to be announced"
             },
             {
-              "time": "12:35-13:00",
+              "time": "12:45-13:00",
               "title": "Presentation 3",
               "authors": "Authors to be announced"
             }
@@ -205,27 +228,50 @@
           "description": "Networking opportunity"
         },
         {
+          "type": "lightning-session",
+          "time": "11:45 - 12:15",
+          "title": "Lightning Session 2",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "11:45-11:55",
+              "title": "Lightning Talk 1",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "11:55-12:05",
+              "title": "Lightning Talk 2",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "12:05-12:15",
+              "title": "Lightning Talk 3",
+              "authors": "Authors to be announced"
+            }
+          ]
+        },
+        {
           "type": "session-group",
           "title": "Parallel Sessions 4A & 4B"
         },
         {
           "type": "parallel-session",
-          "time": "11:45 - 13:00",
+          "time": "12:15 - 13:00",
           "sessionTitle": "Parallel Session 4A",
           "chair": "To be announced",
           "presentations": [
             {
-              "time": "11:45-12:10",
+              "time": "12:15-12:30",
               "title": "Presentation 1",
               "authors": "Authors to be announced"
             },
             {
-              "time": "12:10-12:35",
+              "time": "12:30-12:45",
               "title": "Presentation 2",
               "authors": "Authors to be announced"
             },
             {
-              "time": "12:35-13:00",
+              "time": "12:45-13:00",
               "title": "Presentation 3",
               "authors": "Authors to be announced"
             }
@@ -233,22 +279,22 @@
         },
         {
           "type": "parallel-session",
-          "time": "11:45 - 13:00",
+          "time": "12:15 - 13:00",
           "sessionTitle": "Parallel Session 4B",
           "chair": "To be announced",
           "presentations": [
             {
-              "time": "11:45-12:10",
+              "time": "12:15-12:30",
               "title": "Presentation 1",
               "authors": "Authors to be announced"
             },
             {
-              "time": "12:10-12:35",
+              "time": "12:30-12:45",
               "title": "Presentation 2",
               "authors": "Authors to be announced"
             },
             {
-              "time": "12:35-13:00",
+              "time": "12:45-13:00",
               "title": "Presentation 3",
               "authors": "Authors to be announced"
             }
@@ -342,27 +388,50 @@
           "description": "Networking opportunity"
         },
         {
+          "type": "lightning-session",
+          "time": "11:45 - 12:15",
+          "title": "Lightning Session 3",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "11:45-11:55",
+              "title": "Lightning Talk 1",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "11:55-12:05",
+              "title": "Lightning Talk 2",
+              "authors": "Authors to be announced"
+            },
+            {
+              "time": "12:05-12:15",
+              "title": "Lightning Talk 3",
+              "authors": "Authors to be announced"
+            }
+          ]
+        },
+        {
           "type": "session-group",
           "title": "Parallel Sessions 6A & 6B"
         },
         {
           "type": "parallel-session",
-          "time": "11:45 - 13:00",
+          "time": "12:15 - 13:00",
           "sessionTitle": "Parallel Session 6A",
           "chair": "To be announced",
           "presentations": [
             {
-              "time": "11:45-12:10",
+              "time": "12:15-12:30",
               "title": "Presentation 1",
               "authors": "Authors to be announced"
             },
             {
-              "time": "12:10-12:35",
+              "time": "12:30-12:45",
               "title": "Presentation 2",
               "authors": "Authors to be announced"
             },
             {
-              "time": "12:35-13:00",
+              "time": "12:45-13:00",
               "title": "Presentation 3",
               "authors": "Authors to be announced"
             }
@@ -370,22 +439,22 @@
         },
         {
           "type": "parallel-session",
-          "time": "11:45 - 13:00",
+          "time": "12:15 - 13:00",
           "sessionTitle": "Parallel Session 6B",
           "chair": "To be announced",
           "presentations": [
             {
-              "time": "11:45-12:10",
+              "time": "12:15-12:30",
               "title": "Presentation 1",
               "authors": "Authors to be announced"
             },
             {
-              "time": "12:10-12:35",
+              "time": "12:30-12:45",
               "title": "Presentation 2",
               "authors": "Authors to be announced"
             },
             {
-              "time": "12:35-13:00",
+              "time": "12:45-13:00",
               "title": "Presentation 3",
               "authors": "Authors to be announced"
             }
