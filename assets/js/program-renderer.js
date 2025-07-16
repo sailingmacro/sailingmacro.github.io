@@ -95,6 +95,9 @@ class ProgramRenderer {
             // Render schedule items
             day.schedule.forEach(item => {
                 switch(item.type) {
+                    case 'registration':
+                        schedule.appendChild(this.createRegistration(item));
+                        break;
                     case 'keynote':
                         schedule.appendChild(this.createKeynote(item));
                         break;
@@ -138,6 +141,22 @@ class ProgramRenderer {
     }
 
     /**
+     * Create a registration element
+     */
+    createRegistration(item) {
+        const registration = document.createElement('div');
+        registration.className = 'schedule-item registration';
+        registration.innerHTML = `
+            <div class="schedule-time">${item.time}</div>
+            <div class="schedule-details">
+                <h4>${item.title}</h4>
+                <p>${item.description}</p>
+            </div>
+        `;
+        return registration;
+    }
+
+    /**
      * Create a session group title
      */
     createSessionGroup(item) {
@@ -163,7 +182,7 @@ class ProgramRenderer {
                     <div class="session-item">
                         <p class="session-time">${pres.time}</p>
                         <p class="session-title">${pres.title}</p>
-                        <p class="session-authors">${pres.authors}</p>
+                        <p class="session-authors">${this.formatAuthors(pres.authors)}</p>
                     </div>
                 `).join('')}
             </div>
@@ -189,7 +208,7 @@ class ProgramRenderer {
                     <div class="session-item">
                         <p class="session-time">${pres.time}</p>
                         <p class="session-title">${pres.title}</p>
-                        <p class="session-authors">${pres.authors}</p>
+                        <p class="session-authors">${this.formatAuthors(pres.authors)}</p>
                     </div>
                 `).join('')}
             </div>
@@ -197,6 +216,13 @@ class ProgramRenderer {
         
         session.innerHTML = sessionContent;
         return session;
+    }
+
+    /**
+     * Format author names, making names with asterisks bold
+     */
+    formatAuthors(authors) {
+        return authors.replace(/\*([^*]+)\*/g, '<strong>$1</strong>');
     }
 
     /**
