@@ -1,0 +1,28 @@
+{
+  "eventDates": {
+    "startDate": "September 05",
+    "endDate": "September 07",
+    "year": "2025",
+    "location": "Ortigia, Siracusa, Italy"
+  },
+  "days": [
+    {
+      "id": "day1",
+      "label": "Day 1 - Sep 5",
+      "schedule": [
+      ]
+    },
+    {
+      "id": "day2",
+      "label": "Day 2 - Sep 6",
+      "schedule": [
+      ]
+    },
+    {
+      "id": "day3",
+      "label": "Day 3 - Sep 7",
+      "schedule": [
+      ]
+    }
+  ]
+}

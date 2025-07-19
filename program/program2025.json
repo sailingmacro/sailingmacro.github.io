@@ -10,18 +10,477 @@
       "id": "day1",
       "label": "Day 1 - Sep 5",
       "schedule": [
+        {
+          "type": "registration",
+          "time": "08:30 - 09:00",
+          "title": "Registration",
+          "description": "Conference registration and welcome"
+        },
+        {
+          "type": "keynote",
+          "time": "09:00 - 09:40",
+          "title": "Keynote Session",
+          "speaker": "Refet Gürkaynak, Bilkent University",
+          "description": "Keynote presentation"
+        },
+        {
+          "type": "session-group",
+          "title": ""
+        },
+        {
+          "type": "parallel-session",
+          "time": "10:00 - 11:15",
+          "sessionTitle": "Regular Session 1A",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "10:00-10:25",
+              "title": "Innovations meet Narratives - Improving the Power-Credibility Trade-off in Macro",
+              "authors": "*Régis Barnichon*, Geert Mesters"
+            },
+            {
+              "time": "10:25-10:50",
+              "title": "A robust Bayes Approach to Optimal Policy and Endogeneous Macro Equations",
+              "authors": "*Martin Fankhauser*"
+            },
+            {
+              "time": "10:50-11:15",
+              "title": "The drivers of post-pandemic inflation",
+              "authors": "Domenico Giannone, *Giorgio Primiceri*"
+            }
+          ]
+        },
+        {
+          "type": "parallel-session",
+          "time": "10:00 - 11:15",
+          "sessionTitle": "Regular Session 1B",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "10:00-10:25",
+              "title": "Global Determinacy According to HANK",
+              "authors": "*David Murakami*, Ivan Shchapov, Yifan Zhang"
+            },
+            {
+              "time": "10:25-10:50",
+              "title": "Optimal Redistribution with Government Debt",
+              "authors": "Facundo Piguillem, *Kirill Shakhnov*"
+            },
+            {
+              "time": "10:50-11:15",
+              "title": "Inflation, Fiscal Rules and Cognitive Discounting",
+              "authors": "*Roberto M. Billi*, Carl E. Walsh"
+            }
+          ]
+        },
+        {
+          "type": "social",
+          "time": "11:15 - 11:25",
+          "title": "Coffee Break",
+          "description": ""
+        },
+        {
+          "type": "lightning-session",
+          "time": "11:30 - 12:20",
+          "title": "Lightning Session 1",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "11:30-11:40",
+              "title": "Employment Protection and Consumption: Evidence from Italy",
+              "authors": "*Nello Esposito*"
+            },
+            {
+              "time": "11:40-11:50",
+              "title": "Trade Fragmentation, Inflationary Pressures and Monetary Policy",
+              "authors": "*Maria Ludovica Ambrosino*, Jenny Chan and Silvana Tenreyro"
+            },
+            {
+              "time": "11:50-12:00",
+              "title": "International Banking Flows and Financial Crises",
+              "authors": "*Francesco Molteni*"
+            },
+            {
+              "time": "12:00-12:10",
+              "title": "Local fiscal multipliers in a data-scarce environment: The effectiveness of government spending across Italian regions",
+              "authors": "Giuseppe Cavaliere, Luca Fanelli and *Marco Mazzali*"
+            },
+            {
+              "time": "12:10-12:20",
+              "title": "Scholars and the Machine - On Automation and Academic Performance",
+              "authors": "*Alessio Garau*, Alessio Moro and Marco G. Nieddu"
+            }
+          ]
+        },
+        {
+          "type": "session-group",
+          "title": ""
+        },
+        {
+          "type": "parallel-session",
+          "time": "12:25 - 13:40",
+          "sessionTitle": "Regular Session 2C",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "12:25-12:45",
+              "title": "Monetary Policy Shocks and Narrative Restrictions: Rules Matter",
+              "authors": "*Efrem Castelnuovo*, Giovanni Pellegrino and Laust L. Særkjær"
+            },
+            {
+              "time": "12:45-13:05",
+              "title": "Cross-Sectional Dynamics Under Network Structure: Theory and Macroeconomic Applications",
+              "authors": "*Marko Mlikota*"
+            },
+            {
+              "time": "13:05-13:25",
+              "title": "Testing for the Interconnection Channel in Global VAR models",
+              "authors": "Bertrand Candelon, *Angelo Luisi*"
+            }
+          ]
+        },
+        {
+          "type": "parallel-session",
+          "time": "12:25 - 13:40",
+          "sessionTitle": "Regular Session 2D",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "12:25-12:45",
+              "title": "The Reallocation Effect of Monetary Policy",
+              "authors": "Guido Ascari, *Andrea Colciago*"
+            },
+            {
+              "time": "12:45-13:05",
+              "title": "External Finance Premium: Market Finance versus Bank Finance",
+              "authors": "*Livia Chitu*, Sofia Gori and Refet S. Gurkaynak"
+            },
+            {
+              "time": "13:05-13:25",
+              "title": "The Borrowing Channel of Monetary Policy",
+              "authors": "*Simone Pesce*"
+            }
+          ]
+        },
+        {
+          "type": "social",
+          "time": "13:40 - 14:30",
+          "title": "Lunch",
+          "description": "Mediterranean buffet at the venue"
+        },
+        {
+          "type": "social",
+          "time": "15:00 - 18:00",
+          "title": "Sailing Activities",
+          "description": "Afternoon sailing"
+        }
       ]
     },
     {
       "id": "day2",
       "label": "Day 2 - Sep 6",
       "schedule": [
+        {
+          "type": "keynote",
+          "time": "09:00 - 09:40",
+          "title": "Keynote Session",
+          "speaker": "Sophocles Mavroeidis, University of Oxford",
+          "description": "Keynote presentation"
+        },
+        {
+          "type": "session-group",
+          "title": ""
+        },
+        {
+          "type": "parallel-session",
+          "time": "10:00 - 11:15",
+          "sessionTitle": "Regular Session 3E",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "10:00-10:25",
+              "title": "A Test of Exogeneity in Structural Vector Autoregressions and Local Projections with External Instruments",
+              "authors": "Giovanni Angelini, Giuseppe Cavaliere, *Luca Fanelli*"
+            },
+            {
+              "time": "10:25-10:50",
+              "title": "Robust Testing of Macroeconomic Determinacy via Heteroskedasticity",
+              "authors": "Ömer Faruk Akbal, *Max-Sebastian Dovi*"
+            },
+            {
+              "time": "10:50-11:15",
+              "title": "Wild inference for wild SVARs with application to heteroscedasticity-based IV",
+              "authors": "Bulat Gafarov, *Madina Karamysheva*, Andrey Polbin, Anton Skrobotov"
+            }
+          ]
+        },
+        {
+          "type": "parallel-session",
+          "time": "10:00 - 11:15",
+          "sessionTitle": "Regular Session 3F",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "10:00-10:25",
+              "title": "Which Macroeconomic News Matter for Price-Setting?",
+              "authors": "*Lukas Hack*, Davud Rostam-Afschar"
+            },
+            {
+              "time": "10:25-10:50",
+              "title": "Endogenous Monetary Policy Effectiveness",
+              "authors": "*Valerio Scalone*, Silvana Tenreyro"
+            },
+            {
+              "time": "10:50-11:15",
+              "title": "What drives policy rate expectations? Evidence from the post-pandemic cycle",
+              "authors": "Luca Baldo, *Marco Bernardini*"
+            }
+          ]
+        },
+        {
+          "type": "social",
+          "time": "11:15 - 11:25",
+          "title": "Coffee Break",
+          "description": ""
+        },
+        {
+          "type": "lightning-session",
+          "time": "11:30 - 12:10",
+          "title": "Lightning Session 2",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "11:30-11:40",
+              "title": "Fiscal Impulse responses in a high-dimensional setting",
+              "authors": "*Davide V. Bucci*"
+            },
+            {
+              "time": "11:40-11:50",
+              "title": "Monetary policy identification via causal machine learning in a high-dimensional time series controls set",
+              "authors": "*Milos Ciganovic*, Federico D'Amario and Massimiliano Tancioni"
+            },
+            {
+              "time": "11:50-12:00",
+              "title": "Does the financial accelerator accelerate inequalities?",
+              "authors": "*Francesco Ferlaino*"
+            },
+            {
+              "time": "12:00-12:10",
+              "title": "Estimating the Macroeconomic Effects of Oil Supply News",
+              "authors": "*Lorenzo Mori*, Gert Peersman"
+            }
+          ]
+        },
+        {
+          "type": "session-group",
+          "title": ""
+        },
+        {
+          "type": "parallel-session",
+          "time": "12:15 - 13:05",
+          "sessionTitle": "Regular Session 4G",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "12:15-12:40",
+              "title": "Structural interpretations of forecast revision",
+              "authors": "Davide Brignone, *Michele Piffer*"
+            },
+            {
+              "time": "12:40-13:05",
+              "title": "The judgmental strategy of professional forecasters",
+              "authors": "*Emilio Zanetti Chini*"
+            }
+          ]
+        },
+        {
+          "type": "parallel-session",
+          "time": "12:15 - 13:05",
+          "sessionTitle": "Regular Session 4H",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "12:15-12:40",
+              "title": "Exchange-Rate Regimes and the Behaviour of Exporters",
+              "authors": "Cosimo Petracchi, Marco S. Petterson, *Luca Riva*"
+            },
+            {
+              "time": "12:40-13:05",
+              "title": "Winners and Losers: How Corporate Tax Reforms Reshape the Firm Distribution",
+              "authors": "*Riccardo Silvestrini*, Elliott Weder"
+            }
+          ]
+        },
+        {
+          "type": "social",
+          "time": "13:05 - 14:30",
+          "title": "Lunch + Poster Session",
+          "description": "Mediterranean buffet at the venue with poster session"
+        },
+        {
+          "type": "social",
+          "time": "21:00",
+          "title": "Social Dinner",
+          "description": "Conference dinner at a local restaurant"
+        }
       ]
     },
     {
       "id": "day3",
       "label": "Day 3 - Sep 7",
       "schedule": [
+        {
+          "type": "keynote",
+          "time": "09:00 - 09:40",
+          "title": "Keynote Session",
+          "speaker": "Geert Mesters, Universitat Pompeu Fabra",
+          "description": "Keynote presentation"
+        },
+        {
+          "type": "session-group",
+          "title": ""
+        },
+        {
+          "type": "parallel-session",
+          "time": "10:00 - 11:15",
+          "sessionTitle": "Regular Session 5I",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "10:00-10:25",
+              "title": "The Monetary Dynamics of Hyperinflation Reconsidered",
+              "authors": "*Luca Benati*"
+            },
+            {
+              "time": "10:25-10:50",
+              "title": "Cast out the pure? Inflation and relative prices on both sides of the Atlantic",
+              "authors": "*Emanuele Franceschi*, Chiara Osbat and Miles Parker"
+            },
+            {
+              "time": "10:50-11:15",
+              "title": "Central Bank Losses and Inflation: Evidence from 350 Years",
+              "authors": "*Anna Grodecka-Messi*, Martin Kliem and Gernot J. Muller"
+            }
+          ]
+        },
+        {
+          "type": "parallel-session",
+          "time": "10:00 - 11:15",
+          "sessionTitle": "Regular Session 5J",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "10:00-10:25",
+              "title": "Commitment vs Credibility: Macro Effects of Climate Policy Uncertainty Concerns",
+              "authors": "Fulvia Marotta, *Maria Sole Pagliari* and Jasper de Winter"
+            },
+            {
+              "time": "10:25-10:50",
+              "title": "Shocking concerns: public perception about climate change and the macroeconomy",
+              "authors": "Giovanni Angelini, Maria Elena Bontempi, Luca De Angelis, Paolo Neri and *Marco Maria Sorge*"
+            },
+            {
+              "time": "10:50-11:15",
+              "title": "The Unequal Costs of Pollution: Carbon Tax, Inequality, and Redistribution",
+              "authors": "Cristiano Cantore, Giovanni Di Bartolomeo and *Francesco Saverio Gaudio*"
+            }
+          ]
+        },
+        {
+          "type": "social",
+          "time": "11:15 - 11:25",
+          "title": "Coffee Break",
+          "description": ""
+        },
+        {
+          "type": "lightning-session",
+          "time": "11:30 - 12:20",
+          "title": "Lightning Session 3",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "11:30-11:40",
+              "title": "Fed Information Effects? Evidence from Industrial Production",
+              "authors": "*Serra Pelin*"
+            },
+            {
+              "time": "11:40-11:50",
+              "title": "Timing and Sacrifice: The Role of Phillips Curve Non-Linearity",
+              "authors": "*Vida Maver*"
+            },
+            {
+              "time": "11:50-12:00",
+              "title": "Income Inequality and the Rise of Risky Capital",
+              "authors": "*Andrej Mijakovic*"
+            },
+            {
+              "time": "12:00-12:10",
+              "title": "Home, Work, and the Space Between: the Rise of Flexible Jobs and the Couples' Labour Supply",
+              "authors": "*Federico Pilla*"
+            },
+            {
+              "time": "12:10-12:20",
+              "title": "Tariffs across the Supply Chain",
+              "authors": "Nicolò Gnocato, Carlos Montes-Galdón, *Giovanni Stamato*"
+            }
+          ]
+        },
+        {
+          "type": "session-group",
+          "title": ""
+        },
+        {
+          "type": "parallel-session",
+          "time": "12:25 - 13:40",
+          "sessionTitle": "Regular Session 6K",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "12:25-12:45",
+              "title": "A Tale of Procyclical Inequality: Facts and Implications",
+              "authors": "Drago Bergholt, *Francesco Furlanetto*, Lorenzo Mori"
+            },
+            {
+              "time": "12:45-13:05",
+              "title": "Fiscal Policy during a Cost-of-Living Crisis",
+              "authors": "*Myroslav Pidkuyko*, Raffaele Rossi"
+            },
+            {
+              "time": "13:05-13:25",
+              "title": "The Role of Risk Sharing in Attenuating Business Cycles Within Currency Unions",
+              "authors": "Alberto Pavia, *Christian Pröbsting*"
+            }
+          ]
+        },
+        {
+          "type": "parallel-session",
+          "time": "12:25 - 13:40",
+          "sessionTitle": "Regular Session 6L",
+          "chair": "To be announced",
+          "presentations": [
+            {
+              "time": "12:25-12:45",
+              "title": "Financial Stress and Economic Activity: Evidence from a New Worldwide Index",
+              "authors": "Hites Ahir, Giovanni Dell'Ariccia, *Davide Furceri*, Chris Papageorgiou, Hanbo Qi"
+            },
+            {
+              "time": "12:45-13:05",
+              "title": "Credit strikes back: the macroeconomic impact of the 2022-23 ECB monetary tightening and the role of lending rates",
+              "authors": "Antonio M. Conti, Stefano Neri, *Alessandro Notarpietro*"
+            },
+            {
+              "time": "13:05-13:25",
+              "title": "ECB communication and its impact on financial markets",
+              "authors": "Klodiana Istrefi, *Florens Odendahl*, Giulia Sestieri"
+            }
+          ]
+        },
+        {
+          "type": "social",
+          "time": "13:40 - 14:30",
+          "title": "Lunch",
+          "description": "Mediterranean buffet at the venue"
+        }
       ]
     }
   ]

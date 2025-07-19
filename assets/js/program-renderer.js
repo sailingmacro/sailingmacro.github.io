@@ -131,7 +131,7 @@ class ProgramRenderer {
         keynote.innerHTML = `
             <div class="schedule-time">${item.time}</div>
             <div class="schedule-details">
-                <div class="badge">Keynote</div>
+                <!-- <div class="badge">Keynote</div> -->
                 <h4>${item.title}</h4>
                 <p class="speaker">${item.speaker}</p>
                 <p>${item.description}</p>
