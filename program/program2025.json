@@ -97,8 +97,8 @@
             },
             {
               "time": "11:50-12:00",
-              "title": "International Banking Flows and Financial Crises",
-              "authors": "*Francesco Molteni*"
+              "title": "Monetary policy identification via causal machine learning in a high-dimensional time series controls set",
+              "authors": "*Milos Ciganovic*, Federico D'Amario and Massimiliano Tancioni"
             },
             {
               "time": "12:00-12:10",
@@ -256,16 +256,11 @@
             },
             {
               "time": "11:40-11:50",
-              "title": "Monetary policy identification via causal machine learning in a high-dimensional time series controls set",
-              "authors": "*Milos Ciganovic*, Federico D'Amario and Massimiliano Tancioni"
-            },
-            {
-              "time": "11:50-12:00",
               "title": "Does the financial accelerator accelerate inequalities?",
               "authors": "*Francesco Ferlaino*"
             },
             {
-              "time": "12:00-12:10",
+              "time": "11:50-12:00",
               "title": "Estimating the Macroeconomic Effects of Oil Supply News",
               "authors": "*Lorenzo Mori*, Gert Peersman"
             }
@@ -277,43 +272,53 @@
         },
         {
           "type": "parallel-session",
-          "time": "12:15 - 13:05",
+          "time": "12:00 - 13:15",
           "sessionTitle": "Regular Session 4G",
           "chair": "To be announced",
           "presentations": [
             {
-              "time": "12:15-12:40",
+              "time": "12:00-12:25",
               "title": "Structural interpretations of forecast revision",
               "authors": "Davide Brignone, *Michele Piffer*"
             },
             {
-              "time": "12:40-13:05",
+              "time": "12:25-12:50",
               "title": "The judgmental strategy of professional forecasters",
               "authors": "*Emilio Zanetti Chini*"
+            },
+            {
+              "time": "12:50-13:15",
+              "title": "Opening the Black Box of Local Projections",
+              "authors": "*Philippe Goulet Coulombei*"
             }
           ]
         },
         {
           "type": "parallel-session",
-          "time": "12:15 - 13:05",
+          "time": "12:00 - 13:15",
           "sessionTitle": "Regular Session 4H",
           "chair": "To be announced",
           "presentations": [
             {
-              "time": "12:15-12:40",
+              "time": "12:00-12:25",
               "title": "Exchange-Rate Regimes and the Behaviour of Exporters",
               "authors": "Cosimo Petracchi, Marco S. Petterson, *Luca Riva*"
             },
             {
-              "time": "12:40-13:05",
+              "time": "12:25-12:50",
               "title": "Winners and Losers: How Corporate Tax Reforms Reshape the Firm Distribution",
               "authors": "*Riccardo Silvestrini*, Elliott Weder"
+            },
+            {
+              "time": "12:50-13:15",
+              "title": "International Banking Flows and Financial Crises",
+              "authors": "*Francesco Molteni*"
             }
           ]
         },
         {
           "type": "social",
-          "time": "13:05 - 14:30",
+          "time": "13:15 - 14:30",
           "title": "Lunch + Poster Session",
           "description": "Mediterranean buffet at the venue with poster session"
         },
