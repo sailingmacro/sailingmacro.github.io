@@ -13,100 +13,150 @@
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            line-height: 1.4;
+            line-height: 1.1;
             color: #333;
             background: #f8f9fa;
+            font-size: 6px;
         }
 
         .page {
             width: 210mm;
-            min-height: 297mm;
             margin: 0 auto;
             background: white;
-            padding: 20mm;
+            padding: 0;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
             margin-bottom: 20px;
+        }
+
+        .day-section {
+            width: 210mm;
+            height: 297mm;
+            padding: 3mm;
+            display: flex;
+            flex-direction: column;
+            page-break-before: always;
+            page-break-after: always;
+            page-break-inside: avoid;
+            overflow: hidden;
+        }
+
+        .day-section:first-child {
+            page-break-before: avoid;
         }
 
         @media print {
             body {
                 background: white;
                 margin: 0;
+                padding: 0;
             }
             .page {
                 width: 100%;
-                min-height: 100vh;
                 margin: 0;
                 box-shadow: none;
-                padding: 15mm;
-                page-break-after: always;
+                padding: 0;
             }
-            .page:last-child {
-                page-break-after: avoid;
+            .day-section {
+                width: 210mm;
+                height: 297mm;
+                padding: 3mm;
+                page-break-before: always;
+                page-break-after: always;
+                page-break-inside: avoid;
+                overflow: hidden;
+            }
+            .day-section:first-child {
+                page-break-before: avoid;
+            }
+            
+            .print-button {
+                display: none !important;
+            }
+            
+            @page {
+                margin: 0;
+                size: A4;
             }
         }
 
         .header {
             text-align: center;
-            margin-bottom: 30px;
-            padding-bottom: 20px;
-            border-bottom: 2px solid #e9ecef;
+            margin-bottom: 2mm;
+            padding-bottom: 1mm;
+            border-bottom: 1px solid #e9ecef;
+            flex-shrink: 0;
         }
 
         .conference-title {
-            font-size: 24px;
+            font-size: 11px;
             font-weight: bold;
             color: #2c5aa0;
-            margin-bottom: 10px;
+            margin-bottom: 1mm;
         }
 
         .conference-details {
-            font-size: 14px;
+            font-size: 8px;
             color: #6c757d;
-            margin-bottom: 5px;
+            margin-bottom: 0;
+            line-height: 1.2;
         }
 
         .day-header {
-            background: #2c5aa0;
-            color: white;
-            padding: 15px 20px;
-            border-radius: 8px;
-            margin-bottom: 25px;
-            font-size: 18px;
+            background: #f8f9fa;
+            color: #333;
+            padding: 1.5mm;
+            border-radius: 2px;
+            margin-bottom: 2mm;
+            font-size: 10px;
             font-weight: bold;
             text-align: center;
+            flex-shrink: 0;
+            border: 1px solid #dee2e6;
+        }
+
+        .parallel-sessions {
+            flex: 1;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            gap: 0.8mm;
         }
 
         .schedule-item {
-            margin-bottom: 20px;
             background: white;
-            border-radius: 8px;
-            overflow: hidden;
+            border-radius: 2px;
             border: 1px solid #e9ecef;
+            page-break-inside: avoid;
+            flex-shrink: 0;
         }
 
         .schedule-item.keynote {
             border-left: 4px solid #2c5aa0;
+            background: #f8f9fd;
         }
 
         .schedule-item.social {
-            border-left: 4px solid #28a745;
+            border-left: 4px solid #6c757d;
+            background: #f8f9fa;
         }
 
         .schedule-item.lightning-session {
-            border-left: 4px solid #fd7e14;
+            border-left: 4px solid #28a745;
+            background: #f8fff9;
         }
 
         .schedule-item.regular-session {
-            border-left: 4px solid #6f42c1;
+            border-left: 4px solid #17a2b8;
+            background: #f8fdff;
         }
 
         .schedule-item.registration {
-            border-left: 4px solid #17a2b8;
+            border-left: 4px solid #6c757d;
+            background: #f8f9fa;
         }
 
         .item-header {
-            padding: 15px 20px;
+            padding: 1mm;
             background: #f8f9fa;
             border-bottom: 1px solid #e9ecef;
             display: flex;
@@ -116,37 +166,42 @@
 
         .time {
             font-weight: bold;
-            color: #2c5aa0;
-            font-size: 13px;
+            color: #495057;
+            font-size: 7px;
+            line-height: 1.2;
+            white-space: nowrap;
         }
 
         .session-title {
             font-weight: bold;
-            font-size: 14px;
+            font-size: 7px;
             color: #333;
+            line-height: 1.2;
         }
 
         .chair-info {
             font-style: italic;
             color: #6c757d;
-            font-size: 12px;
-            margin-top: 5px;
+            font-size: 6px;
+            margin-top: 0.5mm;
+            line-height: 1.2;
         }
 
         .item-content {
-            padding: 15px 20px;
+            padding: 1mm;
         }
 
         .keynote-speaker {
-            font-size: 14px;
-            color: #2c5aa0;
+            font-size: 7px;
+            color: #495057;
             font-weight: bold;
-            margin-bottom: 5px;
+            margin-bottom: 0.5mm;
+            line-height: 1.2;
         }
 
         .presentation {
-            margin-bottom: 15px;
-            padding-bottom: 12px;
+            margin-bottom: 0.5mm;
+            padding-bottom: 0.5mm;
             border-bottom: 1px solid #f1f3f4;
         }
 
@@ -158,56 +213,43 @@
 
         .presentation-time {
             font-weight: bold;
-            color: #2c5aa0;
-            font-size: 12px;
-            margin-bottom: 5px;
+            color: #495057;
+            font-size: 6px;
+            margin-bottom: 0.2mm;
+            line-height: 1.2;
         }
 
         .presentation-title {
             font-weight: bold;
-            margin-bottom: 5px;
-            font-size: 13px;
+            margin-bottom: 0.2mm;
+            font-size: 6px;
+            line-height: 1.2;
         }
 
         .presentation-authors {
             color: #6c757d;
-            font-size: 12px;
+            font-size: 5px;
             font-style: italic;
+            line-height: 1.2;
         }
 
         .presentation-authors strong {
             font-weight: bold;
             font-style: normal;
-            color: #6c757d;
+            color: #495057;
         }
 
         .lightning-presentations {
-            display: grid;
-            gap: 12px;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5mm;
         }
 
         .social-description {
             color: #6c757d;
             font-style: italic;
-        }
-
-        .parallel-sessions {
-            display: block;
-            margin-bottom: 20px;
-        }
-
-        .parallel-sessions .schedule-item {
-            margin-bottom: 10px;
-        }
-
-        .session-label {
-            background: #e9ecef;
-            padding: 8px 12px;
-            border-radius: 4px;
-            font-size: 13px;
-            font-weight: bold;
-            color: #495057;
-            margin-bottom: 10px;
+            font-size: 6px;
+            line-height: 1.2;
         }
 
         .loading {
@@ -226,6 +268,17 @@
             border: 1px solid #f5c6cb;
             border-radius: 8px;
             margin: 20px;
+        }
+
+        /* Compact styling for presentations in parallel sessions */
+        .regular-session .presentation {
+            margin-bottom: 0.3mm;
+            padding-bottom: 0.3mm;
+        }
+
+        .lightning-session .presentation {
+            margin-bottom: 0.2mm;
+            padding-bottom: 0.2mm;
         }
     </style>
 </head>
@@ -271,7 +324,7 @@
                         </div>
                         <div class="item-content">
                             <div class="keynote-speaker">${session.speaker}</div>
-                            <div class="social-description">${session.description}</div>
+                            ${session.description ? `<div class="social-description">${session.description}</div>` : ''}
                         </div>
                     </div>
                 `;
@@ -334,7 +387,7 @@
             }).join('');
 
             return `
-                <div class="page">
+                <div class="day-section">
                     <div class="header">
                         <div class="conference-title">5th Sailing the Macro Workshop</div>
                         <div class="conference-details">${eventData.eventDates.startDate}-${eventData.eventDates.endDate.split(' ')[1]}, ${eventData.eventDates.year}</div>
@@ -364,7 +417,7 @@
                     generateDayHTML(day, programData)
                 ).join('');
                 
-                // Update the content
+                // Update the content - each day in its own page container
                 document.getElementById('content').innerHTML = allDaysHTML;
                 
                 // Apply formatting to presenting authors
@@ -396,6 +449,7 @@
         if (window.location.protocol !== 'file:') {
             const printBtn = document.createElement('button');
             printBtn.textContent = 'Generate PDF';
+            printBtn.className = 'print-button';
             printBtn.style.cssText = `
                 position: fixed;
                 top: 20px;
@@ -409,6 +463,7 @@
                 z-index: 1000;
                 font-size: 14px;
                 font-weight: bold;
+                box-shadow: 0 2px 10px rgba(0,0,0,0.2);
             `;
             printBtn.onclick = generatePDF;
             document.body.appendChild(printBtn);
