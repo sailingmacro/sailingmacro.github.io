@@ -19,7 +19,7 @@
         {
           "type": "keynote",
           "time": "09:00 - 09:40",
-          "title": "Keynote Session",
+          "title": "HANKSSON",
           "speaker": "Refet Gürkaynak, Bilkent University",
           "description": "Keynote presentation"
         },
@@ -31,11 +31,11 @@
           "type": "parallel-session",
           "time": "10:00 - 11:15",
           "sessionTitle": "Regular Session 1A",
-          "chair": "To be announced",
+          "chair": "Refet Gürkaynak",
           "presentations": [
             {
               "time": "10:00-10:25",
-              "title": "Innovations meet Narratives - Improving the Power-Credibility Trade-off in Macro",
+              "title": "Policy evaluation with Sufficient Macro Statistics --- a primer --- ",
               "authors": "*Régis Barnichon*, Geert Mesters"
             },
             {
@@ -54,7 +54,7 @@
           "type": "parallel-session",
           "time": "10:00 - 11:15",
           "sessionTitle": "Regular Session 1B",
-          "chair": "To be announced",
+          "chair": "Carolina Serpieri",
           "presentations": [
             {
               "time": "10:00-10:25",
@@ -83,7 +83,7 @@
           "type": "lightning-session",
           "time": "11:30 - 12:20",
           "title": "Lightning Session 1",
-          "chair": "To be announced",
+          "chair": "Marta Maria Pisa",
           "presentations": [
             {
               "time": "11:30-11:40",
@@ -120,7 +120,7 @@
           "type": "parallel-session",
           "time": "12:25 - 13:40",
           "sessionTitle": "Regular Session 2C",
-          "chair": "To be announced",
+          "chair": "Daniel Lewis",
           "presentations": [
             {
               "time": "12:25-12:50",
@@ -143,7 +143,7 @@
           "type": "parallel-session",
           "time": "12:25 - 13:40",
           "sessionTitle": "Regular Session 2D",
-          "chair": "To be announced",
+          "chair": "Salvatore Nisticò",
           "presentations": [
             {
               "time": "12:25-12:50",
@@ -195,7 +195,7 @@
           "type": "parallel-session",
           "time": "10:00 - 11:15",
           "sessionTitle": "Regular Session 3E",
-          "chair": "To be announced",
+          "chair": "Sophocles Mavroeidis",
           "presentations": [
             {
               "time": "10:00-10:25",
@@ -218,7 +218,7 @@
           "type": "parallel-session",
           "time": "10:00 - 11:15",
           "sessionTitle": "Regular Session 3F",
-          "chair": "To be announced",
+          "chair": "Francesco S Lucidi",
           "presentations": [
             {
               "time": "10:00-10:25",
@@ -246,7 +246,7 @@
         {
           "type": "lightning-session",
           "time": "11:30 - 12:00",
-          "title": "Lightning Session 2",
+          "title": "Marta Maria Pisa",
           "chair": "To be announced",
           "presentations": [
             {
@@ -274,7 +274,7 @@
           "type": "parallel-session",
           "time": "12:00 - 13:15",
           "sessionTitle": "Regular Session 4G",
-          "chair": "To be announced",
+          "chair": "Raffaella Giacomini",
           "presentations": [
             {
               "time": "12:00-12:25",
@@ -297,7 +297,7 @@
           "type": "parallel-session",
           "time": "12:00 - 13:15",
           "sessionTitle": "Regular Session 4H",
-          "chair": "To be announced",
+          "chair": "Saverio Simonelli",
           "presentations": [
             {
               "time": "12:00-12:25",
@@ -337,7 +337,7 @@
         {
           "type": "keynote",
           "time": "09:00 - 09:40",
-          "title": "Keynote Session",
+          "title": "Innovations meet Narratives -improving the power-credibility trade-off in macro",
           "speaker": "Geert Mesters, Universitat Pompeu Fabra",
           "description": "Keynote presentation"
         },
@@ -349,7 +349,7 @@
           "type": "parallel-session",
           "time": "10:00 - 11:15",
           "sessionTitle": "Regular Session 5I",
-          "chair": "To be announced",
+          "chair": "Geert Mesters",
           "presentations": [
             {
               "time": "10:00-10:25",
@@ -372,7 +372,7 @@
           "type": "parallel-session",
           "time": "10:00 - 11:15",
           "sessionTitle": "Regular Session 5J",
-          "chair": "To be announced",
+          "chair": "Paolo D’Imperio",
           "presentations": [
             {
               "time": "10:00-10:25",
@@ -401,7 +401,7 @@
           "type": "lightning-session",
           "time": "11:30 - 12:20",
           "title": "Lightning Session 3",
-          "chair": "To be announced",
+          "chair": "Marta Maria Pisa",
           "presentations": [
             {
               "time": "11:30-11:40",
@@ -438,7 +438,7 @@
           "type": "parallel-session",
           "time": "12:25 - 13:40",
           "sessionTitle": "Regular Session 6K",
-          "chair": "To be announced",
+          "chair": "Massimiliano Tancioni",
           "presentations": [
             {
               "time": "12:25-12:50",
@@ -461,7 +461,7 @@
           "type": "parallel-session",
           "time": "12:25 - 13:40",
           "sessionTitle": "Regular Session 6L",
-          "chair": "To be announced",
+          "chair": "Giuseppe Ragusa",
           "presentations": [
             {
               "time": "12:25-12:50",
