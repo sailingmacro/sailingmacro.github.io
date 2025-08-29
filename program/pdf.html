@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5th Sailing the Macro Workshop - Program</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.4;
+            color: #333;
+            background: #f8f9fa;
+        }
+
+        .page {
+            width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto;
+            background: white;
+            padding: 20mm;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+
+        @media print {
+            body {
+                background: white;
+                margin: 0;
+            }
+            .page {
+                width: 100%;
+                min-height: 100vh;
+                margin: 0;
+                box-shadow: none;
+                padding: 15mm;
+                page-break-after: always;
+            }
+            .page:last-child {
+                page-break-after: avoid;
+            }
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        .conference-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c5aa0;
+            margin-bottom: 10px;
+        }
+
+        .conference-details {
+            font-size: 14px;
+            color: #6c757d;
+            margin-bottom: 5px;
+        }
+
+        .day-header {
+            background: #2c5aa0;
+            color: white;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .schedule-item {
+            margin-bottom: 20px;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            border: 1px solid #e9ecef;
+        }
+
+        .schedule-item.keynote {
+            border-left: 4px solid #2c5aa0;
+        }
+
+        .schedule-item.social {
+            border-left: 4px solid #28a745;
+        }
+
+        .schedule-item.lightning-session {
+            border-left: 4px solid #fd7e14;
+        }
+
+        .schedule-item.regular-session {
+            border-left: 4px solid #6f42c1;
+        }
+
+        .schedule-item.registration {
+            border-left: 4px solid #17a2b8;
+        }
+
+        .item-header {
+            padding: 15px 20px;
+            background: #f8f9fa;
+            border-bottom: 1px solid #e9ecef;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .time {
+            font-weight: bold;
+            color: #2c5aa0;
+            font-size: 13px;
+        }
+
+        .session-title {
+            font-weight: bold;
+            font-size: 14px;
+            color: #333;
+        }
+
+        .chair-info {
+            font-style: italic;
+            color: #6c757d;
+            font-size: 12px;
+            margin-top: 5px;
+        }
+
+        .item-content {
+            padding: 15px 20px;
+        }
+
+        .keynote-speaker {
+            font-size: 14px;
+            color: #2c5aa0;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .presentation {
+            margin-bottom: 15px;
+            padding-bottom: 12px;
+            border-bottom: 1px solid #f1f3f4;
+        }
+
+        .presentation:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .presentation-time {
+            font-weight: bold;
+            color: #2c5aa0;
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+
+        .presentation-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+            font-size: 13px;
+        }
+
+        .presentation-authors {
+            color: #6c757d;
+            font-size: 12px;
+            font-style: italic;
+        }
+
+        .presentation-authors strong {
+            font-weight: bold;
+            font-style: normal;
+            color: #6c757d;
+        }
+
+        .lightning-presentations {
+            display: grid;
+            gap: 12px;
+        }
+
+        .social-description {
+            color: #6c757d;
+            font-style: italic;
+        }
+
+        .parallel-sessions {
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        .parallel-sessions .schedule-item {
+            margin-bottom: 10px;
+        }
+
+        .session-label {
+            background: #e9ecef;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-size: 13px;
+            font-weight: bold;
+            color: #495057;
+            margin-bottom: 10px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 50px;
+            font-size: 18px;
+            color: #6c757d;
+        }
+
+        .error {
+            text-align: center;
+            padding: 50px;
+            font-size: 16px;
+            color: #dc3545;
+            background: #f8d7da;
+            border: 1px solid #f5c6cb;
+            border-radius: 8px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="content">
+        <div class="loading">Loading conference program...</div>
+    </div>
+
+    <script>
+        // Format presenting authors (text between asterisks) as bold
+        function formatPresentingAuthors() {
+            const authorElements = document.querySelectorAll('.presentation-authors');
+            
+            authorElements.forEach(element => {
+                const text = element.innerHTML;
+                // Replace text between asterisks with strong tags
+                const formattedText = text.replace(/\*([^*]+)\*/g, '<strong>$1</strong>');
+                element.innerHTML = formattedText;
+            });
+        }
+
+        // Generate HTML for a single presentation
+        function generatePresentationHTML(presentation) {
+            return `
+                <div class="presentation">
+                    <div class="presentation-time">${presentation.time}</div>
+                    <div class="presentation-title">${presentation.title}</div>
+                    <div class="presentation-authors">${presentation.authors}</div>
+                </div>
+            `;
+        }
+
+        // Generate HTML for a session
+        function generateSessionHTML(session) {
+            let html = '';
+            
+            if (session.type === 'keynote') {
+                html = `
+                    <div class="schedule-item keynote">
+                        <div class="item-header">
+                            <div class="time">${session.time}</div>
+                            <div class="session-title">${session.title}</div>
+                        </div>
+                        <div class="item-content">
+                            <div class="keynote-speaker">${session.speaker}</div>
+                            <div class="social-description">${session.description}</div>
+                        </div>
+                    </div>
+                `;
+            } else if (session.type === 'social' || session.type === 'registration') {
+                html = `
+                    <div class="schedule-item ${session.type}">
+                        <div class="item-header">
+                            <div class="time">${session.time}</div>
+                            <div class="session-title">${session.title}</div>
+                        </div>
+                        ${session.description ? `<div class="item-content"><div class="social-description">${session.description}</div></div>` : ''}
+                    </div>
+                `;
+            } else if (session.type === 'parallel-session') {
+                const presentationsHTML = session.presentations.map(generatePresentationHTML).join('');
+                html = `
+                    <div class="schedule-item regular-session">
+                        <div class="item-header">
+                            <div class="time">${session.time}</div>
+                            <div>
+                                <div class="session-title">${session.sessionTitle}</div>
+                                ${session.chair ? `<div class="chair-info">Chair: ${session.chair}</div>` : ''}
+                            </div>
+                        </div>
+                        <div class="item-content">
+                            ${presentationsHTML}
+                        </div>
+                    </div>
+                `;
+            } else if (session.type === 'lightning-session') {
+                const presentationsHTML = session.presentations.map(generatePresentationHTML).join('');
+                html = `
+                    <div class="schedule-item lightning-session">
+                        <div class="item-header">
+                            <div class="time">${session.time}</div>
+                            <div>
+                                <div class="session-title">${session.title}</div>
+                                ${session.chair ? `<div class="chair-info">Chair: ${session.chair}</div>` : ''}
+                            </div>
+                        </div>
+                        <div class="item-content">
+                            <div class="lightning-presentations">
+                                ${presentationsHTML}
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }
+            
+            return html;
+        }
+
+        // Generate HTML for a full day
+        function generateDayHTML(day, eventData) {
+            const sessionsHTML = day.schedule.map(session => {
+                if (session.type === 'session-group') {
+                    return ''; // Skip empty session groups
+                }
+                return generateSessionHTML(session);
+            }).join('');
+
+            return `
+                <div class="page">
+                    <div class="header">
+                        <div class="conference-title">5th Sailing the Macro Workshop</div>
+                        <div class="conference-details">${eventData.eventDates.startDate}-${eventData.eventDates.endDate.split(' ')[1]}, ${eventData.eventDates.year}</div>
+                        <div class="conference-details">${eventData.eventDates.location}</div>
+                    </div>
+                    <div class="day-header">${day.label}</div>
+                    <div class="parallel-sessions">
+                        ${sessionsHTML}
+                    </div>
+                </div>
+            `;
+        }
+
+        // Load and process the JSON data
+        async function loadProgram() {
+            try {
+                const response = await fetch('./program2025.json');
+                
+                if (!response.ok) {
+                    throw new Error(`Failed to load program: ${response.status} ${response.statusText}`);
+                }
+                
+                const programData = await response.json();
+                
+                // Generate HTML for all days
+                const allDaysHTML = programData.days.map(day => 
+                    generateDayHTML(day, programData)
+                ).join('');
+                
+                // Update the content
+                document.getElementById('content').innerHTML = allDaysHTML;
+                
+                // Apply formatting to presenting authors
+                formatPresentingAuthors();
+                
+            } catch (error) {
+                console.error('Error loading program:', error);
+                document.getElementById('content').innerHTML = `
+                    <div class="error">
+                        <h3>Error Loading Program</h3>
+                        <p>${error.message}</p>
+                        <p>Please make sure the program2025.json file is in the same directory as this HTML file.</p>
+                    </div>
+                `;
+            }
+        }
+
+        // Print functionality
+        function generatePDF() {
+            window.print();
+        }
+
+        // Initialize when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            loadProgram();
+        });
+
+        // Add print button if viewing in browser
+        if (window.location.protocol !== 'file:') {
+            const printBtn = document.createElement('button');
+            printBtn.textContent = 'Generate PDF';
+            printBtn.style.cssText = `
+                position: fixed;
+                top: 20px;
+                right: 20px;
+                padding: 10px 20px;
+                background: #2c5aa0;
+                color: white;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                z-index: 1000;
+                font-size: 14px;
+                font-weight: bold;
+            `;
+            printBtn.onclick = generatePDF;
+            document.body.appendChild(printBtn);
+        }
+    </script>
+</body>
+</html>
