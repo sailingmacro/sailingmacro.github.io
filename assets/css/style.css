@@ -879,29 +879,46 @@ p {
 }
 
 /* Poster Session Button */
+.poster-session-container {
+    margin-top: var(--spacing-md);
+    padding-top: var(--spacing-md);
+    border-top: 1px solid var(--border-color);
+}
+
 .poster-session-btn {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     color: white;
     border: none;
-    padding: 8px 16px;
+    padding: 12px 24px;
     border-radius: var(--radius-md);
-    font-size: 0.9rem;
-    font-weight: 500;
+    font-size: 1rem;
+    font-weight: 600;
     cursor: pointer;
     transition: all var(--transition-fast);
-    margin-top: var(--spacing-sm);
     display: inline-flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
+    box-shadow: 0 2px 8px rgba(var(--primary-color-rgb), 0.2);
+    min-width: 180px;
+    justify-content: center;
 }
 
 .poster-session-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(var(--primary-color-rgb), 0.3);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(var(--primary-color-rgb), 0.4);
+    background: linear-gradient(135deg, var(--secondary-color), var(--primary-color));
+}
+
+.poster-session-btn:active {
+    transform: translateY(-1px);
 }
 
 .poster-session-btn i {
-    font-size: 1rem;
+    font-size: 1.1rem;
+}
+
+.poster-session-btn span {
+    font-weight: 600;
 }
 
 /* Poster Modal */
@@ -1036,8 +1053,14 @@ p {
     }
     
     .poster-session-btn {
-        font-size: 0.8rem;
-        padding: 6px 12px;
+        font-size: 0.9rem;
+        padding: 10px 20px;
+        min-width: 160px;
+    }
+    
+    .poster-session-container {
+        margin-top: var(--spacing-sm);
+        padding-top: var(--spacing-sm);
     }
 }
 

@@ -253,16 +253,19 @@ class ProgramRenderer {
         const social = document.createElement('div');
         social.className = 'schedule-item social';
         
-        // Check if this is a coffee break and we have poster data
-        const isCoffeeBreak = item.title && item.title.toLowerCase().includes('coffee break');
+        // Check if this is the lunch + poster session event on day2
+        const isLunchWithPoster = item.title && item.title.toLowerCase().includes('lunch + poster session');
         const hasPosterData = this.posterData && dayId && this.posterData.posterSessions[dayId];
         
         let posterButton = '';
-        if (isCoffeeBreak && hasPosterData) {
+        if (isLunchWithPoster && hasPosterData) {
             posterButton = `
-                <button class="poster-session-btn" data-day="${dayId}">
-                    <i class="fas fa-images"></i> Poster Session
-                </button>
+                <div class="poster-session-container">
+                    <button class="poster-session-btn" data-day="${dayId}">
+                        <i class="fas fa-images"></i> 
+                        <span>View Poster Session</span>
+                    </button>
+                </div>
             `;
         }
         
