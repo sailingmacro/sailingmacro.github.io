@@ -878,6 +878,169 @@ p {
     color: var(--primary-color);
 }
 
+/* Poster Session Button */
+.poster-session-btn {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: var(--radius-md);
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+    margin-top: var(--spacing-sm);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.poster-session-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(var(--primary-color-rgb), 0.3);
+}
+
+.poster-session-btn i {
+    font-size: 1rem;
+}
+
+/* Poster Modal */
+.poster-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    animation: fadeIn 0.3s ease;
+}
+
+.poster-modal {
+    background: white;
+    border-radius: var(--radius-lg);
+    max-width: 800px;
+    max-height: 80vh;
+    width: 90%;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    animation: slideUp 0.3s ease;
+}
+
+.poster-modal-header {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    color: white;
+    padding: var(--spacing-lg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.poster-modal-header h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.poster-modal-close {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 0;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: background-color var(--transition-fast);
+}
+
+.poster-modal-close:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.poster-modal-content {
+    padding: var(--spacing-lg);
+    max-height: 60vh;
+    overflow-y: auto;
+}
+
+.poster-list {
+    display: grid;
+    gap: var(--spacing-lg);
+}
+
+.poster-item {
+    padding: var(--spacing-md);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    transition: all var(--transition-fast);
+}
+
+.poster-item:hover {
+    border-color: var(--primary-color);
+    box-shadow: 0 2px 8px rgba(var(--primary-color-rgb), 0.1);
+}
+
+.poster-title {
+    margin: 0 0 var(--spacing-sm) 0;
+    color: var(--primary-color);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.poster-authors {
+    margin: 0;
+    color: var(--text-secondary);
+    font-style: italic;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { 
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to { 
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Mobile responsiveness for poster modal */
+@media (max-width: 768px) {
+    .poster-modal {
+        width: 95%;
+        max-height: 90vh;
+    }
+    
+    .poster-modal-header {
+        padding: var(--spacing-md);
+    }
+    
+    .poster-modal-header h3 {
+        font-size: 1.3rem;
+    }
+    
+    .poster-modal-content {
+        padding: var(--spacing-md);
+    }
+    
+    .poster-session-btn {
+        font-size: 0.8rem;
+        padding: 6px 12px;
+    }
+}
+
 .badge {
     display: inline-block;
     padding: 2px 8px;

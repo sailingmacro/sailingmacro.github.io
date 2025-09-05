@@ -3,10 +3,12 @@
  * Renders program data from JSON into the program section while preserving existing structure
  */
 class ProgramRenderer {
-    constructor(containerSelector, dataUrl) {
+    constructor(containerSelector, dataUrl, posterUrl = null) {
         this.container = document.querySelector(containerSelector);
         this.dataUrl = dataUrl;
+        this.posterUrl = posterUrl;
         this.data = null;
+        this.posterData = null;
     }
 
     /**
@@ -15,6 +17,9 @@ class ProgramRenderer {
     async init() {
         try {
             await this.loadData();
+            if (this.posterUrl) {
+                await this.loadPosterData();
+            }
             this.render();
             this.setupTabs();
         } catch (error) {
@@ -35,6 +40,22 @@ class ProgramRenderer {
         } catch (error) {
             console.error('Error loading program data:', error);
             throw error;
+        }
+    }
+
+    /**
+     * Load poster data from JSON file
+     */
+    async loadPosterData() {
+        try {
+            const response = await fetch(this.posterUrl);
+            if (!response.ok) {
+                throw new Error(`HTTP error! Status: ${response.status}`);
+            }
+            this.posterData = await response.json();
+        } catch (error) {
+            console.error('Error loading poster data:', error);
+            // Don't throw error for poster data, just log it
         }
     }
 
@@ -111,7 +132,7 @@ class ProgramRenderer {
                         schedule.appendChild(this.createLightningSession(item));
                         break;
                     case 'social':
-                        schedule.appendChild(this.createSocialEvent(item));
+                        schedule.appendChild(this.createSocialEvent(item, day.id));
                         break;
                     default:
                         console.warn(`Unknown schedule item type: ${item.type}`);
@@ -228,14 +249,29 @@ class ProgramRenderer {
     /**
      * Create a social event element
      */
-    createSocialEvent(item) {
+    createSocialEvent(item, dayId = null) {
         const social = document.createElement('div');
         social.className = 'schedule-item social';
+        
+        // Check if this is a coffee break and we have poster data
+        const isCoffeeBreak = item.title && item.title.toLowerCase().includes('coffee break');
+        const hasPosterData = this.posterData && dayId && this.posterData.posterSessions[dayId];
+        
+        let posterButton = '';
+        if (isCoffeeBreak && hasPosterData) {
+            posterButton = `
+                <button class="poster-session-btn" data-day="${dayId}">
+                    <i class="fas fa-images"></i> Poster Session
+                </button>
+            `;
+        }
+        
         social.innerHTML = `
             <div class="schedule-time">${item.time}</div>
             <div class="schedule-details">
                 <h4>${item.title}</h4>
                 <p>${item.description}</p>
+                ${posterButton}
             </div>
         `;
         return social;
@@ -260,6 +296,72 @@ class ProgramRenderer {
                 btn.classList.add('active');
                 document.getElementById(tabId).classList.add('active');
             });
+        });
+
+        // Setup poster session button handlers
+        this.setupPosterSessionHandlers();
+    }
+
+    /**
+     * Setup poster session button handlers
+     */
+    setupPosterSessionHandlers() {
+        const posterBtns = this.container.querySelectorAll('.poster-session-btn');
+        posterBtns.forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                const dayId = btn.getAttribute('data-day');
+                this.showPosterModal(dayId);
+            });
+        });
+    }
+
+    /**
+     * Show poster session modal
+     */
+    showPosterModal(dayId) {
+        if (!this.posterData || !this.posterData.posterSessions[dayId]) {
+            console.warn('No poster data available for', dayId);
+            return;
+        }
+
+        const session = this.posterData.posterSessions[dayId];
+        
+        // Create modal overlay
+        const modalOverlay = document.createElement('div');
+        modalOverlay.className = 'poster-modal-overlay';
+        modalOverlay.innerHTML = `
+            <div class="poster-modal">
+                <div class="poster-modal-header">
+                    <h3>${session.title}</h3>
+                    <button class="poster-modal-close">&times;</button>
+                </div>
+                <div class="poster-modal-content">
+                    <div class="poster-list">
+                        ${session.posters.map(poster => `
+                            <div class="poster-item">
+                                <h4 class="poster-title">${poster.title}</h4>
+                                <p class="poster-authors">${this.formatAuthors(poster.authors)}</p>
+                            </div>
+                        `).join('')}
+                    </div>
+                </div>
+            </div>
+        `;
+
+        // Add to body
+        document.body.appendChild(modalOverlay);
+
+        // Add event listeners
+        const closeBtn = modalOverlay.querySelector('.poster-modal-close');
+        closeBtn.addEventListener('click', () => {
+            document.body.removeChild(modalOverlay);
+        });
+
+        modalOverlay.addEventListener('click', (e) => {
+            if (e.target === modalOverlay) {
+                document.body.removeChild(modalOverlay);
+            }
         });
     }
 }

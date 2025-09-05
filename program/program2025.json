@@ -31,7 +31,7 @@
           "type": "parallel-session",
           "time": "10:00 - 11:15",
           "sessionTitle": "Regular Session 1A",
-          "chair": "Refet Gürkaynak",
+          "chair": "Refet Gürkaynak (ground floor)",
           "presentations": [
             {
               "time": "10:00-10:25",
@@ -54,7 +54,7 @@
           "type": "parallel-session",
           "time": "10:00 - 11:15",
           "sessionTitle": "Regular Session 1B",
-          "chair": "Carolina Serpieri",
+          "chair": "Carolina Serpieri (first floor)",
           "presentations": [
             {
               "time": "10:00-10:25",
@@ -83,7 +83,7 @@
           "type": "lightning-session",
           "time": "11:30 - 12:20",
           "title": "Lightning Session 1",
-          "chair": "Marta Maria Pisa",
+          "chair": "Marta Maria Pisa (ground floor)",
           "presentations": [
             {
               "time": "11:30-11:40",
@@ -120,7 +120,7 @@
           "type": "parallel-session",
           "time": "12:25 - 13:40",
           "sessionTitle": "Regular Session 2C",
-          "chair": "Daniel Lewis",
+          "chair": "Daniel Lewis (ground floor)",
           "presentations": [
             {
               "time": "12:25-12:50",
@@ -143,7 +143,7 @@
           "type": "parallel-session",
           "time": "12:25 - 13:40",
           "sessionTitle": "Regular Session 2D",
-          "chair": "Salvatore Nisticò",
+          "chair": "Salvatore Nisticò (first floor)",
           "presentations": [
             {
               "time": "12:25-12:50",
@@ -195,7 +195,7 @@
           "type": "parallel-session",
           "time": "10:00 - 11:15",
           "sessionTitle": "Regular Session 3E",
-          "chair": "Sophocles Mavroeidis",
+          "chair": "Sophocles Mavroeidis (ground floor)",
           "presentations": [
             {
               "time": "10:00-10:25",
@@ -218,7 +218,7 @@
           "type": "parallel-session",
           "time": "10:00 - 11:15",
           "sessionTitle": "Regular Session 3F",
-          "chair": "Francesco S Lucidi",
+          "chair": "Francesco S Lucidi (first floor)",
           "presentations": [
             {
               "time": "10:00-10:25",
@@ -247,7 +247,7 @@
           "type": "lightning-session",
           "time": "11:30 - 12:00",
           "title": "Lightning Session 2",
-          "chair": "Marta Maria Pisa",
+          "chair": "Marta Maria Pisa (ground floor)",
           "presentations": [
             {
               "time": "11:30-11:40",
@@ -274,7 +274,7 @@
           "type": "parallel-session",
           "time": "12:00 - 13:15",
           "sessionTitle": "Regular Session 4G",
-          "chair": "Raffaella Giacomini",
+          "chair": "Raffaella Giacomini (ground floor)",
           "presentations": [
             {
               "time": "12:00-12:25",
@@ -297,7 +297,7 @@
           "type": "parallel-session",
           "time": "12:00 - 13:15",
           "sessionTitle": "Regular Session 4H",
-          "chair": "Saverio Simonelli",
+          "chair": "Saverio Simonelli (first floor)",
           "presentations": [
             {
               "time": "12:00-12:25",
@@ -349,7 +349,7 @@
           "type": "parallel-session",
           "time": "10:00 - 11:15",
           "sessionTitle": "Regular Session 5I",
-          "chair": "Geert Mesters",
+          "chair": "Geert Mesters (ground floor)",
           "presentations": [
             {
               "time": "10:00-10:25",
@@ -372,7 +372,7 @@
           "type": "parallel-session",
           "time": "10:00 - 11:15",
           "sessionTitle": "Regular Session 5J",
-          "chair": "Paolo D’Imperio",
+          "chair": "Paolo D’Imperio (first floor)",
           "presentations": [
             {
               "time": "10:00-10:25",
@@ -401,7 +401,7 @@
           "type": "lightning-session",
           "time": "11:30 - 12:20",
           "title": "Lightning Session 3",
-          "chair": "Marta Maria Pisa",
+          "chair": "Marta Maria Pisa (ground floor)",
           "presentations": [
             {
               "time": "11:30-11:40",
@@ -438,7 +438,7 @@
           "type": "parallel-session",
           "time": "12:25 - 13:40",
           "sessionTitle": "Regular Session 6K",
-          "chair": "Massimiliano Tancioni",
+          "chair": "Massimiliano Tancioni (ground floor)",
           "presentations": [
             {
               "time": "12:25-12:50",
@@ -461,7 +461,7 @@
           "type": "parallel-session",
           "time": "12:25 - 13:40",
           "sessionTitle": "Regular Session 6L",
-          "chair": "Giuseppe Ragusa",
+          "chair": "Giuseppe Ragusa (first floor)",
           "presentations": [
             {
               "time": "12:25-12:50",

@@ -524,7 +524,7 @@
     <script>
         // Initialize the program renderer
         document.addEventListener('DOMContentLoaded', () => {
-            const programRenderer = new ProgramRenderer('#program', 'program/program2025.json');
+            const programRenderer = new ProgramRenderer('#program', 'program/program2025.json', 'program/posters2025.json');
             programRenderer.init().then(() => {
                 // Make parallel sessions collapsible AFTER the program is rendered
                 makeSessionsCollapsible();
