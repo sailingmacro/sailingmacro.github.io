@@ -257,14 +257,23 @@ class ProgramRenderer {
         const isLunchWithPoster = item.title && item.title.toLowerCase().includes('lunch + poster session');
         const hasPosterData = this.posterData && dayId && this.posterData.posterSessions[dayId];
         
-        let posterButton = '';
+        let posterSection = '';
         if (isLunchWithPoster && hasPosterData) {
-            posterButton = `
+            const posters = this.posterData.posterSessions[dayId].posters;
+            posterSection = `
                 <div class="poster-session-container">
-                    <button class="poster-session-btn" data-day="${dayId}">
-                        <i class="fas fa-images"></i> 
-                        <span>View Poster Session</span>
-                    </button>
+                    <div class="collapsible-header poster-collapsible">
+                        <h4>Poster Session</h4>
+                        <span class="collapsible-toggle"><i class="fas fa-chevron-down"></i></span>
+                    </div>
+                    <div class="collapsible-content">
+                        ${posters.map(poster => `
+                            <div class="session-item">
+                                <p class="session-title">${poster.title}</p>
+                                <p class="session-authors">${this.formatAuthors(poster.authors)}</p>
+                            </div>
+                        `).join('')}
+                    </div>
                 </div>
             `;
         }
@@ -274,7 +283,7 @@ class ProgramRenderer {
             <div class="schedule-details">
                 <h4>${item.title}</h4>
                 <p>${item.description}</p>
-                ${posterButton}
+                ${posterSection}
             </div>
         `;
         return social;
@@ -306,65 +315,14 @@ class ProgramRenderer {
     }
 
     /**
-     * Setup poster session button handlers
+     * Setup poster session collapsible handlers
      */
     setupPosterSessionHandlers() {
-        const posterBtns = this.container.querySelectorAll('.poster-session-btn');
-        posterBtns.forEach(btn => {
-            btn.addEventListener('click', (e) => {
-                e.preventDefault();
-                const dayId = btn.getAttribute('data-day');
-                this.showPosterModal(dayId);
+        const posterHeaders = this.container.querySelectorAll('.poster-collapsible');
+        posterHeaders.forEach(header => {
+            header.addEventListener('click', () => {
+                header.classList.toggle('active');
             });
-        });
-    }
-
-    /**
-     * Show poster session modal
-     */
-    showPosterModal(dayId) {
-        if (!this.posterData || !this.posterData.posterSessions[dayId]) {
-            console.warn('No poster data available for', dayId);
-            return;
-        }
-
-        const session = this.posterData.posterSessions[dayId];
-        
-        // Create modal overlay
-        const modalOverlay = document.createElement('div');
-        modalOverlay.className = 'poster-modal-overlay';
-        modalOverlay.innerHTML = `
-            <div class="poster-modal">
-                <div class="poster-modal-header">
-                    <h3>${session.title}</h3>
-                    <button class="poster-modal-close">&times;</button>
-                </div>
-                <div class="poster-modal-content">
-                    <div class="poster-list">
-                        ${session.posters.map(poster => `
-                            <div class="poster-item">
-                                <h4 class="poster-title">${poster.title}</h4>
-                                <p class="poster-authors">${this.formatAuthors(poster.authors)}</p>
-                            </div>
-                        `).join('')}
-                    </div>
-                </div>
-            </div>
-        `;
-
-        // Add to body
-        document.body.appendChild(modalOverlay);
-
-        // Add event listeners
-        const closeBtn = modalOverlay.querySelector('.poster-modal-close');
-        closeBtn.addEventListener('click', () => {
-            document.body.removeChild(modalOverlay);
-        });
-
-        modalOverlay.addEventListener('click', (e) => {
-            if (e.target === modalOverlay) {
-                document.body.removeChild(modalOverlay);
-            }
         });
     }
 }

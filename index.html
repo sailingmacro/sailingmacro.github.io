@@ -475,13 +475,13 @@
     <script src="assets/js/script.js"></script>
     <script src="assets/js/program-renderer.js"></script>
     <script>
-        // Program renderer will be initialized once data is available for 2026
-        // document.addEventListener('DOMContentLoaded', () => {
-        //     const programRenderer = new ProgramRenderer('#program', 'program/program2026.json', 'program/posters2026.json');
-        //     programRenderer.init().then(() => {
-        //         makeSessionsCollapsible();
-        //     });
-        // });
+        // Initialize the program renderer with 2026 data
+        document.addEventListener('DOMContentLoaded', () => {
+            const programRenderer = new ProgramRenderer('#program', 'program/program2026.json', 'program/posters2026.json');
+            programRenderer.init().then(() => {
+                makeSessionsCollapsible();
+            });
+        });
 
         // Make parallel sessions collapsible
         document.addEventListener('DOMContentLoaded', () => {

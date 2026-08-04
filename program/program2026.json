@@ -1,0 +1,413 @@
+{
+  "eventDates": {
+    "startDate": "September 11",
+    "endDate": "September 13",
+    "year": "2026",
+    "location": "Ortigia, Siracusa, Italy"
+  },
+  "days": [
+    {
+      "id": "day1",
+      "label": "Day 1 - Sep 11",
+      "schedule": [
+        {
+          "type": "registration",
+          "time": "08:30 - 09:00",
+          "title": "Registration",
+          "description": "Conference registration and welcome"
+        },
+        {
+          "type": "keynote",
+          "time": "09:00 - 09:40",
+          "title": "Keynote Session",
+          "speaker": "Christiane Baumeister, University of Notre Dame",
+          "description": "TBA"
+        },
+        {
+          "type": "session-group",
+          "title": ""
+        },
+        {
+          "type": "parallel-session",
+          "time": "10:00 - 11:15",
+          "sessionTitle": "Regular Session 1A",
+          "chair": "TBA (ground floor)",
+          "presentations": [
+            {
+              "time": "10:00-10:25",
+              "title": "Divergent Perceptions, Divergent Pay: Inflation and the Gender Wage Gap",
+              "authors": "*Nicolò Maffei Faccioli*"
+            },
+            {
+              "time": "10:25-10:50",
+              "title": "Do Professional Forecasters Care About Their Peers' Forecasts?",
+              "authors": "*Lukas Hack*"
+            },
+            {
+              "time": "10:50-11:15",
+              "title": "Dancing in the Dark: Sentiment Shocks and Economic Activity",
+              "authors": "*Maximilian Boeck*"
+            }
+          ]
+        },
+        {
+          "type": "parallel-session",
+          "time": "10:00 - 11:15",
+          "sessionTitle": "Regular Session 1B",
+          "chair": "TBA (first floor)",
+          "presentations": [
+            {
+              "time": "10:00-10:25",
+              "title": "Fool's Gold: How the USD lost its shine",
+              "authors": "*Nuno Coimbra*"
+            },
+            {
+              "time": "10:25-10:50",
+              "title": "Exchange Rates under Fiscal Dominance",
+              "authors": "*Cosimo Petracchi*"
+            },
+            {
+              "time": "10:50-11:15",
+              "title": "Gone with the Wind: Monetary Policy and the Global Financial Cycle",
+              "authors": "*David Murakami*"
+            }
+          ]
+        },
+        {
+          "type": "social",
+          "time": "11:15 - 11:25",
+          "title": "Coffee Break",
+          "description": ""
+        },
+        {
+          "type": "lightning-session",
+          "time": "11:30 - 12:20",
+          "title": "Lightning Session 1",
+          "chair": "TBA (ground floor)",
+          "presentations": [
+            {
+              "time": "11:30-11:40",
+              "title": "Retirement and Portfolio Choices: Evidence from Italian Households",
+              "authors": "*Nello Esposito*"
+            },
+            {
+              "time": "11:40-11:50",
+              "title": "Are Hysteresis Effects Nonlinear?",
+              "authors": "*Damiano Di Francesco*"
+            },
+            {
+              "time": "11:50-12:00",
+              "title": "The Offensive Power of Defense News in Europe",
+              "authors": "*Elena Scola Gagliardi*"
+            },
+            {
+              "time": "12:00-12:10",
+              "title": "The Unequal Effects of Carbon Policy on Firms",
+              "authors": "*Serkan Kocabas*"
+            },
+            {
+              "time": "12:10-12:20",
+              "title": "Theory-based priors for the output gap",
+              "authors": "*Andrea Renzetti*"
+            }
+          ]
+        },
+        {
+          "type": "session-group",
+          "title": ""
+        },
+        {
+          "type": "parallel-session",
+          "time": "12:25 - 13:40",
+          "sessionTitle": "Regular Session 2A",
+          "chair": "TBA (ground floor)",
+          "presentations": [
+            {
+              "time": "12:25-12:50",
+              "title": "Understanding Firm Dynamics with Daily Data",
+              "authors": "*Davud Rostam-Afschar*"
+            },
+            {
+              "time": "12:50-13:15",
+              "title": "Asymmetric Monetary Policy Transmission Across Euro Area Manufacturing Industries",
+              "authors": "*Marco Flaccadoro*"
+            },
+            {
+              "time": "13:15-13:40",
+              "title": "The Heterogeneous Bank Lending Channel of Monetary Policy",
+              "authors": "*Salomon Garcia Villegas*"
+            }
+          ]
+        },
+        {
+          "type": "parallel-session",
+          "time": "12:25 - 13:40",
+          "sessionTitle": "Regular Session 2B",
+          "chair": "TBA (first floor)",
+          "presentations": [
+            {
+              "time": "12:25-12:50",
+              "title": "Intertemporal Self-insurance and Excess Sensitivity of Affluent Households",
+              "authors": "*Ettore Savoia*"
+            },
+            {
+              "time": "12:50-13:15",
+              "title": "Wealth Sorting and Cyclical Employment Risk",
+              "authors": "*Amalia Repele*"
+            },
+            {
+              "time": "13:15-13:40",
+              "title": "Many Too Many: Excess Savings and the Transmission of Macroeconomic Shocks",
+              "authors": "*Stefano Pica*"
+            }
+          ]
+        },
+        {
+          "type": "social",
+          "time": "13:40 - 14:30",
+          "title": "Lunch",
+          "description": ""
+        },
+        {
+          "type": "social",
+          "time": "15:00",
+          "title": "Sailing Activities",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "day2",
+      "label": "Day 2 - Sep 12",
+      "schedule": [
+        {
+          "type": "keynote",
+          "time": "09:00 - 09:40",
+          "title": "Keynote Session",
+          "speaker": "Carlo Altavilla, European Central Bank",
+          "description": "TBA"
+        },
+        {
+          "type": "session-group",
+          "title": ""
+        },
+        {
+          "type": "parallel-session",
+          "time": "10:00 - 11:15",
+          "sessionTitle": "Regular Session 3A",
+          "chair": "TBA (ground floor)",
+          "presentations": [
+            {
+              "time": "10:00-10:25",
+              "title": "The slope of the euro area price Phillips curve: Evidence from regional data",
+              "authors": "*Joan Paredes*"
+            },
+            {
+              "time": "10:25-10:50",
+              "title": "Import Prices, Production Networks and Inflation",
+              "authors": "*Tobias Müller*"
+            },
+            {
+              "time": "10:50-11:15",
+              "title": "The Misallocation Costs of Inflation: A Sufficient Statistics Approach",
+              "authors": "*Henning Weber*"
+            }
+          ]
+        },
+        {
+          "type": "parallel-session",
+          "time": "10:00 - 11:15",
+          "sessionTitle": "Regular Session 3B",
+          "chair": "TBA (first floor)",
+          "presentations": [
+            {
+              "time": "10:00-10:25",
+              "title": "Are governments present biased?",
+              "authors": "*Facundo Piguillem*"
+            },
+            {
+              "time": "10:25-10:50",
+              "title": "Government Bonds Supply Shocks",
+              "authors": "*Michele Andreolli*"
+            },
+            {
+              "time": "10:50-11:15",
+              "title": "Under Pressure: Sovereign Debt Challenges in a Warming World",
+              "authors": "*Caterina Seghini*"
+            }
+          ]
+        },
+        {
+          "type": "social",
+          "time": "11:15 - 11:25",
+          "title": "Coffee Break",
+          "description": ""
+        },
+        {
+          "type": "lightning-session",
+          "time": "11:30 - 12:20",
+          "title": "Lightning Session 2",
+          "chair": "TBA (ground floor)",
+          "presentations": [
+            {
+              "time": "11:30-11:40",
+              "title": "Fiscal Policy and Financial Markets: High-frequency Evidence",
+              "authors": "*Gokhan Ider*"
+            },
+            {
+              "time": "11:40-11:50",
+              "title": "The (Un)Intended Consequences of Trade Wars in the U.S",
+              "authors": "*Maria Ludovica Ambrosino*"
+            },
+            {
+              "time": "11:50-12:00",
+              "title": "When the Treasury does Monetary Policy",
+              "authors": "*Massimiliano Sfregola*"
+            },
+            {
+              "time": "12:00-12:10",
+              "title": "The Role of Firm Heterogeneity for the Transmission of Aggregate Shocks",
+              "authors": "*Giuseppe Pagano Giorgianni*"
+            },
+            {
+              "time": "12:10-12:20",
+              "title": "Too Much of a Good Thing? Safe Assets, Spillover and the Lack of Fiscal Policy Coordination",
+              "authors": "*Jacopo Orlandi*"
+            }
+          ]
+        },
+        {
+          "type": "social",
+          "time": "12:25 - 14:30",
+          "title": "Lunch + Poster Session",
+          "description": ""
+        },
+        {
+          "type": "social",
+          "time": "15:00",
+          "title": "Sailing Activities",
+          "description": ""
+        },
+        {
+          "type": "social",
+          "time": "20:00",
+          "title": "Social Dinner",
+          "description": ""
+        }
+      ]
+    },
+    {
+      "id": "day3",
+      "label": "Day 3 - Sep 13",
+      "schedule": [
+        {
+          "type": "keynote",
+          "time": "09:00 - 09:40",
+          "title": "Keynote Session",
+          "speaker": "Morten O. Ravn, University College London",
+          "description": "TBA"
+        },
+        {
+          "type": "session-group",
+          "title": ""
+        },
+        {
+          "type": "parallel-session",
+          "time": "10:00 - 11:15",
+          "sessionTitle": "Regular Session 4A",
+          "chair": "TBA (ground floor)",
+          "presentations": [
+            {
+              "time": "10:00-10:25",
+              "title": "Optimal Taxation in the Age of AI Uncertainty",
+              "authors": "*Anastasios Karantounias*"
+            },
+            {
+              "time": "10:25-10:50",
+              "title": "The Age Bias of Innovation",
+              "authors": "*Kai Arvai*"
+            },
+            {
+              "time": "10:50-11:15",
+              "title": "The Variety-Effect Multiplier: On the Transmission of Uncertainty Shocks",
+              "authors": "*Francesco Saverio Gaudio*"
+            }
+          ]
+        },
+        {
+          "type": "parallel-session",
+          "time": "10:00 - 11:15",
+          "sessionTitle": "Regular Session 4B",
+          "chair": "TBA (first floor)",
+          "presentations": [
+            {
+              "time": "10:00-10:25",
+              "title": "Import Tariffs and the Systematic Response of Monetary Policy",
+              "authors": "*Alessandro Franconi*"
+            },
+            {
+              "time": "10:25-10:50",
+              "title": "Network Amplification of Carbon Price Shocks",
+              "authors": "*Valentin Schubert*"
+            },
+            {
+              "time": "10:50-11:15",
+              "title": "Barrels of Trouble: The change in correlation between oil and the dollar",
+              "authors": "*Riccardo Degasperi*"
+            }
+          ]
+        },
+        {
+          "type": "social",
+          "time": "11:15 - 11:25",
+          "title": "Coffee Break",
+          "description": ""
+        },
+        {
+          "type": "lightning-session",
+          "time": "11:30 - 12:30",
+          "title": "Lightning Session 3",
+          "chair": "TBA (ground floor)",
+          "presentations": [
+            {
+              "time": "11:30-11:40",
+              "title": "When Oil Cannot Move: The Inflationary Consequences of Maritime Oil Supply Shocks",
+              "authors": "*Alessandro Nava*"
+            },
+            {
+              "time": "11:40-11:50",
+              "title": "Subjective Monetary Policy Rule",
+              "authors": "*Gabriele Maugeri*"
+            },
+            {
+              "time": "11:50-12:00",
+              "title": "Shock-Based Weak-IV Diagnostics and Bootstrap Inference for Instrumented VARs",
+              "authors": "*Daniele Colombo*"
+            },
+            {
+              "time": "12:00-12:10",
+              "title": "The Term Structure of Commodity Futures Prices as a Predictor of Economic Activity",
+              "authors": "*Katerina Karadimitropoulou*"
+            },
+            {
+              "time": "12:10-12:20",
+              "title": "Commodity-driven Macroeconomic Fluctuations: Does Size Matter?",
+              "authors": "*Vida Maver*"
+            },
+            {
+              "time": "12:20-12:30",
+              "title": "Firm Planning Horizon and Monetary Policy Transmission",
+              "authors": "*Markus Schwedeler*"
+            }
+          ]
+        },
+        {
+          "type": "social",
+          "time": "12:30 - 13:30",
+          "title": "Lunch & Closing",
+          "description": ""
+        }
+      ]
+    }
+  ]
+}
