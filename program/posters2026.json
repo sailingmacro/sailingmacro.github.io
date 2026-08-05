@@ -4,6 +4,18 @@
       "title": "Poster Session - September 12, 2026",
       "posters": [
         {
+          "title": "Stablecoins and Price-Level Determination",
+          "authors": "*Chiara Alvisi*"
+        },
+        {
+          "title": "TBA",
+          "authors": "*Nina Maria Brehl*"
+        },
+        {
+          "title": "TBA",
+          "authors": "*Ami Dalloul*"
+        },
+        {
           "title": "TBA",
           "authors": "*Sara Licciardi*"
         },
@@ -12,12 +24,12 @@
           "authors": "*Giacomo Porcellotti*"
         },
         {
-          "title": "TBA",
-          "authors": "*Ami Dalloul*"
+          "title": "Instrumental Variable Identification of Impulse Responses: A Simulation Study",
+          "authors": "*Andrea Recine*"
         },
         {
           "title": "TBA",
-          "authors": "*Nina Maria Brehl*"
+          "authors": "*Nicolo' Ullo*"
         }
       ]
     }
