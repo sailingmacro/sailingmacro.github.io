@@ -36,17 +36,17 @@
             {
               "time": "10:00-10:25",
               "title": "Divergent Perceptions, Divergent Pay: Inflation and the Gender Wage Gap",
-              "authors": "*Nicolò Maffei Faccioli*"
+              "authors": "*Nicolò Maffei Faccioli*, Lovisa Reiche"
             },
             {
               "time": "10:25-10:50",
               "title": "Do Professional Forecasters Care About Their Peers' Forecasts?",
-              "authors": "*Lukas Hack*"
+              "authors": "*Lukas Hack*, Lora Pavlova, Davud Rostam-Afschar"
             },
             {
               "time": "10:50-11:15",
               "title": "Dancing in the Dark: Sentiment Shocks and Economic Activity",
-              "authors": "*Maximilian Boeck*"
+              "authors": "*Maximilian Boeck*, Zeno Enders, Michael Kleemann, Gernot J. Müller"
             }
           ]
         },
@@ -59,12 +59,12 @@
             {
               "time": "10:00-10:25",
               "title": "Fool's Gold: How the USD lost its shine",
-              "authors": "*Nuno Coimbra*"
+              "authors": "*Nuno Coimbra*, Kai Arvai, Marco Pinchetti"
             },
             {
               "time": "10:25-10:50",
               "title": "Exchange Rates under Fiscal Dominance",
-              "authors": "*Cosimo Petracchi*"
+              "authors": "*Cosimo Petracchi*, Fabrizio Mattesini, Valerio Nispi Landi"
             },
             {
               "time": "10:50-11:15",
@@ -88,17 +88,17 @@
             {
               "time": "11:30-11:40",
               "title": "Retirement and Portfolio Choices: Evidence from Italian Households",
-              "authors": "*Nello Esposito*"
+              "authors": "*Nello Esposito*, Nicol Barbieri"
             },
             {
               "time": "11:40-11:50",
               "title": "Are Hysteresis Effects Nonlinear?",
-              "authors": "*Damiano Di Francesco*"
+              "authors": "*Damiano Di Francesco*, Omar Pietro Carnevale"
             },
             {
               "time": "11:50-12:00",
               "title": "The Offensive Power of Defense News in Europe",
-              "authors": "*Elena Scola Gagliardi*"
+              "authors": "*Elena Scola Gagliardi*, Nadav Ben Zeev, Evi Pappa"
             },
             {
               "time": "12:00-12:10",
@@ -108,7 +108,7 @@
             {
               "time": "12:10-12:20",
               "title": "Theory-based priors for the output gap",
-              "authors": "*Andrea Renzetti*"
+              "authors": "*Andrea Renzetti*, Matteo Luciani, Michele Piffer"
             }
           ]
         },
@@ -125,17 +125,17 @@
             {
               "time": "12:25-12:50",
               "title": "Understanding Firm Dynamics with Daily Data",
-              "authors": "*Davud Rostam-Afschar*"
+              "authors": "*Davud Rostam-Afschar*, Lukas Hack"
             },
             {
               "time": "12:50-13:15",
               "title": "Asymmetric Monetary Policy Transmission Across Euro Area Manufacturing Industries",
-              "authors": "*Marco Flaccadoro*"
+              "authors": "*Marco Flaccadoro*, Tiziano Ropele"
             },
             {
               "time": "13:15-13:40",
               "title": "The Heterogeneous Bank Lending Channel of Monetary Policy",
-              "authors": "*Salomon Garcia Villegas*"
+              "authors": "*Salomon Garcia Villegas*, Jorge Abad, Saki Bigio, Joël Marbet, Galo Nuño"
             }
           ]
         },
@@ -158,7 +158,7 @@
             {
               "time": "13:15-13:40",
               "title": "Many Too Many: Excess Savings and the Transmission of Macroeconomic Shocks",
-              "authors": "*Stefano Pica*"
+              "authors": "*Stefano Pica*, Andrea Foschi, Marianna Riggi"
             }
           ]
         },
@@ -200,7 +200,7 @@
             {
               "time": "10:00-10:25",
               "title": "The slope of the euro area price Phillips curve: Evidence from regional data",
-              "authors": "*Joan Paredes*"
+              "authors": "*Joan Paredes*, Anna Beschin, Gaetano Polichetti, Théodore Renault"
             },
             {
               "time": "10:25-10:50",
@@ -210,7 +210,7 @@
             {
               "time": "10:50-11:15",
               "title": "The Misallocation Costs of Inflation: A Sufficient Statistics Approach",
-              "authors": "*Henning Weber*"
+              "authors": "*Henning Weber*, Klaus Adam, Andrey Alexandrov"
             }
           ]
         },
@@ -223,7 +223,7 @@
             {
               "time": "10:00-10:25",
               "title": "Are governments present biased?",
-              "authors": "*Facundo Piguillem*"
+              "authors": "*Facundo Piguillem*, Federica Di Nicola, Chiara Felli, Liyan Shi"
             },
             {
               "time": "10:25-10:50",
@@ -233,7 +233,7 @@
             {
               "time": "10:50-11:15",
               "title": "Under Pressure: Sovereign Debt Challenges in a Warming World",
-              "authors": "*Caterina Seghini*"
+              "authors": "*Caterina Seghini*, Stéphane Dees, Annabelle De Gaye"
             }
           ]
         },
@@ -252,7 +252,7 @@
             {
               "time": "11:30-11:40",
               "title": "Fiscal Policy and Financial Markets: High-frequency Evidence",
-              "authors": "*Gokhan Ider*"
+              "authors": "*Gokhan Ider*, Nikhil Patel"
             },
             {
               "time": "11:40-11:50",
@@ -262,17 +262,17 @@
             {
               "time": "11:50-12:00",
               "title": "When the Treasury does Monetary Policy",
-              "authors": "*Massimiliano Sfregola*"
+              "authors": "*Massimiliano Sfregola*, Hiroaki Endo, Kevin Pallara, Luca Zanotti"
             },
             {
               "time": "12:00-12:10",
               "title": "The Role of Firm Heterogeneity for the Transmission of Aggregate Shocks",
-              "authors": "*Giuseppe Pagano Giorgianni*"
+              "authors": "*Giuseppe Pagano Giorgianni*, Michele Lenza, Lorenza Rossi, Ettore Savoia"
             },
             {
               "time": "12:10-12:20",
               "title": "Too Much of a Good Thing? Safe Assets, Spillover and the Lack of Fiscal Policy Coordination",
-              "authors": "*Jacopo Orlandi*"
+              "authors": "*Jacopo Orlandi*, Matthieu Bellon, Matthias Gnewuch, Luca Zavalloni"
             }
           ]
         },
@@ -320,17 +320,17 @@
             {
               "time": "10:00-10:25",
               "title": "Optimal Taxation in the Age of AI Uncertainty",
-              "authors": "*Anastasios Karantounias*"
+              "authors": "*Anastasios Karantounias*, Radoslaw Paluszynski, Pei Cheng Yu"
             },
             {
               "time": "10:25-10:50",
               "title": "The Age Bias of Innovation",
-              "authors": "*Kai Arvai*"
+              "authors": "*Kai Arvai*, Antonin Bergeaud, Katja Mann, Rentian Zhu"
             },
             {
               "time": "10:50-11:15",
               "title": "The Variety-Effect Multiplier: On the Transmission of Uncertainty Shocks",
-              "authors": "*Francesco Saverio Gaudio*"
+              "authors": "*Francesco Saverio Gaudio*, Céline Poilly"
             }
           ]
         },
@@ -343,12 +343,12 @@
             {
               "time": "10:00-10:25",
               "title": "Import Tariffs and the Systematic Response of Monetary Policy",
-              "authors": "*Alessandro Franconi*"
+              "authors": "*Alessandro Franconi*, Lukas Hack"
             },
             {
               "time": "10:25-10:50",
               "title": "Network Amplification of Carbon Price Shocks",
-              "authors": "*Valentin Schubert*"
+              "authors": "*Valentin Schubert*, Diego R. Känzig, Mathias Klein"
             },
             {
               "time": "10:50-11:15",
@@ -372,7 +372,7 @@
             {
               "time": "11:30-11:40",
               "title": "When Oil Cannot Move: The Inflationary Consequences of Maritime Oil Supply Shocks",
-              "authors": "*Alessandro Nava*"
+              "authors": "*Alessandro Nava*, Christina Anderl"
             },
             {
               "time": "11:40-11:50",
@@ -387,17 +387,17 @@
             {
               "time": "12:00-12:10",
               "title": "The Term Structure of Commodity Futures Prices as a Predictor of Economic Activity",
-              "authors": "*Katerina Karadimitropoulou*"
+              "authors": "*Katerina Karadimitropoulou*, Marcos Poplawski-Ribeiro, Athanasios Triantafyllou"
             },
             {
               "time": "12:10-12:20",
               "title": "Commodity-driven Macroeconomic Fluctuations: Does Size Matter?",
-              "authors": "*Vida Maver*"
+              "authors": "*Vida Maver*, Patricia Gomez-Gonzalez, Maximiliano Jerez-Osses, Jorge Miranda-Pinto, Jean-Marc Natal"
             },
             {
               "time": "12:20-12:30",
               "title": "Firm Planning Horizon and Monetary Policy Transmission",
-              "authors": "*Markus Schwedeler*"
+              "authors": "*Markus Schwedeler*, Marco Olivari"
             }
           ]
         },
