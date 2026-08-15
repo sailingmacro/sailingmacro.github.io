@@ -68,8 +68,8 @@
             },
             {
               "time": "10:50-11:15",
-              "title": "Gone with the Wind: Monetary Policy and the Global Financial Cycle",
-              "authors": "*David Murakami*"
+              "title": "Fiscal Inflation in a Currency Union",
+              "authors": "*David Murakami*, Momo Komatsu, Ivan Shchapov"
             }
           ]
         },
@@ -245,7 +245,7 @@
         },
         {
           "type": "lightning-session",
-          "time": "11:30 - 12:20",
+          "time": "11:30 - 12:30",
           "title": "Lightning Session 2",
           "chair": "TBA (ground floor)",
           "presentations": [
@@ -273,12 +273,17 @@
               "time": "12:10-12:20",
               "title": "Too Much of a Good Thing? Safe Assets, Spillover and the Lack of Fiscal Policy Coordination",
               "authors": "*Jacopo Orlandi*, Matthieu Bellon, Matthias Gnewuch, Luca Zavalloni"
+            },
+            {
+              "time": "12:20-12:30",
+              "title": "Dire Straits: Maritime Oil Supply Shocks and Inflation",
+              "authors": "*Alessandro Nava*, Christina Anderl"
             }
           ]
         },
         {
           "type": "social",
-          "time": "12:25 - 14:30",
+          "time": "12:35 - 14:30",
           "title": "Lunch + Poster Session",
           "description": ""
         },
@@ -342,7 +347,7 @@
           "presentations": [
             {
               "time": "10:00-10:25",
-              "title": "Import Tariffs and the Systematic Response of Monetary Policy",
+              "title": "The macroeconomic effects of tariff announcements",
               "authors": "*Alessandro Franconi*, Lukas Hack"
             },
             {
@@ -371,8 +376,8 @@
           "presentations": [
             {
               "time": "11:30-11:40",
-              "title": "When Oil Cannot Move: The Inflationary Consequences of Maritime Oil Supply Shocks",
-              "authors": "*Alessandro Nava*, Christina Anderl"
+              "title": "Monetary Policy and the Composition of Inflation",
+              "authors": "*Chiara Vergeat*, Michele Andreolli, Natalie Rickard, Paolo Surico"
             },
             {
               "time": "11:40-11:50",
