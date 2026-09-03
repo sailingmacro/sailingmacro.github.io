@@ -54,7 +54,7 @@
           "type": "parallel-session",
           "time": "10:00 - 11:15",
           "sessionTitle": "Regular Session 1B",
-          "chair": "TBA (first floor)",
+          "chair": "Cristiano Cantore (first floor)",
           "presentations": [
             {
               "time": "10:00-10:25",
@@ -83,7 +83,7 @@
           "type": "lightning-session",
           "time": "11:30 - 12:20",
           "title": "Lightning Session 1",
-          "chair": "TBA (ground floor)",
+          "chair": "Milos Ciganovic (ground floor)",
           "presentations": [
             {
               "time": "11:30-11:40",
@@ -120,7 +120,7 @@
           "type": "parallel-session",
           "time": "12:25 - 13:40",
           "sessionTitle": "Regular Session 2A",
-          "chair": "TBA (ground floor)",
+          "chair": "Francesco Simone Lucidi (ground floor)",
           "presentations": [
             {
               "time": "12:25-12:50",
@@ -143,7 +143,7 @@
           "type": "parallel-session",
           "time": "12:25 - 13:40",
           "sessionTitle": "Regular Session 2B",
-          "chair": "TBA (first floor)",
+          "chair": "Massimiliano Tancioni (first floor)",
           "presentations": [
             {
               "time": "12:25-12:50",
@@ -218,7 +218,7 @@
           "type": "parallel-session",
           "time": "10:00 - 11:15",
           "sessionTitle": "Regular Session 3B",
-          "chair": "TBA (first floor)",
+          "chair": "Saverio Simonelli (first floor)",
           "presentations": [
             {
               "time": "10:00-10:25",
@@ -247,7 +247,7 @@
           "type": "lightning-session",
           "time": "11:30 - 12:30",
           "title": "Lightning Session 2",
-          "chair": "TBA (ground floor)",
+          "chair": "Milos Ciganovic (ground floor)",
           "presentations": [
             {
               "time": "11:30-11:40",
@@ -343,7 +343,7 @@
           "type": "parallel-session",
           "time": "10:00 - 11:15",
           "sessionTitle": "Regular Session 4B",
-          "chair": "TBA (first floor)",
+          "chair": "Giuseppe Ragusa (first floor)",
           "presentations": [
             {
               "time": "10:00-10:25",
@@ -372,7 +372,7 @@
           "type": "lightning-session",
           "time": "11:30 - 12:30",
           "title": "Lightning Session 3",
-          "chair": "TBA (ground floor)",
+          "chair": "Milos Ciganovic (ground floor)",
           "presentations": [
             {
               "time": "11:30-11:40",
