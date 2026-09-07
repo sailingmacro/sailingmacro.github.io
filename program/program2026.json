@@ -20,7 +20,7 @@
           "type": "keynote",
           "time": "09:00 - 09:40",
           "title": "Keynote Session",
-          "speaker": "Christiane Baumeister, University of Notre Dame",
+          "speaker": "Morten O. Ravn, University College London",
           "description": "TBA"
         },
         {
@@ -31,7 +31,7 @@
           "type": "parallel-session",
           "time": "10:00 - 11:15",
           "sessionTitle": "Regular Session 1A",
-          "chair": "Christiane Baumeister (ground floor)",
+          "chair": "Morten O. Ravn (ground floor)",
           "presentations": [
             {
               "time": "10:00-10:25",
@@ -309,7 +309,7 @@
           "type": "keynote",
           "time": "09:00 - 09:40",
           "title": "Keynote Session",
-          "speaker": "Morten O. Ravn, University College London",
+          "speaker": "Christiane Baumeister, University of Notre Dame",
           "description": "TBA"
         },
         {
@@ -320,7 +320,7 @@
           "type": "parallel-session",
           "time": "10:00 - 11:15",
           "sessionTitle": "Regular Session 4A",
-          "chair": "Morten O. Ravn (ground floor)",
+          "chair": "Christiane Baumeister (ground floor)",
           "presentations": [
             {
               "time": "10:00-10:25",
