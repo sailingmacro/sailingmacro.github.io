@@ -54,7 +54,7 @@
           "type": "parallel-session",
           "time": "10:00 - 11:15",
           "sessionTitle": "Regular Session 1B",
-          "chair": "Cristiano Cantore (first floor)",
+          "chair": "Giuseppe Ragusa (first floor)",
           "presentations": [
             {
               "time": "10:00-10:25",
@@ -310,7 +310,7 @@
           "time": "09:00 - 09:40",
           "title": "Keynote Session",
           "speaker": "Christiane Baumeister, University of Notre Dame",
-          "description": "TBA"
+          "description": "Oil, Inflation Expectations, and Household Characteristics: A Nonlinear Heterogeneous Agent VAR Approach"
         },
         {
           "type": "session-group",
@@ -321,6 +321,29 @@
           "time": "10:00 - 11:15",
           "sessionTitle": "Regular Session 4A",
           "chair": "Christiane Baumeister (ground floor)",
+          "presentations": [
+            {
+              "time": "10:00-10:25",
+              "title": "The Macroeconomic Effects of Tariff Announcements: High-Frequency Evidence From the New Trade War Era",
+              "authors": "*Alessandro Franconi*, Lukas Hack"
+            },
+            {
+              "time": "10:25-10:50",
+              "title": "Network Amplification of Carbon Price Shocks",
+              "authors": "*Valentin Schubert*, Diego R. Känzig, Mathias Klein"
+            },
+            {
+              "time": "10:50-11:15",
+              "title": "Barrels of Trouble: The change in correlation between oil and the dollar",
+              "authors": "*Riccardo Degasperi*"
+            }
+          ]
+        },
+        {
+          "type": "parallel-session",
+          "time": "10:00 - 11:15",
+          "sessionTitle": "Regular Session 4B",
+          "chair": "Cristiano Cantore (first floor)",
           "presentations": [
             {
               "time": "10:00-10:25",
@@ -336,29 +359,6 @@
               "time": "10:50-11:15",
               "title": "Wealth Sorting and Cyclical Employment Risk",
               "authors": "*Amalia Repele*"
-            }
-          ]
-        },
-        {
-          "type": "parallel-session",
-          "time": "10:00 - 11:15",
-          "sessionTitle": "Regular Session 4B",
-          "chair": "Giuseppe Ragusa (first floor)",
-          "presentations": [
-            {
-              "time": "10:00-10:25",
-              "title": "The macroeconomic effects of tariff announcements",
-              "authors": "*Alessandro Franconi*, Lukas Hack"
-            },
-            {
-              "time": "10:25-10:50",
-              "title": "Network Amplification of Carbon Price Shocks",
-              "authors": "*Valentin Schubert*, Diego R. Känzig, Mathias Klein"
-            },
-            {
-              "time": "10:50-11:15",
-              "title": "Barrels of Trouble: The change in correlation between oil and the dollar",
-              "authors": "*Riccardo Degasperi*"
             }
           ]
         },
