@@ -68,8 +68,8 @@
             },
             {
               "time": "10:50-11:15",
-              "title": "Fiscal Inflation in a Currency Union",
-              "authors": "*David Murakami*, Momo Komatsu, Ivan Shchapov"
+              "title": "The Term Structure of Commodity Futures Prices as a Predictor of Economic Activity",
+              "authors": "*Katerina Karadimitropoulou*, Marcos Poplawski-Ribeiro, Athanasios Triantafyllou"
             }
           ]
         },
@@ -388,11 +388,6 @@
               "time": "11:50-12:00",
               "title": "Shock-Based Weak-IV Diagnostics and Bootstrap Inference for Instrumented VARs",
               "authors": "*Daniele Colombo*"
-            },
-            {
-              "time": "12:00-12:10",
-              "title": "The Term Structure of Commodity Futures Prices as a Predictor of Economic Activity",
-              "authors": "*Katerina Karadimitropoulou*, Marcos Poplawski-Ribeiro, Athanasios Triantafyllou"
             },
             {
               "time": "12:10-12:20",
